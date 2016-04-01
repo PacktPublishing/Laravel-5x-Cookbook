@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fef943b2-c874-4276-90b0-77dfba09be6d" name="Default" comment="" />
+    <ignored path="recipes.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="recipes" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="MarvelApiClientTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/MarvelApiClientTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/Interfaces/ClientInterface.php" />
+        <option value="$PROJECT_DIR$/app/Providers/GuzzleClientProvider.php" />
+        <option value="$PROJECT_DIR$/app/Facades/ClientFacade.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/app/Facades/APIClient.php" />
+        <option value="$PROJECT_DIR$/tests/GuzzleClientTest.php" />
+        <option value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php" />
+        <option value="$PROJECT_DIR$/phpunit.xml" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/tests/MarvelApiClientTest.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1276" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recipes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recipes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recipes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recipes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recipes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recipes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recipes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recipes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recipes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Providers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../comics" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1276" height="777" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18808778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Providers/GuzzleClientProvider.php</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6182">
+          <caret line="286" column="39" selection-start-line="286" selection-start-column="28" selection-end-line="286" selection-end-column="39" />
+          <folding>
+            <marker date="1459010930000" expanded="false" signature="33:220" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="225:1033" placeholder=" @method ResponseInterface get($uri, array $options = []) ..." />
+            <marker date="1459010930000" expanded="true" signature="1075:14524" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="1153:2667" placeholder=" Clients accept an array of constructor parameters. ..." />
+            <marker date="1459010930000" expanded="true" signature="2721:3058" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="2769:2835" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="2929:3007" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="3102:3517" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="3140:3264" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="3596:3866" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="3750:3858" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="3940:4067" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="4144:4947" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="4624:4667" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="5019:5154" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="5201:5352" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="5404:5622" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="5453:5539" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="5631:5724" placeholder=" Configures the default options for a client. ..." />
+            <marker date="1459010930000" expanded="true" signature="5780:7247" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="5808:6044" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="6160:6218" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="6266:6325" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="6372:6513" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="6642:6707" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="6803:6891" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="6899:7240" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="7038:7155" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="7096:7141" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="7256:7403" placeholder=" Merges default options into the array. ..." />
+            <marker date="1459010930000" expanded="true" signature="7452:8564" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="7538:7721" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="7921:8274" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="8020:8127" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="8170:8264" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="8442:8532" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="8473:8522" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="8573:8912" placeholder=" Transfers the given request and applies request options. ..." />
+            <marker date="1459010930000" expanded="true" signature="8987:9643" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="9062:9163" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="9246:9360" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="9477:9556" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="9581:9636" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="9652:9842" placeholder=" Applies the array of request options to a request. ..." />
+            <marker date="1459010930000" expanded="true" signature="9922:14093" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="9997:10658" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="10045:10427" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="10704:10870" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="10982:11075" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="11119:11401" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="11168:11268" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="11276:11351" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="11442:11651" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="11488:11539" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="11693:12421" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="11945:12411" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="11975:12137" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="12168:12398" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="12463:12860" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="12539:12633" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="12672:12773" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="12901:13100" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="13228:13455" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="13569:14060" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="13734:13866" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="13782:13852" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="14129:14522" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Facades/APIClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/GuzzleClientTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-365">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Interfaces/ClientInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="195" column="44" selection-start-line="195" selection-start-column="44" selection-end-line="195" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Facades/APIClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/GuzzleClientTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/GuzzleClientProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <marker date="1458850593000" expanded="true" signature="37:95" placeholder="..." />
+            <marker date="1458850593000" expanded="true" signature="147:715" placeholder="{...}" />
+            <marker date="1458850593000" expanded="true" signature="181:713" placeholder="{...}" />
+            <marker date="1458850593000" expanded="true" signature="213:705" placeholder="..." />
+            <marker date="1458850593000" expanded="true" signature="269:704" placeholder="..." />
+            <marker date="1458850593000" expanded="true" signature="294:620" placeholder="..." />
+            <marker date="1458850593000" expanded="true" signature="531:606" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="286" column="39" selection-start-line="286" selection-start-column="28" selection-end-line="286" selection-end-column="39" />
+          <folding>
+            <marker date="1459010930000" expanded="false" signature="33:220" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="225:1033" placeholder=" @method ResponseInterface get($uri, array $options = []) ..." />
+            <marker date="1459010930000" expanded="true" signature="1075:14524" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="1153:2667" placeholder=" Clients accept an array of constructor parameters. ..." />
+            <marker date="1459010930000" expanded="true" signature="2721:3058" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="2769:2835" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="2929:3007" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="3102:3517" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="3140:3264" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="3596:3866" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="3750:3858" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="3940:4067" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="4144:4947" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="4624:4667" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="5019:5154" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="5201:5352" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="5404:5622" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="5453:5539" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="5631:5724" placeholder=" Configures the default options for a client. ..." />
+            <marker date="1459010930000" expanded="true" signature="5780:7247" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="5808:6044" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="6160:6218" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="6266:6325" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="6372:6513" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="6642:6707" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="6803:6891" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="6899:7240" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="7038:7155" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="7096:7141" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="7256:7403" placeholder=" Merges default options into the array. ..." />
+            <marker date="1459010930000" expanded="true" signature="7452:8564" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="7538:7721" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="7921:8274" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="8020:8127" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="8170:8264" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="8442:8532" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="8473:8522" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="8573:8912" placeholder=" Transfers the given request and applies request options. ..." />
+            <marker date="1459010930000" expanded="true" signature="8987:9643" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="9062:9163" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="9246:9360" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="9477:9556" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="9581:9636" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="9652:9842" placeholder=" Applies the array of request options to a request. ..." />
+            <marker date="1459010930000" expanded="true" signature="9922:14093" placeholder="{...}" />
+            <marker date="1459010930000" expanded="true" signature="9997:10658" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="10045:10427" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="10704:10870" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="10982:11075" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="11119:11401" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="11168:11268" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="11276:11351" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="11442:11651" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="11488:11539" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="11693:12421" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="11945:12411" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="11975:12137" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="12168:12398" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="12463:12860" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="12539:12633" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="12672:12773" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="12901:13100" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="13228:13455" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="13569:14060" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="13734:13866" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="13782:13852" placeholder="..." />
+            <marker date="1459010930000" expanded="true" signature="14129:14522" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ExampleTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1458346157000" expanded="false" signature="11:169" placeholder="..." />
+            <marker date="1458346157000" expanded="true" signature="205:402" placeholder="{...}" />
+            <marker date="1458346157000" expanded="true" signature="215:288" placeholder=" A basic functional test example. ..." />
+            <marker date="1458346157000" expanded="true" signature="329:400" placeholder="{...}" />
+            <marker date="1458346157000" expanded="true" signature="381:392" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/MarvelApiClientTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
