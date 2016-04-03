@@ -10,6 +10,7 @@ class MarvelApiClientTest extends TestCase
 {
     /**
      * @test
+     * @vcr stub_comics_request
      */
     public function test_first_setup()
     {

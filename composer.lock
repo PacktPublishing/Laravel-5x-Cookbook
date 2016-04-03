@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2e542dda318ec3835adf6a562b2cf7f9",
-    "content-hash": "27a36a3d0dc31812f5f508e57b8d01fd",
+    "hash": "2697f8b0d58ec04fe3db26431b08e7f1",
+    "content-hash": "0bf1f968b7541aea33c06442e9c19c6d",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -2000,6 +2000,59 @@
     ],
     "packages-dev": [
         {
+            "name": "beberlei/assert",
+            "version": "v2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beberlei/assert.git",
+                "reference": "91e2690c4ecc8a4e3e2d333430069f6a0c694a7a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beberlei/assert/zipball/91e2690c4ecc8a4e3e2d333430069f6a0c694a7a",
+                "reference": "91e2690c4ecc8a4e3e2d333430069f6a0c694a7a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "@stable"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Assert": "lib/"
+                },
+                "files": [
+                    "lib/Assert/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                }
+            ],
+            "description": "Thin assertion library for input validation in business models.",
+            "keywords": [
+                "assert",
+                "assertion",
+                "validation"
+            ],
+            "time": "2016-03-22 14:34:51"
+        },
+        {
             "name": "doctrine/instantiator",
             "version": "1.0.5",
             "source": {
@@ -2214,6 +2267,81 @@
                 "testing"
             ],
             "time": "2015-04-02 19:54:00"
+        },
+        {
+            "name": "php-vcr/php-vcr",
+            "version": "1.2.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-vcr/php-vcr.git",
+                "reference": "0f1cb3e5537897b88b774fa2918d6c32d7d69139"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-vcr/php-vcr/zipball/0f1cb3e5537897b88b774fa2918d6c32d7d69139",
+                "reference": "0f1cb3e5537897b88b774fa2918d6c32d7d69139",
+                "shasum": ""
+            },
+            "require": {
+                "beberlei/assert": "2.*",
+                "ext-curl": "*",
+                "symfony/event-dispatcher": "~2.1|3.*",
+                "symfony/yaml": "2.*|3.*"
+            },
+            "require-dev": {
+                "lapistano/proxy-object": "dev-master",
+                "mikey179/vfsstream": "1.2.*",
+                "phpunit/phpunit": "3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adrian Philipp",
+                    "email": "mail@adrian-philipp.com"
+                }
+            ],
+            "description": "Record your test suite's HTTP interactions and replay them during future test runs for fast, deterministic, accurate tests.",
+            "time": "2016-01-25 13:30:31"
+        },
+        {
+            "name": "php-vcr/phpunit-testlistener-vcr",
+            "version": "1.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-vcr/phpunit-testlistener-vcr.git",
+                "reference": "e29c11dcf2a215ff51f0ae5cdf56dfd3cdd30c11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-vcr/phpunit-testlistener-vcr/zipball/e29c11dcf2a215ff51f0ae5cdf56dfd3cdd30c11",
+                "reference": "e29c11dcf2a215ff51f0ae5cdf56dfd3cdd30c11",
+                "shasum": ""
+            },
+            "require": {
+                "php-vcr/php-vcr": "*"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adrian Philipp",
+                    "email": "mail@adrian-philipp.com"
+                }
+            ],
+            "description": "Integrates PHPUnit with PHP-VCR.",
+            "time": "2016-01-12 21:15:47"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
