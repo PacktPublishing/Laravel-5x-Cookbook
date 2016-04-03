@@ -11,6 +11,7 @@ class MarvelApi implements ComicClientInterface
     protected $key = false;
     protected $secret = false;
     protected $base_url = false;
+    protected $ts = null;
     protected $api_version = '/v1/public';
 
     /**
@@ -41,9 +42,8 @@ class MarvelApi implements ComicClientInterface
 
     protected function makeAuth()
     {
-        $ts = Carbon::now();
-        $hash = md5($ts->timestamp . $this->secret . $this->key);
-        return ['apikey' => $this->key, 'ts' => $ts->timestamp, 'hash' => $hash];
+        $hash = md5($this->getTimeStamp() . $this->secret . $this->key);
+        return ['apikey' => $this->key, 'ts' => $this->getTimeStamp(), 'hash' => $hash];
     }
 
     public function getClient()
@@ -74,5 +74,24 @@ class MarvelApi implements ComicClientInterface
     public function setApiVersion($api_version)
     {
         $this->api_version = $api_version;
+    }
+
+    private function getTimeStamp()
+    {
+        if(!$this->ts)
+            $this->setTimeStamp();
+
+        return $this->ts;
+    }
+
+    public function setTimeStamp($ts = null)
+    {
+        if(!$ts)
+            $ts = Carbon::now()->timestamp;
+
+        $this->ts = $ts;
+
+        return $this;
+
     }
 }
