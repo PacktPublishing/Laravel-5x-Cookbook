@@ -19,6 +19,12 @@ class MarvelApi implements ComicClientInterface
      */
     protected $client = null;
 
+    /**
+     * MarvelApi constructor.
+     * @param $key
+     * @param $secret
+     * @param Client $client
+     */
     public function __construct($key, $secret, Client $client)
     {
         $this->key = $key;

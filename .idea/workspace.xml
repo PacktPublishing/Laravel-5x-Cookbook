@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fef943b2-c874-4276-90b0-77dfba09be6d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env.travis" afterPath="$PROJECT_DIR$/.env.travis" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/MarvelApi.php" afterPath="$PROJECT_DIR$/app/MarvelApi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/MarvelApiClientTest.php" afterPath="$PROJECT_DIR$/tests/MarvelApiClientTest.php" />
     </list>
     <ignored path="recipes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
+      <file leaf-file-name="SearchComics.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SearchComics.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07553648">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="176">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -52,14 +54,19 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/Interfaces/ComicClientInterface.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/MarvelApi.php" />
-        <option value="$PROJECT_DIR$/tests/MarvelApiClientTest.php" />
         <option value="$PROJECT_DIR$/.env.example" />
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/.env.travis" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/tests/MarvelApiClientTest.php" />
+        <option value="$PROJECT_DIR$/app/MarvelApi.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/tests/fixtures/search_no_name.json" />
+        <option value="$PROJECT_DIR$/tests/SearchControllerTest.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SearchComics.php" />
       </list>
     </option>
   </component>
@@ -68,10 +75,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="881" />
-    <option name="y" value="84" />
-    <option name="width" value="1526" />
-    <option name="height" value="1187" />
+    <option name="y" value="23" />
+    <option name="width" value="1276" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -98,7 +104,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -114,7 +119,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="recipes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -124,47 +129,56 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="recipes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recipes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recipes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fixtures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recipes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recipes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recipes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recipes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recipes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recipes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -196,20 +210,22 @@
       <method />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="881" y="84" width="1526" height="1187" extended-state="0" />
+    <frame x="0" y="23" width="1276" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20773263" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21943574" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -233,46 +249,14 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/MarvelApiClientTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <marker date="1459704813000" expanded="false" signature="11:228" placeholder="..." />
-            <marker date="1459704813000" expanded="true" signature="272:908" placeholder="{...}" />
-            <marker date="1459704813000" expanded="true" signature="282:301" placeholder=" @test ..." />
-            <marker date="1459704813000" expanded="true" signature="282:333" placeholder=" @test ..." />
-            <marker date="1459704813000" expanded="true" signature="374:906" placeholder="{...}" />
-            <marker date="1459704813000" expanded="true" signature="389:685" placeholder="//..." />
-            <marker date="1459704813000" expanded="true" signature="685:906" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/MarvelApiClientTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <marker date="1459704813000" expanded="false" signature="11:228" placeholder="..." />
-            <marker date="1459704813000" expanded="true" signature="272:908" placeholder="{...}" />
-            <marker date="1459704813000" expanded="true" signature="282:301" placeholder=" @test ..." />
-            <marker date="1459704813000" expanded="true" signature="282:333" placeholder=" @test ..." />
-            <marker date="1459704813000" expanded="true" signature="374:906" placeholder="{...}" />
-            <marker date="1459704813000" expanded="true" signature="389:685" placeholder="//..." />
-            <marker date="1459704813000" expanded="true" signature="685:906" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="286" column="39" selection-start-line="286" selection-start-column="28" selection-end-line="286" selection-end-column="39" />
           <folding />
         </state>
@@ -280,128 +264,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Facades/APIClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/GuzzleClientTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Interfaces/ClientInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="195" column="44" selection-start-line="195" selection-start-column="44" selection-end-line="195" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Facades/APIClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/GuzzleClientProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <marker date="1459704341000" expanded="true" signature="37:95" placeholder="..." />
-            <marker date="1459704341000" expanded="true" signature="147:715" placeholder="{...}" />
-            <marker date="1459704341000" expanded="true" signature="181:713" placeholder="{...}" />
-            <marker date="1459704341000" expanded="true" signature="213:705" placeholder="..." />
-            <marker date="1459704341000" expanded="true" signature="269:704" placeholder="..." />
-            <marker date="1459704341000" expanded="true" signature="294:620" placeholder="..." />
-            <marker date="1459704341000" expanded="true" signature="531:606" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="286" column="39" selection-start-line="286" selection-start-column="28" selection-end-line="286" selection-end-column="39" />
           <folding />
         </state>
@@ -409,199 +371,1281 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/ExampleTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Auth/CanResetPassword.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Auth/Guard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Interfaces/ComicClientInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="2331" column="12" selection-start-line="2331" selection-start-column="12" selection-end-line="2331" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/GuzzleClientTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15107296">
+        <state relative-caret-position="0">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <marker date="1459704341000" expanded="false" signature="11:205" placeholder="..." />
-            <marker date="1459704341000" expanded="true" signature="246:771" placeholder="{...}" />
-            <marker date="1459704341000" expanded="true" signature="256:275" placeholder=" @test ..." />
-            <marker date="1459704341000" expanded="true" signature="322:540" placeholder="{...}" />
-            <marker date="1459704341000" expanded="true" signature="549:568" placeholder=" @test ..." />
-            <marker date="1459704341000" expanded="true" signature="615:768" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/MarvelApiClient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3965665">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-          <folding>
-            <marker date="1459704341000" expanded="false" signature="37:114" placeholder="..." />
-            <marker date="1459704341000" expanded="true" signature="161:1170" placeholder="{...}" />
-            <marker date="1459704341000" expanded="true" signature="171:247" placeholder=" Bootstrap the application services. ..." />
-            <marker date="1459704341000" expanded="true" signature="276:1028" placeholder="{...}" />
-            <marker date="1459704341000" expanded="true" signature="308:1019" placeholder="..." />
-            <marker date="1459704341000" expanded="true" signature="365:1018" placeholder="..." />
-            <marker date="1459704341000" expanded="true" signature="389:720" placeholder="..." />
-            <marker date="1459704341000" expanded="true" signature="631:706" placeholder="..." />
-            <marker date="1459704341000" expanded="true" signature="1037:1112" placeholder=" Register the application services. ..." />
-            <marker date="1459704341000" expanded="true" signature="1145:1168" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/fixtures/.gitkeep">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.travis">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/laravel-elixir/Config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2398">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1454174228000" expanded="true" signature="697:13463" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="4054:4195" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="4207:7669" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="5571:5793" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="5690:5783" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="6233:6355" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="6803:7080" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="6918:7070" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="7528:7663" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="7680:11077" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="9066:9229" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="9692:10486" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="9862:10311" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="9880:10122" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="10141:10297" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="10336:10476" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="10938:11071" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="11093:12456" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="11550:11796" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="11663:11786" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="12254:12450" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="12366:12440" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="13317:13460" placeholder="{...}" />
+            <marker date="1454174228000" expanded="true" signature="13603:14099" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/laravel-elixir/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/MarvelApi.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2832618">
-          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
+        <state relative-caret-position="22">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding>
-            <marker date="1459704785000" expanded="false" signature="27:105" placeholder="..." />
-            <marker date="1459704785000" expanded="true" signature="154:1961" placeholder="{...}" />
-            <marker date="1459704785000" expanded="true" signature="326:351" placeholder=" @var Client ..." />
-            <marker date="1459704785000" expanded="true" signature="447:552" placeholder="{...}" />
-            <marker date="1459704785000" expanded="true" signature="596:939" placeholder="{...}" />
-            <marker date="1459704785000" expanded="true" signature="671:782" placeholder="{...}" />
-            <marker date="1459704785000" expanded="true" signature="974:1148" placeholder="{...}" />
-            <marker date="1459704785000" expanded="true" signature="1181:1223" placeholder="{...}" />
-            <marker date="1459704785000" expanded="true" signature="1263:1308" placeholder="{...}" />
-            <marker date="1459704785000" expanded="true" signature="1342:1386" placeholder="{...}" />
-            <marker date="1459704785000" expanded="true" signature="1424:1468" placeholder="{...}" />
-            <marker date="1459704785000" expanded="true" signature="1505:1552" placeholder="{...}" />
-            <marker date="1459704785000" expanded="true" signature="1601:1656" placeholder="{...}" />
-            <marker date="1459704785000" expanded="true" signature="1693:1790" placeholder="{...}" />
-            <marker date="1459704785000" expanded="true" signature="1836:1959" placeholder="{...}" />
+            <marker date="1459628736000" expanded="true" signature="0:1306" placeholder="{&quot;name&quot;: &quot;laravel/laravel&quot;...}" />
+            <marker date="1459628736000" expanded="true" signature="180:287" placeholder="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
+            <marker date="1459628736000" expanded="true" signature="308:563" placeholder="{&quot;fzaninotto/faker&quot;: &quot;~1.4&quot;...}" />
+            <marker date="1459628736000" expanded="true" signature="581:701" placeholder="{...}" />
+            <marker date="1459628736000" expanded="true" signature="603:637" placeholder="[...]" />
+            <marker date="1459628736000" expanded="true" signature="656:695" placeholder="{&quot;App\&quot;: &quot;app/&quot;...}" />
+            <marker date="1459628736000" expanded="true" signature="723:795" placeholder="{...}" />
+            <marker date="1459628736000" expanded="true" signature="745:789" placeholder="[...]" />
+            <marker date="1459628736000" expanded="true" signature="812:1245" placeholder="{...}" />
+            <marker date="1459628736000" expanded="true" signature="851:917" placeholder="[...]" />
+            <marker date="1459628736000" expanded="true" signature="954:1004" placeholder="[...]" />
+            <marker date="1459628736000" expanded="true" signature="1034:1122" placeholder="[...]" />
+            <marker date="1459628736000" expanded="true" signature="1151:1239" placeholder="[...]" />
+            <marker date="1459628736000" expanded="true" signature="1261:1304" placeholder="{&quot;preferred-install&quot;: &quot;dist&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1458346157000" expanded="false" signature="44:252" placeholder="..." />
+            <marker date="1458346157000" expanded="true" signature="293:360" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1458346157000" expanded="true" signature="113:1462" placeholder="{...}" />
+            <marker date="1458346157000" expanded="true" signature="123:290" placeholder=" The application's global HTTP middleware stack. ..." />
+            <marker date="1458346157000" expanded="true" signature="322:406" placeholder="..." />
+            <marker date="1458346157000" expanded="true" signature="417:498" placeholder=" The application's route middleware groups. ..." />
+            <marker date="1458346157000" expanded="true" signature="536:956" placeholder="..." />
+            <marker date="1458346157000" expanded="true" signature="555:889" placeholder="..." />
+            <marker date="1458346157000" expanded="true" signature="911:949" placeholder="..." />
+            <marker date="1458346157000" expanded="true" signature="967:1120" placeholder=" The application's route middleware. ..." />
+            <marker date="1458346157000" expanded="true" signature="1157:1458" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1458346157000" expanded="false" signature="43:88" placeholder="..." />
+            <marker date="1458346157000" expanded="true" signature="108:675" placeholder="{...}" />
+            <marker date="1458346157000" expanded="true" signature="118:303" placeholder=" Handle an incoming request. ..." />
+            <marker date="1458346157000" expanded="true" signature="372:673" placeholder="{...}" />
+            <marker date="1458346157000" expanded="true" signature="422:633" placeholder="..." />
+            <marker date="1458346157000" expanded="true" signature="483:551" placeholder="..." />
+            <marker date="1458346157000" expanded="true" signature="559:623" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <marker date="1459884956000" expanded="false" signature="9:383" placeholder="..." />
+            <marker date="1459884956000" expanded="true" signature="390:767" placeholder="..." />
+            <marker date="1459884956000" expanded="true" signature="784:829" placeholder="..." />
+            <marker date="1459884956000" expanded="true" signature="824:828" placeholder="..." />
+            <marker date="1459884956000" expanded="true" signature="844:916" placeholder="..." />
+            <marker date="1459884956000" expanded="true" signature="850:915" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="541" column="13" selection-start-line="541" selection-start-column="13" selection-end-line="541" selection-end-column="13" />
+          <folding>
+            <marker date="1458346226000" expanded="false" signature="11:579" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="614:1085" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="622:952" placeholder=" Throw an HttpException with the given data. ..." />
+            <marker date="1458346226000" expanded="true" signature="1016:1084" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="1124:1695" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="1132:1525" placeholder=" Throw an HttpException with the given data if the given condition is true. ..." />
+            <marker date="1458346226000" expanded="true" signature="1602:1694" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="1632:1687" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="1738:2319" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="1746:2143" placeholder=" Throw an HttpException with the given data unless the given condition is true. ..." />
+            <marker date="1458346226000" expanded="true" signature="2224:2318" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="2256:2311" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="2356:2686" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="2364:2542" placeholder=" Generate a URL to a controller action. ..." />
+            <marker date="1458346226000" expanded="true" signature="2607:2685" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="2720:3123" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="2728:2906" placeholder=" Get the available container instance. ..." />
+            <marker date="1458346226000" expanded="true" signature="2957:3122" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="2993:3047" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="3162:3402" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="3170:3281" placeholder=" Get the path to the application folder. ..." />
+            <marker date="1458346226000" expanded="true" signature="3317:3401" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="3438:3699" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="3446:3592" placeholder=" Generate an asset path for the application. ..." />
+            <marker date="1458346226000" expanded="true" signature="3636:3698" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="3734:4089" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="3742:3880" placeholder=" Get the available auth instance. ..." />
+            <marker date="1458346226000" expanded="true" signature="3915:4088" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="3952:4005" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="4013:4081" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="4124:4439" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="4132:4319" placeholder=" Create a new redirect response to the previous location. ..." />
+            <marker date="1458346226000" expanded="true" signature="4369:4438" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="4479:4727" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="4487:4599" placeholder=" Get the path to the base of the install. ..." />
+            <marker date="1458346226000" expanded="true" signature="4636:4726" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="4764:5008" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="4772:4898" placeholder=" Hash the given value. ..." />
+            <marker date="1458346226000" expanded="true" signature="4943:5007" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="5045:5579" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="5053:5303" placeholder=" Get / set the specified configuration value. ..." />
+            <marker date="1458346226000" expanded="true" signature="5355:5578" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="5390:5433" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="5465:5519" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="5621:5867" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="5629:5728" placeholder=" Get the configuration path. ..." />
+            <marker date="1458346226000" expanded="true" signature="5767:5866" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="5904:6582" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="5912:6233" placeholder=" Create a new cookie instance. ..." />
+            <marker date="1458346226000" expanded="true" signature="6363:6581" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="6445:6482" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="6623:6843" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="6631:6707" placeholder=" Generate a CSRF token form field. ..." />
+            <marker date="1458346226000" expanded="true" signature="6735:6842" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="6884:7234" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="6892:7000" placeholder=" Get the CSRF token value. ..." />
+            <marker date="1458346226000" expanded="true" signature="7028:7233" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="7101:7151" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="7278:7516" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="7286:7380" placeholder=" Get the database path. ..." />
+            <marker date="1458346226000" expanded="true" signature="7421:7515" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="7554:7753" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="7562:7659" placeholder=" Decrypt the given value. ..." />
+            <marker date="1458346226000" expanded="true" signature="7690:7752" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="7792:8009" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="7800:7911" placeholder=" Dispatch a job to its appropriate handler. ..." />
+            <marker date="1458346226000" expanded="true" signature="7941:8008" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="8046:8625" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="8054:8214" placeholder=" Get the path to a versioned Elixir file. ..." />
+            <marker date="1458346226000" expanded="true" signature="8243:8624" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="8317:8428" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="8469:8525" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="8663:8862" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="8671:8768" placeholder=" Encrypt the given value. ..." />
+            <marker date="1458346226000" expanded="true" signature="8799:8861" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="8896:9794" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="8904:9082" placeholder=" Gets the value of an environment variable. Supports boolean, empty and null. ..." />
+            <marker date="1458346226000" expanded="true" signature="9124:9793" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="9194:9239" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="9279:9613" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="9331:9360" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="9415:9445" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="9500:9527" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="9580:9604" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="9711:9762" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="9830:10150" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="9838:10017" placeholder=" Fire an event and call the listeners. ..." />
+            <marker date="1458346226000" expanded="true" signature="10076:10149" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="10188:10905" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="10196:10416" placeholder=" Create a model factory builder for a given class, name, and amount. ..." />
+            <marker date="1458346226000" expanded="true" signature="10441:10904" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="10599:10720" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="10753:10832" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="10840:10897" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="10940:11198" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="10948:11087" placeholder=" Write some information to the log. ..." />
+            <marker date="1458346226000" expanded="true" signature="11132:11197" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="11235:11615" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="11243:11413" placeholder=" Log a debug message to the logs. ..." />
+            <marker date="1458346226000" expanded="true" signature="11473:11614" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="11512:11552" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="11658:11940" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="11666:11799" placeholder=" Generate a form field to spoof the HTTP verb used by forms. ..." />
+            <marker date="1458346226000" expanded="true" signature="11836:11939" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="11974:12225" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="11982:12111" placeholder=" Retrieve an old input item. ..." />
+            <marker date="1458346226000" expanded="true" signature="12160:12224" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="12262:12535" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="12270:12437" placeholder=" Get a policy instance for a given class. ..." />
+            <marker date="1458346226000" expanded="true" signature="12467:12534" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="12577:12830" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="12585:12691" placeholder=" Get the path to the public folder. ..." />
+            <marker date="1458346226000" expanded="true" signature="12730:12829" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="12869:13377" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="12877:13138" placeholder=" Get an instance of the redirector. ..." />
+            <marker date="1458346226000" expanded="true" signature="13220:13376" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="13254:13299" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="13415:13825" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="13423:13630" placeholder=" Get an instance of the current request or an input item from the request. ..." />
+            <marker date="1458346226000" expanded="true" signature="13683:13824" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="13718:13762" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="13869:14150" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="13877:13986" placeholder=" Get the path to the resources folder. ..." />
+            <marker date="1458346226000" expanded="true" signature="14027:14149" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="14189:14734" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="14197:14460" placeholder=" Return a new response from the application. ..." />
+            <marker date="1458346226000" expanded="true" signature="14535:14733" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="14627:14665" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="14770:15164" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="14778:14999" placeholder=" Generate a URL to a named route. ..." />
+            <marker date="1458346226000" expanded="true" signature="15078:15163" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="15207:15413" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="15215:15330" placeholder=" Generate an asset path for the application. ..." />
+            <marker date="1458346226000" expanded="true" signature="15365:15412" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="15454:15720" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="15462:15610" placeholder=" Generate a HTTPS url for the application. ..." />
+            <marker date="1458346226000" expanded="true" signature="15661:15719" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="15758:16290" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="15766:16010" placeholder=" Get / set the specified session value. ..." />
+            <marker date="1458346226000" expanded="true" signature="16063:16289" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="16098:16142" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="16174:16229" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="16333:16581" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="16341:16448" placeholder=" Get the path to the storage folder. ..." />
+            <marker date="1458346226000" expanded="true" signature="16488:16580" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="16617:17127" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="16625:16871" placeholder=" Translate the given message. ..." />
+            <marker date="1458346226000" expanded="true" signature="16960:17126" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="16994:17041" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="17170:17645" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="17178:17436" placeholder=" Translates the given message based on a count. ..." />
+            <marker date="1458346226000" expanded="true" signature="17540:17644" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="17679:18142" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="17687:17902" placeholder=" Generate a url for the application. ..." />
+            <marker date="1458346226000" expanded="true" signature="17969:18141" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="18005:18059" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="18182:18761" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="18190:18430" placeholder=" Create a new Validator instance. ..." />
+            <marker date="1458346226000" expanded="true" signature="18544:18760" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="18638:18676" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="18796:19295" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="18804:19040" placeholder=" Get the evaluated view contents for the given view. ..." />
+            <marker date="1458346226000" expanded="true" signature="19103:19294" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="19191:19229" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/MarvelApiClientTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15107296">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="667">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
           <folding>
-            <marker date="1459704813000" expanded="false" signature="11:228" placeholder="..." />
-            <marker date="1459704813000" expanded="true" signature="272:908" placeholder="{...}" />
-            <marker date="1459704813000" expanded="true" signature="282:301" placeholder=" @test ..." />
-            <marker date="1459704813000" expanded="true" signature="282:333" placeholder=" @test ..." />
-            <marker date="1459704813000" expanded="true" signature="374:906" placeholder="{...}" />
-            <marker date="1459704813000" expanded="true" signature="389:685" placeholder="//..." />
-            <marker date="1459704813000" expanded="true" signature="685:906" placeholder="{...}" />
+            <marker date="1459818966000" expanded="false" signature="11:228" placeholder="..." />
+            <marker date="1459818966000" expanded="true" signature="272:1018" placeholder="{...}" />
+            <marker date="1459818966000" expanded="true" signature="282:333" placeholder=" @test ..." />
+            <marker date="1459818966000" expanded="true" signature="374:907" placeholder="{...}" />
+            <marker date="1459818966000" expanded="true" signature="389:685" placeholder="//..." />
+            <marker date="1459818966000" expanded="true" signature="916:935" placeholder=" @test ..." />
+            <marker date="1459818966000" expanded="true" signature="969:1016" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Interfaces/ComicClientInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <marker date="1459609675000" expanded="true" signature="66:116" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/File.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <marker date="1458346226000" expanded="true" signature="49:93" placeholder=" @see \Illuminate\Filesystem\Filesystem ..." />
+            <marker date="1458346226000" expanded="true" signature="121:305" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="131:215" placeholder=" Get the registered name of the component. ..." />
+            <marker date="1458346226000" expanded="true" signature="267:303" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding>
+            <marker date="1458346226000" expanded="true" signature="49:105" placeholder=" @see \Illuminate\Contracts\Routing\ResponseFactory ..." />
+            <marker date="1458346226000" expanded="true" signature="137:360" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="147:231" placeholder=" Get the registered name of the component. ..." />
+            <marker date="1458346226000" expanded="true" signature="283:358" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Routing/ResponseFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <marker date="1458346225000" expanded="true" signature="73:3874" placeholder="{...}" />
+            <marker date="1458346225000" expanded="true" signature="83:279" placeholder=" Return a new response from the application. ..." />
+            <marker date="1458346225000" expanded="true" signature="367:593" placeholder=" Return a new view response from the application. ..." />
+            <marker date="1458346225000" expanded="true" signature="685:922" placeholder=" Return a new JSON response from the application. ..." />
+            <marker date="1458346225000" expanded="true" signature="1021:1292" placeholder=" Return a new JSONP response from the application. ..." />
+            <marker date="1458346225000" expanded="true" signature="1403:1636" placeholder=" Return a new streamed response from the application. ..." />
+            <marker date="1458346225000" expanded="true" signature="1722:1990" placeholder=" Create a new file download response. ..." />
+            <marker date="1458346225000" expanded="true" signature="2102:2343" placeholder=" Create a new redirect response to the given path. ..." />
+            <marker date="1458346225000" expanded="true" signature="2439:2680" placeholder=" Create a new redirect response to a named route. ..." />
+            <marker date="1458346225000" expanded="true" signature="2784:3032" placeholder=" Create a new redirect response to a controller action. ..." />
+            <marker date="1458346225000" expanded="true" signature="3138:3407" placeholder=" Create a new redirect response, while putting the current URL in the session. ..." />
+            <marker date="1458346225000" expanded="true" signature="3506:3768" placeholder=" Create a new redirect response to the previously intended location. ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <marker date="1458346226000" expanded="false" signature="39:239" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="276:2696" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="310:386" placeholder=" The original content of the response. ..." />
+            <marker date="1458346226000" expanded="true" signature="419:527" placeholder=" The exception that triggered the error response (if applicable). ..." />
+            <marker date="1458346226000" expanded="true" signature="561:666" placeholder=" Set the content on the response. ..." />
+            <marker date="1458346226000" expanded="true" signature="709:1586" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="1050:1176" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="1481:1533" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="1595:1704" placeholder=" Morph the given content into JSON. ..." />
+            <marker date="1458346226000" expanded="true" signature="1751:1895" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="1801:1849" placeholder="..." />
+            <marker date="1458346226000" expanded="true" signature="1904:2034" placeholder=" Determine if the given content should be turned into JSON. ..." />
+            <marker date="1458346226000" expanded="true" signature="2082:2281" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="2290:2366" placeholder=" Get the original response content. ..." />
+            <marker date="1458346226000" expanded="true" signature="2409:2453" placeholder="{...}" />
+            <marker date="1458346226000" expanded="true" signature="2462:2578" placeholder=" Set the exception to attach to the response. ..." />
+            <marker date="1458346226000" expanded="true" signature="2628:2694" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-foundation/Response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="32" />
+          <folding>
+            <marker date="1458346211000" expanded="false" signature="9:234" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="286:381" placeholder=" Response represents an HTTP response. ..." />
+            <marker date="1458346211000" expanded="true" signature="398:35223" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="3582:3652" placeholder=" @var \Symfony\Component\HttpFoundation\ResponseHeaderBag ..." />
+            <marker date="1458346211000" expanded="true" signature="3684:3709" placeholder=" @var string ..." />
+            <marker date="1458346211000" expanded="true" signature="3744:3769" placeholder=" @var string ..." />
+            <marker date="1458346211000" expanded="true" signature="3804:3826" placeholder=" @var int ..." />
+            <marker date="1458346211000" expanded="true" signature="3864:3889" placeholder=" @var string ..." />
+            <marker date="1458346211000" expanded="true" signature="3927:3952" placeholder=" @var string ..." />
+            <marker date="1458346211000" expanded="true" signature="3987:4351" placeholder=" Status codes translation table. ..." />
+            <marker date="1458346211000" expanded="true" signature="4393:7280" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="7291:7591" placeholder=" Constructor. ..." />
+            <marker date="1458346211000" expanded="true" signature="7675:7863" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="7872:8252" placeholder=" Factory method for chainability. ..." />
+            <marker date="1458346211000" expanded="true" signature="8338:8406" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="8415:8735" placeholder=" Returns the Response as an HTTP string. ..." />
+            <marker date="1458346211000" expanded="true" signature="8770:8964" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="8973:9024" placeholder=" Clones the current Response instance. ..." />
+            <marker date="1458346211000" expanded="true" signature="9056:9115" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="9124:9494" placeholder=" Prepares the Response before it is sent to the client. ..." />
+            <marker date="1458346211000" expanded="true" signature="9542:11622" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="9644:9784" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="9792:11103" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="9891:10126" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="10033:10112" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="10260:10352" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="10481:10629" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="10719:10784" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="10832:11093" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="11000:11079" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="11199:11254" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="11424:11536" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="11631:11695" placeholder=" Sends HTTP headers. ..." />
+            <marker date="1458346211000" expanded="true" signature="11731:12652" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="11826:11861" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="11907:11986" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="12081:12215" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="12123:12205" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="12436:12622" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="12661:12749" placeholder=" Sends content for the current web response. ..." />
+            <marker date="1458346211000" expanded="true" signature="12785:12849" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="12858:12934" placeholder=" Sends HTTP headers and content. ..." />
+            <marker date="1458346211000" expanded="true" signature="12963:13253" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="13087:13134" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="13165:13223" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="13262:13556" placeholder=" Sets the response content. ..." />
+            <marker date="1458346211000" expanded="true" signature="13599:13985" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="13734:13910" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="13994:14079" placeholder=" Gets the current response content. ..." />
+            <marker date="1458346211000" expanded="true" signature="14114:14157" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="14166:14318" placeholder=" Sets the HTTP protocol version (1.0 or 1.1). ..." />
+            <marker date="1458346211000" expanded="true" signature="14369:14439" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="14448:14548" placeholder=" Gets the HTTP protocol version. ..." />
+            <marker date="1458346211000" expanded="true" signature="14591:14634" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="14643:15034" placeholder=" Sets the response status code. ..." />
+            <marker date="1458346211000" expanded="true" signature="15091:15649" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="15180:15297" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="15329:15478" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="15511:15583" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="15658:15765" placeholder=" Retrieves the status code for the current web response. ..." />
+            <marker date="1458346211000" expanded="true" signature="15803:15849" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="15858:15980" placeholder=" Sets the response charset. ..." />
+            <marker date="1458346211000" expanded="true" signature="16023:16093" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="16102:16190" placeholder=" Retrieves the response charset. ..." />
+            <marker date="1458346211000" expanded="true" signature="16225:16268" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="16277:16713" placeholder=" Returns true if the response is worth caching under any circumstance. ..." />
+            <marker date="1458346211000" expanded="true" signature="16749:17104" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="16841:16876" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="17001:17036" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="17113:17511" placeholder=" Returns true if the response is &quot;fresh&quot;. ..." />
+            <marker date="1458346211000" expanded="true" signature="17543:17591" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="17600:17845" placeholder=" Returns true if the response includes headers that can be used to validate ..." />
+            <marker date="1458346211000" expanded="true" signature="17884:17980" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="17989:18140" placeholder=" Marks the response as &quot;private&quot;. ..." />
+            <marker date="1458346211000" expanded="true" signature="18175:18334" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="18343:18491" placeholder=" Marks the response as &quot;public&quot;. ..." />
+            <marker date="1458346211000" expanded="true" signature="18525:18684" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="18693:19153" placeholder=" Returns true if the response must be revalidated by caches. ..." />
+            <marker date="1458346211000" expanded="true" signature="19192:19344" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="19353:19540" placeholder=" Returns the Date header as a DateTime instance. ..." />
+            <marker date="1458346211000" expanded="true" signature="19572:19757" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="19622:19701" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="19766:19890" placeholder=" Sets the Date header. ..." />
+            <marker date="1458346211000" expanded="true" signature="19937:20103" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="20112:20219" placeholder=" Returns the age of the response. ..." />
+            <marker date="1458346211000" expanded="true" signature="20250:20425" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="20314:20354" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="20434:20577" placeholder=" Marks the response stale by setting the Age header to be equal to the maximum age of the response. ..." />
+            <marker date="1458346211000" expanded="true" signature="20608:20745" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="20646:20715" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="20754:20925" placeholder=" Returns the value of the Expires header as a DateTime instance. ..." />
+            <marker date="1458346211000" expanded="true" signature="20960:21296" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="20980:21044" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="21076:21289" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="21305:21556" placeholder=" Sets the Expires HTTP header with a DateTime instance. ..." />
+            <marker date="1458346211000" expanded="true" signature="21613:21927" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="21649:21705" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="21713:21897" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="21936:22337" placeholder=" Returns the number of seconds after the time specified in the response's Date ..." />
+            <marker date="1458346211000" expanded="true" signature="22371:22836" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="22445:22533" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="22602:22689" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="22735:22829" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="22845:23098" placeholder=" Sets the number of seconds after which the response should no longer be considered fresh. ..." />
+            <marker date="1458346211000" expanded="true" signature="23138:23242" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="23251:23522" placeholder=" Sets the number of seconds after which the response should no longer be considered fresh by shared caches. ..." />
+            <marker date="1458346211000" expanded="true" signature="23568:23701" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="23710:24048" placeholder=" Returns the response's time-to-live in seconds. ..." />
+            <marker date="1458346211000" expanded="true" signature="24079:24200" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="24138:24193" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="24209:24429" placeholder=" Sets the response's time-to-live for shared caches. ..." />
+            <marker date="1458346211000" expanded="true" signature="24468:24563" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="24572:24799" placeholder=" Sets the response's time-to-live for private/client caches. ..." />
+            <marker date="1458346211000" expanded="true" signature="24844:24933" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="24942:25189" placeholder=" Returns the Last-Modified HTTP header as a DateTime instance. ..." />
+            <marker date="1458346211000" expanded="true" signature="25229:25298" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="25307:25564" placeholder=" Sets the Last-Modified HTTP header with a DateTime instance. ..." />
+            <marker date="1458346211000" expanded="true" signature="25626:25952" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="25662:25724" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="25732:25922" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="25961:26109" placeholder=" Returns the literal value of the ETag HTTP header. ..." />
+            <marker date="1458346211000" expanded="true" signature="26141:26197" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="26206:26434" placeholder=" Sets the ETag value. ..." />
+            <marker date="1458346211000" expanded="true" signature="26493:26804" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="26529:26582" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="26590:26774" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="26634:26686" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="26813:27131" placeholder=" Sets the response's cache headers (validation and/or expiration). ..." />
+            <marker date="1458346211000" expanded="true" signature="27178:28341" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="27316:27479" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="27520:27575" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="27625:27697" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="27741:27801" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="27846:27913" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="27956:28111" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="27994:28043" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="28051:28101" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="28155:28311" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="28194:28244" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="28252:28301" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="28350:28679" placeholder=" Modifies the response so that it conforms to the rules defined for a 304 status code. ..." />
+            <marker date="1458346211000" expanded="true" signature="28718:29113" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="29029:29083" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="29122:29276" placeholder=" Returns true if the response includes a Vary header. ..." />
+            <marker date="1458346211000" expanded="true" signature="29308:29373" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="29382:29505" placeholder=" Returns an array of header names given in the Vary header. ..." />
+            <marker date="1458346211000" expanded="true" signature="29537:29813" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="29608:29645" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="29706:29784" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="29822:30028" placeholder=" Sets the Vary header. ..." />
+            <marker date="1458346211000" expanded="true" signature="30085:30177" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="30186:30625" placeholder=" Determines if the Response validators (ETag, Last-Modified) match ..." />
+            <marker date="1458346211000" expanded="true" signature="30679:31350" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="30726:30761" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="30971:31068" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="31117:31237" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="31267:31313" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="31359:31494" placeholder=" Is response invalid? ..." />
+            <marker date="1458346211000" expanded="true" signature="31528:31608" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="31617:31682" placeholder=" Is response informative? ..." />
+            <marker date="1458346211000" expanded="true" signature="31722:31802" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="31811:31875" placeholder=" Is response successful? ..." />
+            <marker date="1458346211000" expanded="true" signature="31912:31992" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="32001:32069" placeholder=" Is the response a redirect? ..." />
+            <marker date="1458346211000" expanded="true" signature="32107:32187" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="32196:32261" placeholder=" Is there a client error? ..." />
+            <marker date="1458346211000" expanded="true" signature="32299:32379" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="32388:32459" placeholder=" Was there a server side error? ..." />
+            <marker date="1458346211000" expanded="true" signature="32497:32577" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="32586:32646" placeholder=" Is the response OK? ..." />
+            <marker date="1458346211000" expanded="true" signature="32675:32729" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="32738:32805" placeholder=" Is the response forbidden? ..." />
+            <marker date="1458346211000" expanded="true" signature="32841:32895" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="32904:32979" placeholder=" Is the response a not found error? ..." />
+            <marker date="1458346211000" expanded="true" signature="33014:33068" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="33077:33196" placeholder=" Is the response a redirect of some form? ..." />
+            <marker date="1458346211000" expanded="true" signature="33247:33412" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="33421:33484" placeholder=" Is the response empty? ..." />
+            <marker date="1458346211000" expanded="true" signature="33516:33589" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="33598:33918" placeholder=" Cleans or flushes output buffers up to target level. ..." />
+            <marker date="1458346211000" expanded="true" signature="33988:34597" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="34456:34590" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="34482:34527" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="34535:34580" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="34606:34767" placeholder=" Checks if we need to remove Cache-Control for SSL encrypted downloads when using IE &lt; 9. ..." />
+            <marker date="1458346211000" expanded="true" signature="34839:35221" placeholder="{...}" />
+            <marker date="1458346211000" expanded="true" signature="35056:35214" placeholder="..." />
+            <marker date="1458346211000" expanded="true" signature="35134:35204" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/fixtures/stub_comics_request">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25153914">
+        <state relative-caret-position="22">
           <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/app/MarvelApi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77319586">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="247">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding>
+            <marker date="1459819010000" expanded="false" signature="27:105" placeholder="..." />
+            <marker date="1459819010000" expanded="true" signature="154:2077" placeholder="{...}" />
+            <marker date="1459819010000" expanded="true" signature="326:351" placeholder=" @var Client ..." />
+            <marker date="1459819010000" expanded="true" signature="392:498" placeholder=" MarvelApi constructor. ..." />
+            <marker date="1459819010000" expanded="true" signature="563:668" placeholder="{...}" />
+            <marker date="1459819010000" expanded="true" signature="712:1055" placeholder="{...}" />
+            <marker date="1459819010000" expanded="true" signature="787:898" placeholder="{...}" />
+            <marker date="1459819010000" expanded="true" signature="1090:1264" placeholder="{...}" />
+            <marker date="1459819010000" expanded="true" signature="1297:1339" placeholder="{...}" />
+            <marker date="1459819010000" expanded="true" signature="1379:1424" placeholder="{...}" />
+            <marker date="1459819010000" expanded="true" signature="1458:1502" placeholder="{...}" />
+            <marker date="1459819010000" expanded="true" signature="1540:1584" placeholder="{...}" />
+            <marker date="1459819010000" expanded="true" signature="1621:1668" placeholder="{...}" />
+            <marker date="1459819010000" expanded="true" signature="1717:1772" placeholder="{...}" />
+            <marker date="1459819010000" expanded="true" signature="1809:1906" placeholder="{...}" />
+            <marker date="1459819010000" expanded="true" signature="1952:2075" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env.example">
+    <entry file="file://$PROJECT_DIR$/tests/fixtures/search_no_name.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20618556">
+        <state relative-caret-position="242">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <marker date="1459897905000" expanded="true" signature="0:109748" placeholder="{&quot;code&quot;: 200...}" />
+            <marker date="1459897905000" expanded="true" signature="323:109746" placeholder="{&quot;offset&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="431:109740" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="445:4355" placeholder="{&quot;id&quot;: 42882...}" />
+            <marker date="1459897905000" expanded="true" signature="1102:1615" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="1124:1358" placeholder="{&quot;type&quot;: &quot;detail&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="1380:1597" placeholder="{&quot;type&quot;: &quot;reader&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="1643:1821" placeholder="{&quot;name&quot;: &quot;Lorna the Jungle Girl (1954 - 1957)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="1954:2423" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="1976:2104" placeholder="{&quot;type&quot;: &quot;onsaleDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="2126:2252" placeholder="{&quot;type&quot;: &quot;focDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="2274:2405" placeholder="{&quot;type&quot;: &quot;unlimitedDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="2451:2595" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="2473:2577" placeholder="{&quot;type&quot;: &quot;printPrice&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="2626:2783" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/9\/40\/50b4fc783d30f&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="2811:3020" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="2833:3002" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/9\/40\/50b4fc783d30f&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="3050:3277" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="3309:3538" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="3567:4088" placeholder="{&quot;available&quot;: 1...}" />
+            <marker date="1459897905000" expanded="true" signature="3738:4035" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="3764:4013" placeholder="{&quot;name&quot;: &quot;cover from Lorna the Jungle Girl #6&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="4116:4341" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="4369:9521" placeholder="{&quot;id&quot;: 41530...}" />
+            <marker date="1459897905000" expanded="true" signature="5266:5780" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="5288:5762" placeholder="{&quot;type&quot;: &quot;issue_solicit_text&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="5895:6425" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="5917:6154" placeholder="{&quot;type&quot;: &quot;detail&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="6176:6407" placeholder="{&quot;type&quot;: &quot;purchase&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="6453:6624" placeholder="{&quot;name&quot;: &quot;Ant-Man: So (2011 - Present)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="6757:7072" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="6779:6907" placeholder="{&quot;type&quot;: &quot;onsaleDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="6929:7054" placeholder="{&quot;type&quot;: &quot;focDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="7100:7248" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="7122:7230" placeholder="{&quot;type&quot;: &quot;printPrice&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="7279:7436" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/30\/4fe8cb51f32e0&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="7464:7673" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="7486:7655" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/30\/4fe8cb51f32e0&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="7703:8205" placeholder="{&quot;available&quot;: 1...}" />
+            <marker date="1459897905000" expanded="true" signature="7875:8152" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="7901:8130" placeholder="{&quot;name&quot;: &quot;Jeff Youngquist&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="8237:8466" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="8495:9254" placeholder="{&quot;available&quot;: 2...}" />
+            <marker date="1459897905000" expanded="true" signature="8666:9201" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="8692:8917" placeholder="{&quot;name&quot;: &quot;Cover #93946&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="8943:9179" placeholder="{&quot;name&quot;: &quot;Interior #93947&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="9282:9507" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="9535:15546" placeholder="{&quot;id&quot;: 58530...}" />
+            <marker date="1459897905000" expanded="true" signature="10548:11170" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="10570:11152" placeholder="{&quot;type&quot;: &quot;issue_solicit_text&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="11285:11584" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="11307:11566" placeholder="{&quot;type&quot;: &quot;detail&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="11612:11821" placeholder="{&quot;name&quot;: &quot;Miracleman by Gaiman &amp; Buckingham: The Silver Age (2016 - Present)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="11851:12376" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="11873:12104" placeholder="{&quot;name&quot;: &quot;Miracleman by Gaiman &amp; Buckingham: The Silver Age (2016) #2 (Dodson Variant)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="12126:12358" placeholder="{&quot;name&quot;: &quot;Miracleman by Gaiman &amp; Buckingham: The Silver Age (2016) #2 (Shalvey Variant)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="12477:12792" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="12499:12627" placeholder="{&quot;type&quot;: &quot;onsaleDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="12649:12774" placeholder="{&quot;type&quot;: &quot;focDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="12820:12967" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="12842:12949" placeholder="{&quot;type&quot;: &quot;printPrice&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="12998:13155" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/a0\/56e6d107692cc&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="13183:13583" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="13205:13374" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/a0\/56e6d107692cc&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="13396:13565" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/1\/80\/56956c5933f29&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="13613:14115" placeholder="{&quot;available&quot;: 1...}" />
+            <marker date="1459897905000" expanded="true" signature="13785:14062" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="13811:14040" placeholder="{&quot;name&quot;: &quot;Jeff Youngquist&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="14147:14376" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="14405:15279" placeholder="{&quot;available&quot;: 2...}" />
+            <marker date="1459897905000" expanded="true" signature="14576:15226" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="14602:14886" placeholder="{&quot;name&quot;: &quot;cover from Miracleman by Gaiman &amp; Buckingham: The Silver Age (2016) #2&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="14912:15204" placeholder="{&quot;name&quot;: &quot;story from Miracleman by Gaiman &amp; Buckingham: The Silver Age (2016) #2&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="15307:15532" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="15560:21257" placeholder="{&quot;id&quot;: 56034...}" />
+            <marker date="1459897905000" expanded="true" signature="16432:16949" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="16454:16931" placeholder="{&quot;type&quot;: &quot;issue_solicit_text&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="17064:17333" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="17086:17315" placeholder="{&quot;type&quot;: &quot;detail&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="17361:17543" placeholder="{&quot;name&quot;: &quot;Agents of S.H.I.E.L.D. (2016 - Present)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="17676:17991" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="17698:17826" placeholder="{&quot;type&quot;: &quot;onsaleDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="17848:17973" placeholder="{&quot;type&quot;: &quot;focDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="18019:18166" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="18041:18148" placeholder="{&quot;type&quot;: &quot;printPrice&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="18197:18354" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/90\/56fe8beb0354e&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="18382:18591" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="18404:18573" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/90\/56fe8beb0354e&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="18621:19880" placeholder="{&quot;available&quot;: 4...}" />
+            <marker date="1459897905000" expanded="true" signature="18793:19827" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="18819:19047" placeholder="{&quot;name&quot;: &quot;Marc Guggenheim&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="19073:19300" placeholder="{&quot;name&quot;: &quot;Katie Kubert&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="19326:19550" placeholder="{&quot;name&quot;: &quot;Mike Norton&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="19576:19805" placeholder="{&quot;name&quot;: &quot;German Peralta&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="19912:20141" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="20170:20990" placeholder="{&quot;available&quot;: 2...}" />
+            <marker date="1459897905000" expanded="true" signature="20341:20937" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="20367:20624" placeholder="{&quot;name&quot;: &quot;cover from Agents of S.H.I.E.L.D. (2015) #6&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="20650:20915" placeholder="{&quot;name&quot;: &quot;story from Agents of S.H.I.E.L.D. (2015) #6&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="21018:21243" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="21271:26402" placeholder="{&quot;id&quot;: 55685...}" />
+            <marker date="1459897905000" expanded="true" signature="21999:22383" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="22021:22365" placeholder="{&quot;type&quot;: &quot;issue_solicit_text&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="22498:22762" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="22520:22744" placeholder="{&quot;type&quot;: &quot;detail&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="22790:22961" placeholder="{&quot;name&quot;: &quot;Spider-Gwen (2015 - Present)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="23094:23409" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="23116:23244" placeholder="{&quot;type&quot;: &quot;onsaleDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="23266:23391" placeholder="{&quot;type&quot;: &quot;focDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="23437:23584" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="23459:23566" placeholder="{&quot;type&quot;: &quot;printPrice&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="23615:23772" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/80\/56fed7c1d713c&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="23800:24009" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="23822:23991" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/80\/56fed7c1d713c&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="24039:25047" placeholder="{&quot;available&quot;: 3...}" />
+            <marker date="1459897905000" expanded="true" signature="24211:24994" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="24237:24464" placeholder="{&quot;name&quot;: &quot;Jason Latour&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="24490:24713" placeholder="{&quot;name&quot;: &quot;Nick Lowe&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="24739:24972" placeholder="{&quot;name&quot;: &quot;Robbi Rodriguez&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="25079:25308" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="25337:26135" placeholder="{&quot;available&quot;: 2...}" />
+            <marker date="1459897905000" expanded="true" signature="25508:26082" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="25534:25780" placeholder="{&quot;name&quot;: &quot;cover from Spider-Gwen (2015) #9&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="25806:26060" placeholder="{&quot;name&quot;: &quot;story from Spider-Gwen (2015) #9&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="26163:26388" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="26416:32359" placeholder="{&quot;id&quot;: 56239...}" />
+            <marker date="1459897905000" expanded="true" signature="27547:28330" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="27569:28312" placeholder="{&quot;type&quot;: &quot;issue_solicit_text&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="28445:28712" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="28467:28694" placeholder="{&quot;type&quot;: &quot;detail&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="28740:28913" placeholder="{&quot;name&quot;: &quot;All-New X-Men (2015 - Present)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="29046:29361" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="29068:29196" placeholder="{&quot;type&quot;: &quot;onsaleDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="29218:29343" placeholder="{&quot;type&quot;: &quot;focDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="29389:29536" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="29411:29518" placeholder="{&quot;type&quot;: &quot;printPrice&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="29567:29724" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/a\/a0\/56fe8f6c2f749&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="29752:29961" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="29774:29943" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/a\/a0\/56fe8f6c2f749&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="29991:30998" placeholder="{&quot;available&quot;: 3...}" />
+            <marker date="1459897905000" expanded="true" signature="30163:30945" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="30189:30412" placeholder="{&quot;name&quot;: &quot;Mark Bagley&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="30438:30668" placeholder="{&quot;name&quot;: &quot;Dennis Hopeless&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="30694:30923" placeholder="{&quot;name&quot;: &quot;Daniel Ketchum&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="31030:31259" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="31288:32092" placeholder="{&quot;available&quot;: 2...}" />
+            <marker date="1459897905000" expanded="true" signature="31459:32039" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="31485:31734" placeholder="{&quot;name&quot;: &quot;cover from All-New X-Men (2015) #10&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="31760:32017" placeholder="{&quot;name&quot;: &quot;story from All-New X-Men (2015) #10&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="32120:32345" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="32373:37844" placeholder="{&quot;id&quot;: 59420...}" />
+            <marker date="1459897905000" expanded="true" signature="33269:33818" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="33291:33800" placeholder="{&quot;type&quot;: &quot;issue_solicit_text&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="33933:34199" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="33955:34181" placeholder="{&quot;type&quot;: &quot;detail&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="34227:34399" placeholder="{&quot;name&quot;: &quot;New Avengers (2015 - Present)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="34532:34847" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="34554:34682" placeholder="{&quot;type&quot;: &quot;onsaleDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="34704:34829" placeholder="{&quot;type&quot;: &quot;focDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="34875:35022" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="34897:35004" placeholder="{&quot;type&quot;: &quot;printPrice&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="35053:35210" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/80\/56feca44c67b3&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="35238:35447" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="35260:35429" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/80\/56feca44c67b3&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="35477:36485" placeholder="{&quot;available&quot;: 3...}" />
+            <marker date="1459897905000" expanded="true" signature="35649:36432" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="35675:35901" placeholder="{&quot;name&quot;: &quot;Tom Brevoort&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="35927:36150" placeholder="{&quot;name&quot;: &quot;Al Ewing&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="36176:36410" placeholder="{&quot;name&quot;: &quot;Gerardo Sandoval&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="36517:36746" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="36775:37577" placeholder="{&quot;available&quot;: 2...}" />
+            <marker date="1459897905000" expanded="true" signature="36946:37524" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="36972:37220" placeholder="{&quot;name&quot;: &quot;cover from New Avengers (2015) #12&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="37246:37502" placeholder="{&quot;name&quot;: &quot;story from New Avengers (2015) #12&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="37605:37830" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="37858:43871" placeholder="{&quot;id&quot;: 55662...}" />
+            <marker date="1459897905000" expanded="true" signature="39033:39853" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="39055:39835" placeholder="{&quot;type&quot;: &quot;issue_solicit_text&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="39968:40234" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="39990:40216" placeholder="{&quot;type&quot;: &quot;detail&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="40262:40435" placeholder="{&quot;name&quot;: &quot;Silver Surfer (2016 - Present)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="40568:40883" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="40590:40718" placeholder="{&quot;type&quot;: &quot;onsaleDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="40740:40865" placeholder="{&quot;type&quot;: &quot;focDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="40911:41058" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="40933:41040" placeholder="{&quot;type&quot;: &quot;printPrice&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="41089:41246" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/d\/10\/56fed276f0d7f&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="41274:41483" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="41296:41465" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/d\/10\/56fed276f0d7f&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="41513:42512" placeholder="{&quot;available&quot;: 3...}" />
+            <marker date="1459897905000" expanded="true" signature="41685:42459" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="41711:41937" placeholder="{&quot;name&quot;: &quot;Mike Allred&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="41963:42189" placeholder="{&quot;name&quot;: &quot;Tom Brevoort&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="42215:42437" placeholder="{&quot;name&quot;: &quot;Dan Slott&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="42544:42773" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="42802:43604" placeholder="{&quot;available&quot;: 2...}" />
+            <marker date="1459897905000" expanded="true" signature="42973:43551" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="42999:43247" placeholder="{&quot;name&quot;: &quot;cover from Silver Surfer (2015) #5&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="43273:43529" placeholder="{&quot;name&quot;: &quot;story from Silver Surfer (2015) #5&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="43632:43857" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="43885:49159" placeholder="{&quot;id&quot;: 57262...}" />
+            <marker date="1459897905000" expanded="true" signature="44688:45149" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="44710:45131" placeholder="{&quot;type&quot;: &quot;issue_solicit_text&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="45264:45526" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="45286:45508" placeholder="{&quot;type&quot;: &quot;detail&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="45554:45723" placeholder="{&quot;name&quot;: &quot;Ultimates (2015 - Present)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="45856:46171" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="45878:46006" placeholder="{&quot;type&quot;: &quot;onsaleDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="46028:46153" placeholder="{&quot;type&quot;: &quot;focDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="46199:46346" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="46221:46328" placeholder="{&quot;type&quot;: &quot;printPrice&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="46377:46534" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/f\/c0\/56feda6970afc&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="46562:46771" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="46584:46753" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/f\/c0\/56feda6970afc&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="46801:47808" placeholder="{&quot;available&quot;: 3...}" />
+            <marker date="1459897905000" expanded="true" signature="46973:47755" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="46999:47222" placeholder="{&quot;name&quot;: &quot;Al Ewing&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="47248:47474" placeholder="{&quot;name&quot;: &quot;Wilson Moss&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="47500:47733" placeholder="{&quot;name&quot;: &quot;Kenneth Rocafort&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="47840:48069" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="48098:48892" placeholder="{&quot;available&quot;: 2...}" />
+            <marker date="1459897905000" expanded="true" signature="48269:48839" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="48295:48539" placeholder="{&quot;name&quot;: &quot;cover from Ultimates (2015) #8&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="48565:48817" placeholder="{&quot;name&quot;: &quot;story from Ultimates (2015) #8&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="48920:49145" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="49173:54976" placeholder="{&quot;id&quot;: 55472...}" />
+            <marker date="1459897905000" expanded="true" signature="50089:50649" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="50111:50631" placeholder="{&quot;type&quot;: &quot;issue_solicit_text&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="50764:51040" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="50786:51022" placeholder="{&quot;type&quot;: &quot;detail&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="51068:51251" placeholder="{&quot;name&quot;: &quot;Guardians of the Galaxy (2015 - Present)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="51384:51699" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="51406:51534" placeholder="{&quot;type&quot;: &quot;onsaleDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="51556:51681" placeholder="{&quot;type&quot;: &quot;focDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="51727:51874" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="51749:51856" placeholder="{&quot;type&quot;: &quot;printPrice&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="51905:52062" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/7\/40\/56fec282d6479&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="52090:52299" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="52112:52281" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/7\/40\/56fec282d6479&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="52329:53597" placeholder="{&quot;available&quot;: 4...}" />
+            <marker date="1459897905000" expanded="true" signature="52501:53544" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="52527:52757" placeholder="{&quot;name&quot;: &quot;Arthur Adams&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="52783:53015" placeholder="{&quot;name&quot;: &quot;Valerio Schiti&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="53041:53273" placeholder="{&quot;name&quot;: &quot;Brian Michael Bendis&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="53299:53522" placeholder="{&quot;name&quot;: &quot;Nick Lowe&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="53629:53858" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="53887:54709" placeholder="{&quot;available&quot;: 2...}" />
+            <marker date="1459897905000" expanded="true" signature="54058:54656" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="54084:54342" placeholder="{&quot;name&quot;: &quot;cover from Guardians of the Galaxy (2015) #9&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="54368:54634" placeholder="{&quot;name&quot;: &quot;story from Guardians of the Galaxy (2015) #9&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="54737:54962" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="54990:60099" placeholder="{&quot;id&quot;: 57297...}" />
+            <marker date="1459897905000" expanded="true" signature="55693:56044" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="55715:56026" placeholder="{&quot;type&quot;: &quot;issue_solicit_text&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="56159:56430" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="56181:56412" placeholder="{&quot;type&quot;: &quot;detail&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="56458:56637" placeholder="{&quot;name&quot;: &quot;Venom: Space Knight (2015 - Present)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="56770:57085" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="56792:56920" placeholder="{&quot;type&quot;: &quot;onsaleDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="56942:57067" placeholder="{&quot;type&quot;: &quot;focDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="57113:57260" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="57135:57242" placeholder="{&quot;type&quot;: &quot;printPrice&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="57291:57448" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/70\/56fedb6456d0a&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="57476:57685" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="57498:57667" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/70\/56fedb6456d0a&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="57715:58728" placeholder="{&quot;available&quot;: 3...}" />
+            <marker date="1459897905000" expanded="true" signature="57887:58675" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="57913:58144" placeholder="{&quot;name&quot;: &quot;Ariel Olivetti&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="58170:58397" placeholder="{&quot;name&quot;: &quot;Jacob Thomas&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="58423:58653" placeholder="{&quot;name&quot;: &quot;Robbie Thompson&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="58760:58989" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="59018:59832" placeholder="{&quot;available&quot;: 2...}" />
+            <marker date="1459897905000" expanded="true" signature="59189:59779" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="59215:59469" placeholder="{&quot;name&quot;: &quot;cover from Venom: Space Knight (2015) #8&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="59495:59757" placeholder="{&quot;name&quot;: &quot;story from Venom: Space Knight (2015) #8&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="59860:60085" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="60113:66003" placeholder="{&quot;id&quot;: 59612...}" />
+            <marker date="1459897905000" expanded="true" signature="61075:61679" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="61097:61661" placeholder="{&quot;type&quot;: &quot;issue_solicit_text&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="61794:62071" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="61816:62053" placeholder="{&quot;type&quot;: &quot;detail&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="62099:62284" placeholder="{&quot;name&quot;: &quot;Civil War II: Gods of War (2016 - Present)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="62417:62732" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="62439:62567" placeholder="{&quot;type&quot;: &quot;onsaleDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="62589:62714" placeholder="{&quot;type&quot;: &quot;focDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="62760:62907" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="62782:62889" placeholder="{&quot;type&quot;: &quot;printPrice&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="62938:63095" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/9\/e0\/56fe99e042bf2&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="63123:63332" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="63145:63314" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/9\/e0\/56fe99e042bf2&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="63362:64620" placeholder="{&quot;available&quot;: 4...}" />
+            <marker date="1459897905000" expanded="true" signature="63534:64567" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="63560:63784" placeholder="{&quot;name&quot;: &quot;Dan Abnett&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="63810:64036" placeholder="{&quot;name&quot;: &quot;Jay Anacleto&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="64062:64289" placeholder="{&quot;name&quot;: &quot;Katie Kubert&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="64315:64545" placeholder="{&quot;name&quot;: &quot;Emilio Laiso&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="64652:64881" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="64910:65736" placeholder="{&quot;available&quot;: 2...}" />
+            <marker date="1459897905000" expanded="true" signature="65081:65683" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="65107:65367" placeholder="{&quot;name&quot;: &quot;cover from Civil War II: Gods of War (2016) #1&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="65393:65661" placeholder="{&quot;name&quot;: &quot;story from Civil War II: Gods of War (2016) #1&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="65764:65989" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="66017:71276" placeholder="{&quot;id&quot;: 56123...}" />
+            <marker date="1459897905000" expanded="true" signature="66808:67256" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="66830:67238" placeholder="{&quot;type&quot;: &quot;issue_solicit_text&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="67371:67633" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="67393:67615" placeholder="{&quot;type&quot;: &quot;detail&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="67661:67831" placeholder="{&quot;name&quot;: &quot;Ms. Marvel (2015 - Present)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="67964:68279" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="67986:68114" placeholder="{&quot;type&quot;: &quot;onsaleDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="68136:68261" placeholder="{&quot;type&quot;: &quot;focDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="68307:68454" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="68329:68436" placeholder="{&quot;type&quot;: &quot;printPrice&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="68485:68642" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/7\/30\/56fec7a725793&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="68670:68879" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="68692:68861" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/7\/30\/56fec7a725793&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="68909:69923" placeholder="{&quot;available&quot;: 3...}" />
+            <marker date="1459897905000" expanded="true" signature="69081:69870" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="69107:69333" placeholder="{&quot;name&quot;: &quot;Sana Amanat&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="69359:69591" placeholder="{&quot;name&quot;: &quot;Takeshi Miyazawa&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="69617:69848" placeholder="{&quot;name&quot;: &quot;G. Willow Wilson&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="69955:70184" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="70213:71009" placeholder="{&quot;available&quot;: 2...}" />
+            <marker date="1459897905000" expanded="true" signature="70384:70956" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="70410:70655" placeholder="{&quot;name&quot;: &quot;cover from Ms. Marvel (2015) #8&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="70681:70934" placeholder="{&quot;name&quot;: &quot;story from Ms. Marvel (2015) #8&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="71037:71262" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="71290:76741" placeholder="{&quot;id&quot;: 57236...}" />
+            <marker date="1459897905000" expanded="true" signature="72181:72727" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="72203:72709" placeholder="{&quot;type&quot;: &quot;issue_solicit_text&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="72842:73107" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="72864:73089" placeholder="{&quot;type&quot;: &quot;detail&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="73135:73307" placeholder="{&quot;name&quot;: &quot;Thunderbolts (2016 - Present)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="73440:73755" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="73462:73590" placeholder="{&quot;type&quot;: &quot;onsaleDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="73612:73737" placeholder="{&quot;type&quot;: &quot;focDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="73783:73930" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="73805:73912" placeholder="{&quot;type&quot;: &quot;printPrice&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="73961:74118" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/e0\/56fed9097432a&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="74146:74355" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="74168:74337" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/e0\/56fed9097432a&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="74385:75384" placeholder="{&quot;available&quot;: 3...}" />
+            <marker date="1459897905000" expanded="true" signature="74557:75331" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="74583:74809" placeholder="{&quot;name&quot;: &quot;Tom Brevoort&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="74835:75061" placeholder="{&quot;name&quot;: &quot;Jon Malin&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="75087:75309" placeholder="{&quot;name&quot;: &quot;Jim Zub&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="75416:75645" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="75674:76474" placeholder="{&quot;available&quot;: 2...}" />
+            <marker date="1459897905000" expanded="true" signature="75845:76421" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="75871:76118" placeholder="{&quot;name&quot;: &quot;cover from Thunderbolts (2016) #2&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="76144:76399" placeholder="{&quot;name&quot;: &quot;story from Thunderbolts (2016) #2&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="76502:76727" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="76755:81873" placeholder="{&quot;id&quot;: 57607...}" />
+            <marker date="1459897905000" expanded="true" signature="77454:77790" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="77476:77772" placeholder="{&quot;type&quot;: &quot;issue_solicit_text&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="77905:78186" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="77927:78168" placeholder="{&quot;type&quot;: &quot;detail&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="78214:78404" placeholder="{&quot;name&quot;: &quot;Deadpool &amp; The Mercs For Money (2016 - Present)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="78537:78852" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="78559:78687" placeholder="{&quot;type&quot;: &quot;onsaleDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="78709:78834" placeholder="{&quot;type&quot;: &quot;focDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="78880:79027" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="78902:79009" placeholder="{&quot;type&quot;: &quot;printPrice&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="79058:79215" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/f\/10\/56fec01cf1fc3&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="79243:79452" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="79265:79434" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/f\/10\/56fec01cf1fc3&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="79482:80490" placeholder="{&quot;available&quot;: 3...}" />
+            <marker date="1459897905000" expanded="true" signature="79654:80437" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="79680:79906" placeholder="{&quot;name&quot;: &quot;Cullen Bunn&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="79932:80163" placeholder="{&quot;name&quot;: &quot;Salvador Espin&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="80189:80415" placeholder="{&quot;name&quot;: &quot;Jordan White&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="80522:80751" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="80780:81606" placeholder="{&quot;available&quot;: 2...}" />
+            <marker date="1459897905000" expanded="true" signature="80951:81553" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="80977:81242" placeholder="{&quot;name&quot;: &quot;cover from Deadpool &amp; The Mercs For Money (2016) #5&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="81268:81531" placeholder="{&quot;name&quot;: &quot;story from Deadpool: TBD Series (2016) #5&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="81634:81859" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="81887:87018" placeholder="{&quot;id&quot;: 55401...}" />
+            <marker date="1459897905000" expanded="true" signature="82613:82992" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="82635:82974" placeholder="{&quot;type&quot;: &quot;issue_solicit_text&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="83107:83372" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="83129:83354" placeholder="{&quot;type&quot;: &quot;detail&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="83400:83571" placeholder="{&quot;name&quot;: &quot;Darth Vader (2015 - Present)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="83704:84019" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="83726:83854" placeholder="{&quot;type&quot;: &quot;onsaleDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="83876:84001" placeholder="{&quot;type&quot;: &quot;focDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="84047:84194" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="84069:84176" placeholder="{&quot;type&quot;: &quot;printPrice&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="84225:84382" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/7\/30\/56fea167e8448&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="84410:84619" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="84432:84601" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/7\/30\/56fea167e8448&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="84649:85661" placeholder="{&quot;available&quot;: 3...}" />
+            <marker date="1459897905000" expanded="true" signature="84821:85608" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="84847:85074" placeholder="{&quot;name&quot;: &quot;Kieron Gillen&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="85100:85334" placeholder="{&quot;name&quot;: &quot;Salvador Larroca&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="85360:85586" placeholder="{&quot;name&quot;: &quot;Jordan White&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="85693:85922" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="85951:86751" placeholder="{&quot;available&quot;: 2...}" />
+            <marker date="1459897905000" expanded="true" signature="86122:86698" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="86148:86395" placeholder="{&quot;name&quot;: &quot;cover from Darth Vader (2015) #21&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="86421:86676" placeholder="{&quot;name&quot;: &quot;story from Darth Vader (2015) #21&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="86779:87004" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="87032:93149" placeholder="{&quot;id&quot;: 59602...}" />
+            <marker date="1459897905000" expanded="true" signature="88091:88785" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="88113:88767" placeholder="{&quot;type&quot;: &quot;issue_solicit_text&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="88900:89184" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="88922:89166" placeholder="{&quot;type&quot;: &quot;detail&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="89212:89404" placeholder="{&quot;name&quot;: &quot;Civil War II: Amazing Spider-Man (2016 - Present)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="89537:89852" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="89559:89687" placeholder="{&quot;type&quot;: &quot;onsaleDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="89709:89834" placeholder="{&quot;type&quot;: &quot;focDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="89880:90027" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="89902:90009" placeholder="{&quot;type&quot;: &quot;printPrice&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="90058:90215" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/70\/56fe95046bd02&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="90243:90452" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="90265:90434" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/70\/56fe95046bd02&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="90482:91752" placeholder="{&quot;available&quot;: 4...}" />
+            <marker date="1459897905000" expanded="true" signature="90654:91699" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="90680:90910" placeholder="{&quot;name&quot;: &quot;Travel Foreman&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="90936:91164" placeholder="{&quot;name&quot;: &quot;Christos Gage&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="91190:91413" placeholder="{&quot;name&quot;: &quot;Nick Lowe&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="91439:91677" placeholder="{&quot;name&quot;: &quot;Khary Randolph&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="91784:92013" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="92042:92882" placeholder="{&quot;available&quot;: 2...}" />
+            <marker date="1459897905000" expanded="true" signature="92213:92829" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="92239:92506" placeholder="{&quot;name&quot;: &quot;cover from Civil War II: Amazing Spider-Man (2016) #1&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="92532:92807" placeholder="{&quot;name&quot;: &quot;story from Civil War II: Amazing Spider-Man (2016) #1&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="92910:93135" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="93163:99189" placeholder="{&quot;id&quot;: 57316...}" />
+            <marker date="1459897905000" expanded="true" signature="94208:94914" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="94230:94896" placeholder="{&quot;type&quot;: &quot;issue_solicit_text&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="95029:95288" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="95051:95270" placeholder="{&quot;type&quot;: &quot;detail&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="95316:95482" placeholder="{&quot;name&quot;: &quot;Vision (2015 - Present)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="95615:95930" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="95637:95765" placeholder="{&quot;type&quot;: &quot;onsaleDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="95787:95912" placeholder="{&quot;type&quot;: &quot;focDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="95958:96105" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="95980:96087" placeholder="{&quot;type&quot;: &quot;printPrice&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="96136:96293" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/d\/30\/56fedc6e489e0&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="96321:96530" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="96343:96512" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/d\/30\/56fedc6e489e0&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="96560:97844" placeholder="{&quot;available&quot;: 4...}" />
+            <marker date="1459897905000" expanded="true" signature="96732:97791" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="96758:96981" placeholder="{&quot;name&quot;: &quot;Tom King&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="97007:97233" placeholder="{&quot;name&quot;: &quot;Wilson Moss&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="97259:97502" placeholder="{&quot;name&quot;: &quot;Michael Del Mundo&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="97528:97769" placeholder="{&quot;name&quot;: &quot;Gabriel Hernandez Walta&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="97876:98105" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="98134:98922" placeholder="{&quot;available&quot;: 2...}" />
+            <marker date="1459897905000" expanded="true" signature="98305:98869" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="98331:98572" placeholder="{&quot;name&quot;: &quot;cover from Vision (2015) #8&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="98598:98847" placeholder="{&quot;name&quot;: &quot;story from Vision (2015) #8&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="98950:99175" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="99203:104634" placeholder="{&quot;id&quot;: 56717...}" />
+            <marker date="1459897905000" expanded="true" signature="100085:100625" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="100107:100607" placeholder="{&quot;type&quot;: &quot;issue_solicit_text&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="100740:101002" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="100762:100984" placeholder="{&quot;type&quot;: &quot;detail&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="101030:101199" placeholder="{&quot;name&quot;: &quot;Daredevil (2015 - Present)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="101332:101647" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="101354:101482" placeholder="{&quot;type&quot;: &quot;onsaleDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="101504:101629" placeholder="{&quot;type&quot;: &quot;focDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="101675:101822" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="101697:101804" placeholder="{&quot;type&quot;: &quot;printPrice&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="101853:102010" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/40\/56fe9bb2073ca&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="102038:102247" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="102060:102229" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/40\/56fe9bb2073ca&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="102277:103283" placeholder="{&quot;available&quot;: 3...}" />
+            <marker date="1459897905000" expanded="true" signature="102449:103230" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="102475:102701" placeholder="{&quot;name&quot;: &quot;Ron Garney&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="102727:102954" placeholder="{&quot;name&quot;: &quot;Mark Paniccia&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="102980:103208" placeholder="{&quot;name&quot;: &quot;Charles Soule&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="103315:103544" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="103573:104367" placeholder="{&quot;available&quot;: 2...}" />
+            <marker date="1459897905000" expanded="true" signature="103744:104314" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="103770:104014" placeholder="{&quot;name&quot;: &quot;cover from Daredevil (2015) #8&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="104040:104292" placeholder="{&quot;name&quot;: &quot;story from Daredevil (2015) #8&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="104395:104620" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="104648:109730" placeholder="{&quot;id&quot;: 57988...}" />
+            <marker date="1459897905000" expanded="true" signature="105337:105671" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="105359:105653" placeholder="{&quot;type&quot;: &quot;issue_solicit_text&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="105786:106060" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="105808:106042" placeholder="{&quot;type&quot;: &quot;detail&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="106088:106270" placeholder="{&quot;name&quot;: &quot;Star Wars: Poe Dameron (2016 - Present)&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="106403:106718" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="106425:106553" placeholder="{&quot;type&quot;: &quot;onsaleDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="106575:106700" placeholder="{&quot;type&quot;: &quot;focDate&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="106746:106893" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="106768:106875" placeholder="{&quot;type&quot;: &quot;printPrice&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="106924:107081" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/9\/f0\/56fecf1209d69&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="107109:107318" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="107131:107300" placeholder="{&quot;path&quot;: &quot;http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/9\/f0\/56fecf1209d69&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="107348:108353" placeholder="{&quot;available&quot;: 3...}" />
+            <marker date="1459897905000" expanded="true" signature="107520:108300" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="107546:107772" placeholder="{&quot;name&quot;: &quot;Phil Noto&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="107798:108026" placeholder="{&quot;name&quot;: &quot;Charles Soule&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="108052:108278" placeholder="{&quot;name&quot;: &quot;Jordan White&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="108385:108614" placeholder="{&quot;available&quot;: 0...}" />
+            <marker date="1459897905000" expanded="true" signature="108643:109463" placeholder="{&quot;available&quot;: 2...}" />
+            <marker date="1459897905000" expanded="true" signature="108814:109410" placeholder="[...]" />
+            <marker date="1459897905000" expanded="true" signature="108840:109097" placeholder="{&quot;name&quot;: &quot;cover from Star Wars: Poe Dameron (2016) #3&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="109123:109388" placeholder="{&quot;name&quot;: &quot;story from Star Wars: Poe Dameron (2016) #3&quot;...}" />
+            <marker date="1459897905000" expanded="true" signature="109491:109716" placeholder="{&quot;available&quot;: 0...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/MarvelApiClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+          <folding>
+            <marker date="1459544308000" expanded="false" signature="37:114" placeholder="..." />
+            <marker date="1459544308000" expanded="true" signature="161:1170" placeholder="{...}" />
+            <marker date="1459544308000" expanded="true" signature="171:247" placeholder=" Bootstrap the application services. ..." />
+            <marker date="1459544308000" expanded="true" signature="276:1028" placeholder="{...}" />
+            <marker date="1459544308000" expanded="true" signature="308:1019" placeholder="..." />
+            <marker date="1459544308000" expanded="true" signature="365:1018" placeholder="..." />
+            <marker date="1459544308000" expanded="true" signature="389:720" placeholder="..." />
+            <marker date="1459544308000" expanded="true" signature="631:706" placeholder="..." />
+            <marker date="1459544308000" expanded="true" signature="1037:1112" placeholder=" Register the application services. ..." />
+            <marker date="1459544308000" expanded="true" signature="1145:1168" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+    <entry file="file://$PROJECT_DIR$/tests/SearchControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5665236">
-          <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+        <state relative-caret-position="220">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
-            <marker date="1459712610000" expanded="true" signature="69:1519" placeholder="..." />
-            <marker date="1459712610000" expanded="true" signature="387:520" placeholder="..." />
-            <marker date="1459712610000" expanded="true" signature="437:502" placeholder="..." />
-            <marker date="1459712610000" expanded="true" signature="533:642" placeholder="..." />
-            <marker date="1459712610000" expanded="true" signature="553:628" placeholder="..." />
-            <marker date="1459712610000" expanded="true" signature="658:797" placeholder="..." />
-            <marker date="1459712610000" expanded="true" signature="807:1508" placeholder="..." />
+            <marker date="1459889247000" expanded="true" signature="11:61" placeholder="..." />
+            <marker date="1459889247000" expanded="true" signature="106:968" placeholder="{...}" />
+            <marker date="1459889247000" expanded="true" signature="157:874" placeholder="{...}" />
+            <marker date="1459889247000" expanded="true" signature="906:966" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env.travis">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SearchComics.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5476395">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05665236">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1459712733000" expanded="true" signature="15:28" placeholder="php:" />
-            <marker date="1459712733000" expanded="true" signature="29:179" placeholder="before_script:" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07553648">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="176">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="40" />
           <folding />
         </state>
       </provider>
