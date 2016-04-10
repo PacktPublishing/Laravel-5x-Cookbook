@@ -17,6 +17,12 @@
         "symfony/dom-crawler": "2.8.*|3.0.*",
         "php-vcr/phpunit-testlistener-vcr": "*"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/alnutile/l5scaffold.git"
+        }
+    ],
     "autoload": {
         "classmap": [
             "database"
