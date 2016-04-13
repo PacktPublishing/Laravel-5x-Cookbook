@@ -16,7 +16,7 @@ class SearchControllerTest extends TestCase
         $this->app->instance('App\Interfaces\ComicClientInterface', $mock);
 
         //Act
-        $results = $this->call('GET', '/');
+        $results = $this->call('GET', '/api/v1/search');
 
         //Assert
         $this->assertEquals(200, $results->getStatusCode());
