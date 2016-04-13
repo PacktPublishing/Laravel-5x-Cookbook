@@ -33,5 +33,6 @@
         <env name="MARVEL_API_BASE_URL" value="https://gateway.marvel.com"/>
         <env name="MARVEL_API_KEY" value="eeaef8ccb27b7aa1e20c80bd2f0d78a5"/>
         <env name="MARVEL_API_SECRET" value="7ba1bfda7586b8392174ae93471383ff549a6be1"/>
+        <env name="APP_KEY" value="Xidkr59zYNuPVKWqHLiWwppEgK3Effoo"/>
     </php>
 </phpunit>
