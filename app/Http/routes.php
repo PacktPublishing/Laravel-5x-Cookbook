@@ -11,9 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 /*
 |--------------------------------------------------------------------------
@@ -27,7 +24,16 @@ Route::get('/', function () {
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
 
+    Route::get('/', 'HomeController@index');
+
+    Route::resource("users","UserController"); // Add this line in routes.php
+
+    Route::get('/api/v1/search', ['as' => 'search',
+        'uses' => 'SearchComics@searchComicsByName']);
 
 });
+
+
+
+

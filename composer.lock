@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2697f8b0d58ec04fe3db26431b08e7f1",
-    "content-hash": "0bf1f968b7541aea33c06442e9c19c6d",
+    "hash": "d2cf6dd550a0e23c3979a04d53f81495",
+    "content-hash": "b00d2ed65ab787543c756be9372d5060",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -476,6 +476,49 @@
                 "tokenizer"
             ],
             "time": "2015-12-05 17:17:57"
+        },
+        {
+            "name": "laralib/l5scaffold",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laralib/l5scaffold.git",
+                "reference": "6752eb6e27f6cd6d80f6fa6bc01a4019ee448512"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laralib/l5scaffold/zipball/6752eb6e27f6cd6d80f6fa6bc01a4019ee448512",
+                "reference": "6752eb6e27f6cd6d80f6fa6bc01a4019ee448512",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Laralib\\L5scaffold\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fernando Brito",
+                    "email": "fernandobritofl@gmail.com"
+                }
+            ],
+            "description": "Extend Laravel 5's generators scaffold.",
+            "keywords": [
+                "generators",
+                "laravel",
+                "laravel5",
+                "scaffold"
+            ],
+            "time": "2016-03-10 15:46:13"
         },
         {
             "name": "laravel/framework",
@@ -3353,8 +3396,10 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "laralib/l5scaffold": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

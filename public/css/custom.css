@@ -1,0 +1,27 @@
+.form-inline input.form-control  {
+    width: 100%;
+}
+
+.navbar-brand.custom {
+    padding-top: 15px;
+    margin-bottom: -15px;
+}
+
+div#form-buttons input[type=checkbox] {
+    display:none;
+}
+
+div#form-buttons input[type=checkbox] + label
+{
+    opacity: .5;
+}
+
+div#form-buttons input[type=checkbox]:checked + label
+{
+    opacity: 1;
+}
+
+
+.larger p {
+    font-size: 155%;
+}

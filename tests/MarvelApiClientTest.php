@@ -22,9 +22,18 @@ class MarvelApiClientTest extends TestCase
         $client = App::make(\App\Interfaces\ComicClientInterface::class);
 
         $ts = '1459629709';
+
         $results = $client->setTimeStamp($ts)->comics();
 
         $this->assertEquals(200, $results['code']);
 
+    }
+
+    /**
+     * @test
+     */
+    public function test_gulp()
+    {
+        $this->assertFalse(false);
     }
 }
