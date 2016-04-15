@@ -2,12 +2,11 @@
 
 @section('header')
     <div class="page-header">
-        <h1><i class="glyphicon glyphicon-edit"></i> Users / Edit #{{$user->id}}</h1>
+        <h1><i class="fa fa-user"></i> Users / Edit #{{$user->id}}</h1>
     </div>
 @endsection
 
 @section('content')
-    @include('error')
 
     <div class="row">
         <div class="col-md-12">
@@ -32,7 +31,7 @@
                     </div>
                     <div class="form-group @if($errors->has('password')) has-error @endif">
                        <label for="password-field">Password</label>
-                    <input type="text" id="password-field" name="password" class="form-control" value="{{ $user->password }}"/>
+                    <input type="text" id="password-field" name="password" class="form-control" value=""/>
                        @if($errors->has("password"))
                         <span class="help-block">{{ $errors->first("password") }}</span>
                        @endif

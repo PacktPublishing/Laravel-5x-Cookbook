@@ -25,6 +25,8 @@
 
 Route::group(['middleware' => ['web']], function () {
 
+    Route::auth();
+    
     Route::get('/', 'HomeController@index');
 
     Route::resource("users","UserController"); // Add this line in routes.php
@@ -32,14 +34,8 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/api/v1/search', ['as' => 'search',
         'uses' => 'SearchComics@searchComicsByName']);
 
+    Route::get('/show_message', function() {
+       return redirect('/')->with("message", "Hello There");
+    });
 });
 
-
-
-
-
-Route::group(['middleware' => 'web'], function () {
-    Route::auth();
-
-    Route::get('/home', 'HomeController@index');
-});

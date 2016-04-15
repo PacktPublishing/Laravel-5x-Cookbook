@@ -88,6 +88,8 @@ class UserController extends Controller {
 	 */
 	public function update(Request $request, $id)
 	{
+		$this->validate($request, ['email' => 'required']);
+		
 		$user = User::findOrFail($id);
 
 		$user->name = $request->input("name");

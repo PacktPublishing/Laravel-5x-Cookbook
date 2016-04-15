@@ -61,8 +61,10 @@
     </div>
 
     <div class="row">
-            @yield('header')
-            @yield('content')
+            <div class="container">
+                @yield('header')
+                @yield('content')
+            </div>
     </div>
 
 </div> <!-- /#wrapper -->
