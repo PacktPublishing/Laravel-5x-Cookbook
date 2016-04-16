@@ -12,7 +12,7 @@
                 @include('home._search')
 
                 <hr>
-                
+
                 <div class="panel panel-default">
                     <div class="panel-heading">Find some comics!</div>
                     <div class="panel-body">

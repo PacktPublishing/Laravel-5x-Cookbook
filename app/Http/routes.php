@@ -29,6 +29,11 @@ Route::group(['middleware' => ['web']], function () {
     
     Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
 
+    Route::get('/about', ['as' => 'about', function(){
+        $title = "About";
+        return view('about', compact('title'));
+    }]);
+
     Route::resource("users","UserController"); // Add this line in routes.php
 
     Route::get('/api/v1/search', ['as' => 'search',
