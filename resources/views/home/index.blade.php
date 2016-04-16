@@ -3,15 +3,24 @@
 
 
 @section('content')
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-            <h1>Hello World...</h1>
-            <p>
-                At vero eos et accusam et justo duo dolores et ea rebum. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
-            </p>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+
+                @include('error')
+
+                @include('home._search')
+
+                <hr>
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">Find some comics!</div>
+                    <div class="panel-body">
+                        What are you waiting for?
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
-</div>
 @endsection
