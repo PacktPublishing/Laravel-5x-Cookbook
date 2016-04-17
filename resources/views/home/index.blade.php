@@ -16,7 +16,7 @@
                         @else
                             @foreach($results['results'] as $result)
                                 <div class="media">
-                                    <div class="media-left col-lg-2">
+                                    <div class="media-left col-lg-2 col-mg-2 col-sm-2">
                                         <a href="{{ $result['urls'][0]['url']}}">
                                             @if(isset($result['thumbnail']['path']))
                                                 <img class="media-object img-thumbnail img-responsive"
