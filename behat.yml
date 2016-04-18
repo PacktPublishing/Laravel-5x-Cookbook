@@ -16,3 +16,15 @@ default:
             selenium2:
               wd_host: "http://selenium.dev:4444/wd/hub"
             browser_name: chrome
+
+travis:
+  extensions:
+    Laracasts\Behat:
+      env_path: .env.behat
+    Behat\MinkExtension:
+      base_url: http://localhost
+      default_session: laravel
+      laravel: ~
+      selenium2:
+        wd_host: 'http://127.0.0.1:4444/wd/hub'
+      browser_name: chrome
