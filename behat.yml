@@ -20,7 +20,7 @@ default:
 travis:
   extensions:
     Laracasts\Behat:
-      env_path: .env.behat
+      env_path: .env.travis
     Behat\MinkExtension:
       base_url: http://localhost:8000
       default_session: laravel
