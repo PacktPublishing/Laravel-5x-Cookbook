@@ -8,4 +8,7 @@ before_script:
   - travis_retry composer install --prefer-source --no-interaction --dev
   - cp .env.travis .env
 
-script: phpunit
+script:
+  - phpunit
+  - vendor/bin/behat -ptravis -shome_ui
+  - vendor/bin/behat -ptravis -shome_domain
