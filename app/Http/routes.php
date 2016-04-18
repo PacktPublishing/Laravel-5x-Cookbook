@@ -23,6 +23,11 @@
 |
 */
 
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Request;
+use Illuminate\Support\Facades\Response;
+
 Route::group(['middleware' => ['web']], function () {
 
     Route::auth();
@@ -42,5 +47,29 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/show_message', function() {
        return redirect('/')->with("message", "Hello There");
     });
+
+
+    /**
+     * Example of Fake API
+     *
+     */
+    if(env('MARVEL_API_FAKE') == true)
+    {
+        Route::get('/v1/public/comics', function(){
+            Log::info(sprintf("Request coming in %s", env('MARVEL_API_FAKE')));
+            if(Request::input('name'))
+            {
+                Log::info("This one had a name");
+                $fixture = File::get(base_path('tests/fixtures/results_no_name.json'));
+                $data = ['data' => json_decode($fixture, true)];
+            } else {
+                $fixture = File::get(base_path('tests/fixtures/results_no_name.json'));
+
+                $data = ['data' => json_decode($fixture, true)];
+            }
+
+            return Response::json($data);
+        });
+    }
 });
 

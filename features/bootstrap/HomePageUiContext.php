@@ -19,6 +19,7 @@ class HomePageUiContext extends MinkContext implements Context, SnippetAccepting
     public function __construct()
     {
         $this->baseUrl = env('APP_URL');
+        
     }
 
     /**
