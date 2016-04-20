@@ -13,6 +13,6 @@ class HomePageTest extends TestCase
      */
     public function testExample()
     {
-        $this->visit('/')->see("ICDB");
+        $this->visit('/')->see("Find some comics");
     }
 }
