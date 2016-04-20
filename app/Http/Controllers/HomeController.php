@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests;
 use App\Interfaces\ComicClientInterface;
 use App\MarvelApi;
+use App\SearchComicsRepository;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Session;
@@ -12,14 +13,16 @@ use Illuminate\Support\Facades\Session;
 class HomeController extends Controller
 {
 
-    /**
-     * @var MarvelApi
-     */
-    private $clientInterface;
 
-    public function __construct(ComicClientInterface $clientInterface)
+    /**
+     * @var SearchComicsRepository
+     */
+    private $searchComicsRepository;
+
+    public function __construct(SearchComicsRepository $searchComicsRepository)
     {
-        $this->clientInterface = $clientInterface;
+
+        $this->searchComicsRepository = $searchComicsRepository;
     }
 
     /**
@@ -31,38 +34,17 @@ class HomeController extends Controller
     {
         $name = '';
 
-        if($request->input('search')){
-            $name =  $request->input('search');
+        if($request->input('name'))
+        {
+            $name = $request->input('name');
             $message = sprintf("Your results for %s", $name);
             Session::flash('status', $message);
         }
-
-        $results = $this->clientInterface->comics($name);
-
-        $results = $this->transformResults($results);
-
+        
+        $results = $this->searchComicsRepository->getComicsByName($name);
+        
         return Response::view('home.index', compact('results'));
     }
 
-    private function transformResults($results)
-    {
-        if(isset($results['data']))
-            return $results['data'];
-        
-        return $this->returnEmptyResults();
-    }
-    
-    private function returnEmptyResults()
-    {
-        $results = [
-            'results'   => [],
-            'offset'    => 0,
-            'limit'     => 20,
-            'total'     => 0,
-            'count'     => 0
-        ];
-        
-        return $results;
-        
-    }
+
 }

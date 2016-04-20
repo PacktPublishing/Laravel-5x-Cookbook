@@ -1,0 +1,30 @@
+default:
+    suites:
+        home_ui:
+            paths: [ %paths.base%/features/home]
+            contexts: [ HomePageUiContext ]
+        home_domain:
+            paths: [ %paths.base%/features/home]
+            contexts: [ HomePageDomainContext ]
+    extensions:
+        Laracasts\Behat:
+            env_path: .env.behat
+        Behat\MinkExtension:
+            default_session: laravel
+            base_url: https://recipes.dev
+            laravel: ~
+            selenium2:
+              wd_host: "http://selenium.dev:4444/wd/hub"
+            browser_name: chrome
+
+travis:
+  extensions:
+    Laracasts\Behat:
+      env_path: .env.travis
+    Behat\MinkExtension:
+      base_url: http://localhost:8000
+      default_session: laravel
+      laravel: ~
+      selenium2:
+        wd_host: 'http://127.0.0.1:4444/wd/hub'
+      browser_name: chrome
