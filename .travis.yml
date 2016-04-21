@@ -12,5 +12,5 @@ before_script:
 
 script:
   - phpunit
-  - vendor/bin/behat -ptravis -shome_ui
-  - vendor/bin/behat -ptravis -shome_domain
+#  - vendor/bin/behat -ptravis -shome_ui
+#  - vendor/bin/behat -ptravis -shome_domain
