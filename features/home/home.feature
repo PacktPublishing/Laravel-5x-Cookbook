@@ -1,7 +1,7 @@
 Feature: Review of Home Page using BDD
-  why
-  who
-  what
+  why So users can search the home page
+  who any user
+  what this adds key value to the site
 
   Scenario: User Visits home page and searches
     Given I am on the homepage

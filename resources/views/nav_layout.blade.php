@@ -8,6 +8,13 @@
             </a>
         </li>
 
+        @if(!Auth::guest())
+            <li class="dropdown ">
+            <a href="/wish_lists">
+                Wish List
+            </a>
+        </li>
+        @endif
 
         <li class="dropdown ">
             <a href="/login">

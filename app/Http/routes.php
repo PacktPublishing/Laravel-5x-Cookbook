@@ -48,6 +48,7 @@ Route::group(['middleware' => ['web']], function () {
        return redirect('/')->with("message", "Hello There");
     });
 
+    Route::resource("wish_lists","WishListController");
 
     /**
      * Example of Fake API

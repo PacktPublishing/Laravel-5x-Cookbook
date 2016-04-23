@@ -6,6 +6,12 @@ default:
         home_domain:
             paths: [ %paths.base%/features/home]
             contexts: [ HomePageDomainContext ]
+        login_domain:
+            paths: [ %paths.base%/features/auth]
+            contexts: [ LoginPageDomainContext ]
+        login_ui:
+            paths: [ %paths.base%/features/auth]
+            contexts: [ LoginPageUIContext ]
     extensions:
         Laracasts\Behat:
             env_path: .env.behat

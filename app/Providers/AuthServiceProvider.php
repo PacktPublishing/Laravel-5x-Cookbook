@@ -2,8 +2,10 @@
 
 namespace App\Providers;
 
+use App\Profile;
 use Illuminate\Contracts\Auth\Access\Gate as GateContract;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
+use Illuminate\Support\Facades\Log;
 
 class AuthServiceProvider extends ServiceProvider
 {
@@ -26,6 +28,16 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies($gate);
 
-        //
+        $gate->define('see-profile', function ($user, $profile) {
+                try
+                {
+                    return $user->id === $profile->user_id;
+                }
+                catch (\Exception $e)
+                {
+                    Log::info(sprintf("Error seeing profile %s for user %s message %s", $profile->id, $user->id, $e->getMessage()));
+                }
+            }
+        );
     }
 }
