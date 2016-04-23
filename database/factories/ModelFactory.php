@@ -20,3 +20,21 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
         'remember_token' => str_random(10),
     ];
 });
+
+$factory->define(App\Profile::class, function (Faker\Generator $faker) {
+    return [
+        'favorite_comic_character' => $faker->name,
+        'user_id' => function () {
+            return factory(App\User::class)->create()->id;
+        }
+    ];
+});
+
+$factory->define(\App\WishList::class, function (Faker\Generator $faker) {
+    return [
+        'comic_data' => [],
+        'user_id' => function () {
+            return factory(App\User::class)->create()->id;
+        }
+    ];
+});
