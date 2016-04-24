@@ -5,8 +5,14 @@ use App\Http\Controllers\Controller;
 
 use App\WishList;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class WishListController extends Controller {
+
+	    public function __construct()
+		{
+			$this->middleware('auth');
+		}
 
 	/**
 	 * Display a listing of the resource.
@@ -15,7 +21,7 @@ class WishListController extends Controller {
 	 */
 	public function index()
 	{
-		$wish_lists = WishList::orderBy('id', 'desc')->paginate(10);
+		$wish_lists = WishList::where('user_id', Auth::user()->id)->orderBy('id', 'desc')->paginate(10);
 
 		return view('wish_lists.index', compact('wish_lists'));
 	}
@@ -41,7 +47,7 @@ class WishListController extends Controller {
 		$wish_list = new WishList();
 
 		$wish_list->comic_data = $request->input("comic_data");
-        $wish_list->user_id = $request->input("user_id");
+        $wish_list->user_id = Auth::user()->id;
 
 		$wish_list->save();
 
@@ -86,7 +92,7 @@ class WishListController extends Controller {
 		$wish_list = WishList::findOrFail($id);
 
 		$wish_list->comic_data = $request->input("comic_data");
-        $wish_list->user_id = $request->input("user_id");
+		$wish_list->user_id = Auth::user()->id;
 
 		$wish_list->save();
 

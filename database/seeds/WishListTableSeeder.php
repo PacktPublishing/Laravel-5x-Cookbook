@@ -1,15 +1,16 @@
 <?php
 
+use App\User;
 use Illuminate\Database\Seeder;
 
-// composer require laracasts/testdummy
-use Laracasts\TestDummy\Factory as TestDummy;
 
 class WishListTableSeeder extends Seeder {
 
     public function run()
     {
-        // TestDummy::times(20)->create('App\Post');
+        $user = User::first();
+        
+        factory(\App\WishList::class, 20)->create(['user_id' => $user->id]);
     }
 
 }
