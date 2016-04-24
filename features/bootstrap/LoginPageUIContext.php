@@ -62,7 +62,8 @@ class LoginPageUIContext extends MinkContext implements Context, SnippetAcceptin
      */
     public function iFillInTheLoginFormWithMyProperUsernameAndPassword()
     {
-        $this->fillField();
+        //$this->fillField();
+        throw new PendingException();
     }
 
     /**

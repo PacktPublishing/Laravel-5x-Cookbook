@@ -12,6 +12,12 @@ default:
         login_ui:
             paths: [ %paths.base%/features/auth]
             contexts: [ LoginPageUIContext ]
+        wishlist_domain:
+            paths: [ %paths.base%/features/wishlist]
+            contexts: [ WishListPageDomainContext ]
+        wishlist_ui:
+            paths: [ %paths.base%/features/wishlist]
+            contexts: [ WishListPageUIContext ]
     extensions:
         Laracasts\Behat:
             env_path: .env.behat
