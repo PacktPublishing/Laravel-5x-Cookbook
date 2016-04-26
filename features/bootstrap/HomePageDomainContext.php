@@ -92,7 +92,7 @@ class HomePageDomainContext extends MinkContext implements Context, SnippetAccep
     /**
      * @AfterScenario
      */
-    public static function after_scenario()
+    public function after_scenario()
     {
         m::close();
     }

@@ -4,11 +4,11 @@ use Behat\Behat\Tester\Exception\PendingException;
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
 use Behat\MinkExtension\Context\MinkContext;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
 use Mockery as m;
 
-use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
 use PHPUnit_Framework_Assert as PHPUnit;
 
@@ -38,7 +38,7 @@ class LoginPageDomainContext extends MinkContext implements Context, SnippetAcce
     /**
      * @AfterScenario
      */
-    public static function after_scenario()
+    public function after_scenario()
     {
         m::close();
     }
@@ -48,14 +48,7 @@ class LoginPageDomainContext extends MinkContext implements Context, SnippetAcce
      */
     public function iAmOnTheLoginPage()
     {
-        //Seems too UI oriented what can I do here
-        //Logout user eg make sure there is no session for this user
-        //Get the app ready to make a new user here for use
-        //Using that user we can do the next step
-
         $this->user = factory(\App\User::class)->create();
-
-
     }
 
     /**
@@ -72,11 +65,18 @@ class LoginPageDomainContext extends MinkContext implements Context, SnippetAcce
      */
     public function iShouldBeAbleToSeeMyProfilePage()
     {
-        $this->profile = factory(\App\Profile::class)->create(
+        factory(\App\Profile::class)->create(
             ['favorite_comic_character' => "foo", 'user_id' => $this->user->id]
         );
 
-        PHPUnit::assertTrue(Gate::allows('see-profile', $this->profile));
+        /** @var \App\Repositories\ProfileRepository $repo */
+        $repo = App::make(\App\Repositories\ProfileRepository::class);
+
+        $profile = $repo->getProfileForAuthenticatedUser();
+
+        PHPUnit::assertTrue(Gate::allows('see-profile', $profile));
+
+        PHPUnit::assertContains('foo', json_encode($profile, JSON_PRETTY_PRINT));
     }
 
     /**
@@ -102,5 +102,29 @@ class LoginPageDomainContext extends MinkContext implements Context, SnippetAcce
     public function setUser($user)
     {
         $this->user = $user;
+    }
+
+    /**
+     * @Given I am an anonymous user
+     */
+    public function iAmAnAnonymousUser()
+    {
+        Auth::logout();
+    }
+
+    /**
+     * @Given I go to the profile page
+     */
+    public function iGoToTheProfilePage()
+    {
+        $this->visit(route('profile'));
+    }
+
+    /**
+     * @Then I should get redirected with an error message to let me know the problem
+     */
+    public function iShouldGetRedirectedWithAnErrorMessageToLetMeKnowTheProblem()
+    {
+        $this->assertPageContainsText('Error');
     }
 }

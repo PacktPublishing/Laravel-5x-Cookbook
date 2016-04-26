@@ -10,10 +10,15 @@
 
         @if(!Auth::guest())
             <li class="dropdown ">
-            <a href="/wish_lists">
-                Wish List
-            </a>
-        </li>
+                <a href="/wish_lists">
+                    Wish List
+                </a>
+            </li>
+            <li class="dropdown ">
+                <a href="/profile">
+                    Profile
+                </a>
+            </li>
         @endif
 
         <li class="dropdown ">
