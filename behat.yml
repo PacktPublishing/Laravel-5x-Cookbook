@@ -6,10 +6,26 @@ default:
         home_domain:
             paths: [ %paths.base%/features/home]
             contexts: [ HomePageDomainContext ]
+        profile_image_domain:
+            paths: [ %paths.base%/features/profile]
+            contexts: [ ProfileImageDomainContext ]
+        profile_image_ui:
+            paths: [ %paths.base%/features/profile]
+            contexts: [ ProfileImageUIContext ]
         login_domain:
             paths: [ %paths.base%/features/auth]
             contexts: [ LoginPageDomainContext ]
         login_ui:
+            paths: [ %paths.base%/features/auth]
+            contexts: [ LoginPageUIContext ]
+            filters:
+              tags: "@happy_path"
+        login_smoke:
+            paths: [ %paths.base%/features/auth]
+            contexts: [ LoginPageUIContext ]
+            filters:
+              tags: "@smoke"
+        login_all_ui:
             paths: [ %paths.base%/features/auth]
             contexts: [ LoginPageUIContext ]
         wishlist_domain:

@@ -29,14 +29,12 @@ class AuthServiceProvider extends ServiceProvider
         $this->registerPolicies($gate);
 
         $gate->define('see-profile', function ($user, $profile) {
-                try
-                {
-                    return $user->id === $profile->user_id;
-                }
-                catch (\Exception $e)
-                {
-                    Log::info(sprintf("Error seeing profile %s for user %s message %s", $profile->id, $user->id, $e->getMessage()));
-                }
+                return $user->id == $profile->user_id;
+            }
+        );
+
+        $gate->define('edit-profile', function ($user, $profile) {
+                return $user->id == $profile->user_id;
             }
         );
     }

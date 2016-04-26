@@ -16,7 +16,7 @@ use PHPUnit_Framework_Assert as PHPUnit;
 class WishListPageUIContext extends MinkContext implements Context, SnippetAcceptingContext
 {
 
-    use \Illuminate\Foundation\Testing\DatabaseTransactions, WishListTrait;
+    use \Illuminate\Foundation\Testing\DatabaseTransactions, WishListTrait, LoginTrait;
 
     private $baseUrl;
 
@@ -28,7 +28,7 @@ class WishListPageUIContext extends MinkContext implements Context, SnippetAccep
     /**
      * @AfterScenario
      */
-    public static function after_scenario()
+    public function after_scenario()
     {
         m::close();
     }
@@ -39,11 +39,7 @@ class WishListPageUIContext extends MinkContext implements Context, SnippetAccep
     public function iLoginAndVisitTheWishlistPage()
     {
         $this->user = User::first();
-
-        $this->visit('login');
-        $this->fillField('email', $this->user->email);
-        $this->fillField('password', env('ADMIN_PASSWORD'));
-        $this->pressButton('Login');
+        $this->login();
     }
 
     /**

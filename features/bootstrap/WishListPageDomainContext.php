@@ -27,7 +27,7 @@ class WishListPageDomainContext extends MinkContext implements Context, SnippetA
     /**
      * @AfterScenario
      */
-    public static function after_scenario()
+    public function after_scenario()
     {
         m::close();
     }

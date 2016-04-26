@@ -28,5 +28,10 @@ class User extends Authenticatable
     {
         return $this->hasMany(\App\WishList::class);
     }
-    
+
+    public function profile()
+    {
+        return $this->hasOne(\App\Profile::class);
+    }
+
 }
