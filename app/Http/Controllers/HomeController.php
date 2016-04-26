@@ -40,8 +40,8 @@ class HomeController extends Controller
             $message = sprintf("Your results for %s", $name);
             Session::flash('status', $message);
         }
-        
-        $results = $this->searchComicsRepository->getComicsByName($name);
+
+        $results = []; //$this->searchComicsRepository->getComicsByName($name);
         
         return Response::view('home.index', compact('results'));
     }
