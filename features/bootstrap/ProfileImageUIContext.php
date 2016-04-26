@@ -54,10 +54,21 @@ class ProfileImageUIContext extends MinkContext implements Context, SnippetAccep
      */
     public function iShouldBeAbleToUploadAnImageFile()
     {
-        //Upload file to form
-        //$this->attachFileToField('profile_image', 'example_image.jpg');
-        $this->attachFileToField('profile_image', 'https://dl.dropboxusercontent.com/s/a8cu212zp5j3ymy/example_image.jpg?dl=0');
-        //Submit form
+        $localFile = base_path('features/assets/profile.jpg');
+        $tempZip = tempnam('', 'WebDriverZip');
+        $zip = new \ZipArchive();
+        $zip->open($tempZip, \ZipArchive::CREATE);
+        $zip->addFile($localFile, basename($localFile));
+        $zip->close();
+
+        $remotePath = $this->getSession()->getDriver()->getWebDriverSession()->file([
+            'file' => base64_encode(file_get_contents($tempZip))
+        ]);
+
+        $this->attachFileToField('profile_image', $remotePath);
+
+        unlink($tempZip);
+        
         $this->pressButton('Save');
     }
 
@@ -67,6 +78,6 @@ class ProfileImageUIContext extends MinkContext implements Context, SnippetAccep
     public function thenSeeItOnMyProfileViewPage()
     {
         $this->visit('profile');
-        $this->assertElementOnPage('img-thumbnail');
+        $this->assertElementOnPage('.img-thumbnail');
     }
 }
