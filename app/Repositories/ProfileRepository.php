@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Storage;
 
 /**
  * Created by PhpStorm.
@@ -30,10 +31,10 @@ class ProfileRepository
 
             Log::info("Going to save the file");
 
-            if(!File::exists(public_path(Auth::user()->id)))
-                File::makeDirectory(public_path(Auth::user()->id));
+            $contents = file_get_contents($request->file('profile_image')->getRealPath());
 
-            $request->file('profile_image')->move(public_path(Auth::user()->id), 'example_profile.jpg');
+            Storage::put('public/' . Auth::user()->id . '/example_profile.jpg', $contents);
+
             return true;
         }
 

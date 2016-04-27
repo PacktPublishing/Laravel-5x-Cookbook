@@ -91,7 +91,7 @@ class LoginPageUIContext extends MinkContext implements Context, SnippetAcceptin
         
         $this->visit('profile');
 
-        $this->assertPageContainsText('Error getting profile :(');
+        $this->assertPageContainsText('You need to login first');
     }
 
     /**
@@ -115,6 +115,6 @@ class LoginPageUIContext extends MinkContext implements Context, SnippetAcceptin
      */
     public function iShouldGetRedirectedWithAnErrorMessageToLetMeKnowTheProblem()
     {
-        $this->assertPageContainsText('Error getting profile :(');
+        $this->assertPageContainsText('You need to login first');
     }
 }

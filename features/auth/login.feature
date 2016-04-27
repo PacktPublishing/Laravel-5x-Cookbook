@@ -1,7 +1,7 @@
 Feature: Login Page
   Login page to do authenticated tasks
   As an anonymous user
-  So we can protect some person and administrative parts of the site
+  So we can protect some personal and administrative parts of the site
 
   @happy_path @smoke
   Scenario: A user can login and see their profile

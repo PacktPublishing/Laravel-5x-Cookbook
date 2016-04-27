@@ -14,8 +14,8 @@
                             </li>
 
                             <li><h4>Who are you?:</h4> <br>
-                                @if($profile->profile_image == true)
-                                    <img src="/{{Auth::user()->id}}/example_profile.jpg" alt="" class="img-thumbnail img-responsive">
+                                @if($profile->profile_image)
+                                    <img src="{{$profile->profile_image }}" alt="" class="img-thumbnail img-responsive">
                                 @endif
                             </li>
                             <li>
