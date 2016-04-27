@@ -27,8 +27,6 @@ class ProfileImageUIContext extends MinkContext implements Context, SnippetAccep
         $this->baseUrl = env('APP_URL');
     }
 
-    
-
     /**
      * @Given I am on the page to edit my profile
      */
