@@ -33,8 +33,8 @@ class ProfileRepository
 
             $contents = file_get_contents($request->file('profile_image')->getRealPath());
 
-            Storage::put('public/' . Auth::user()->id . '/example_profile.jpg', $contents);
-
+            Storage::put(is_local_or_s3() . Auth::user()->id . '/example_profile.jpg', $contents);
+            
             return true;
         }
 
@@ -43,4 +43,5 @@ class ProfileRepository
         return false;
     }
     
+
 }
