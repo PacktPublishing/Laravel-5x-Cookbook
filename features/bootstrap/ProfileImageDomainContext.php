@@ -92,4 +92,32 @@ class ProfileImageDomainContext extends MinkContext implements Context, SnippetA
         PHPUnit::assertArrayHasKey('profile_image', $this->profile->toArray(), "Key for image not found with profile");
         PHPUnit::assertNotEmpty($this->profile->toArray()['profile_image'], "File not found with profile");
     }
+
+    /**
+     * @Given I upload a non jpg file I should get an error message
+     */
+    public function iUploadANonJpgFileIShouldGetAnErrorMessage()
+    {
+        $request = new \App\Http\Requests\ProfileUploadRequest();
+
+        $file = new \Symfony\Component\HttpFoundation\FileBag();
+        $path = base_path('tests/fixtures/example_profile.png');
+        $originalName = 'example_profile.png';
+        $upload = new \Illuminate\Http\UploadedFile($path, $originalName, null, null, null, TRUE);
+        $file->set('profile_image', $upload);
+        $request->files = $file;
+//
+//        $request->validate();
+
+
+        throw new PendingException();
+    }
+
+    /**
+     * @Given I upload a file that is too large I should get an error message
+     */
+    public function iUploadAFileThatIsTooLargeIShouldGetAnErrorMessage()
+    {
+        throw new PendingException();
+    }
 }
