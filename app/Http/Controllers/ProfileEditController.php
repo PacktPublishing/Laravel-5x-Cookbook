@@ -48,14 +48,11 @@ class ProfileEditController extends Controller
         }
         catch (ModelNotFoundException $e)
         {
-            Log::info(sprintf("HERE 1 with error %s", $e->getMessage()));
 
             return redirect()->route('home')->with('message', "Could not find your profile :(");
         }
         catch (\Exception $e)
         {
-            Log::info(sprintf("HERE 2 with error %s", $e->getMessage()));
-
             return redirect()->route('home')->with('message', "Error getting profile :(");
         }
     }

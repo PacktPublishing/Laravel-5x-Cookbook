@@ -2,6 +2,7 @@
 
 namespace App;
 
+use Aws\S3\S3MultiRegionClient;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Auth;
@@ -41,6 +42,9 @@ class Profile extends Model
 
     public function getSignedUrl($filename_and_path, $expires_minutes = '10', $bucket = false)
     {
+        /**
+         * @var S3MultiRegionClient $client
+         */
         $client     = Storage::getDriver()->getAdapter()->getClient();
         $bucket     = ($bucket)?:env('PROFILE_IMAGE_BUCKET');
 
