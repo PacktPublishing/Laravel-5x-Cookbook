@@ -19,25 +19,16 @@ class Profile extends Model
     public function getProfileImageAttribute()
     {
 
-        $image  = false;
         $path   = (!Auth::guest()) ? Auth::user()->id . '/example_profile.jpg' : false;
 
         if(Auth::guest()) {
             $image = false;
         }
-        elseif(env('FILESYSTEM_DEFAULT') == 'local') {
-            if (File::exists(public_path('storage/' . $path))) {
-                $image = Storage::url($path);
-            } else {
-                $image = false;
-            }
+        elseif(is_local_or_s3()) {
+            $image = (Storage::exists(is_local_or_s3() . $path)) ? Storage::url($path): false;
         }
         else {
-            if(Storage::exists($path))
-            {
-                $image = $this->getSignedUrl($path, 10);
-            }
-
+            $image = (Storage::exists($path)) ? $this->getSignedUrl($path, 10): false;
         }
 
         return $this->attributes['profile_image'] = $image;
@@ -48,10 +39,10 @@ class Profile extends Model
         return $query->where('user_id', Auth::user()->id)->firstOrFail();
     }
 
-    public function getSignedUrl($filename_and_path, $expires_minutes = '10')
+    public function getSignedUrl($filename_and_path, $expires_minutes = '10', $bucket = false)
     {
         $client     = Storage::getDriver()->getAdapter()->getClient();
-        $bucket     = env('PROFILE_IMAGE_BUCKET');
+        $bucket     = ($bucket)?:env('PROFILE_IMAGE_BUCKET');
 
         $command = $client->getCommand('GetObject', [
             'Bucket' => $bucket,
