@@ -8,6 +8,7 @@ use Behat\MinkExtension\Context\MinkContext;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Gate;
+use Illuminate\Support\Facades\Validator;
 use Mockery as m;
 
 use Illuminate\Support\Facades\App;
@@ -106,11 +107,14 @@ class ProfileImageDomainContext extends MinkContext implements Context, SnippetA
         $upload = new \Illuminate\Http\UploadedFile($path, $originalName, null, null, null, TRUE);
         $file->set('profile_image', $upload);
         $request->files = $file;
-//
-//        $request->validate();
 
+        $rules = $request->rules();
 
-        throw new PendingException();
+        $validator = Validator::make($request->all(), $rules);
+
+        $fails = $validator->fails();
+
+        PHPUnit::assertTrue($fails);
     }
 
     /**
@@ -118,6 +122,24 @@ class ProfileImageDomainContext extends MinkContext implements Context, SnippetA
      */
     public function iUploadAFileThatIsTooLargeIShouldGetAnErrorMessage()
     {
-        throw new PendingException();
+        $request = new \App\Http\Requests\ProfileUploadRequest();
+
+        $file = new \Symfony\Component\HttpFoundation\FileBag();
+        $path = base_path('tests/fixtures/example_profile.jpg');
+        $originalName = 'example_profile.jpg';
+        $upload = new \Illuminate\Http\UploadedFile($path, $originalName, null, 10000, null, TRUE);
+        $file->set('profile_image', $upload);
+        $request->files = $file;
+
+        $request->setKilobytes(4);
+        $rules = $request->rules();
+
+        $validator = Validator::make($request->all(), $rules);
+
+        $fails = $validator->fails();
+
+        var_dump($validator->errors());
+
+        PHPUnit::assertTrue($fails);
     }
 }

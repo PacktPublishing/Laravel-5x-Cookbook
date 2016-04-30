@@ -35,7 +35,7 @@ class ProfileEditController extends Controller
         }
     }
 
-    public function updateAuthenticatedUsersProfile(Requests\ProfileEditRequest $request, ProfileRepository $repository)
+    public function updateAuthenticatedUsersProfile(Requests\ProfileUploadRequest $request, ProfileRepository $repository)
     {
         try
         {
