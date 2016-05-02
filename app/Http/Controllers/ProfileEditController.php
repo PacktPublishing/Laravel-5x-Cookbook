@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use Illuminate\Support\Facades\Gate;
+use Illuminate\Support\Facades\Log;
 
 class ProfileEditController extends Controller
 {
@@ -24,15 +25,17 @@ class ProfileEditController extends Controller
         }
         catch (ModelNotFoundException $e)
         {
+            Log::info(sprintf("HERE with error %s", $e->getMessage()));
             return redirect()->route('home')->with('message', "Could not find your profile :(");
         }
         catch (\Exception $e)
         {
+            Log::info(sprintf("HERE 2 with error %s", $e->getMessage()));
             return redirect()->route('home')->with('message', "Error getting profile :(");
         }
     }
 
-    public function updateAuthenticatedUsersProfile(Requests\ProfileEditRequest $request, ProfileRepository $repository)
+    public function updateAuthenticatedUsersProfile(Requests\ProfileUploadRequest $request, ProfileRepository $repository)
     {
         try
         {
@@ -41,10 +44,11 @@ class ProfileEditController extends Controller
              */
             $repository->uploadUserProfileImage($request);
 
-            return redirect()->route('profile.show')->with('message', "Image Updated");
+            return redirect()->route('profile')->with('message', "Image Updated");
         }
         catch (ModelNotFoundException $e)
         {
+
             return redirect()->route('home')->with('message', "Could not find your profile :(");
         }
         catch (\Exception $e)

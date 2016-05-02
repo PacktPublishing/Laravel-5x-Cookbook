@@ -9,3 +9,7 @@ Feature: User can upload image to profile
     Given I am on the page to edit my profile
     Then I should be able to upload an image file
     And then see it on my profile view page
+
+  Scenario: Dealing with edge cases
+    Given I upload a non jpg file I should get an error message
+    Given I upload a file that is too large I should get an error message

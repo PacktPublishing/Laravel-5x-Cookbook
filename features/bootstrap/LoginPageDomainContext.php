@@ -69,14 +69,17 @@ class LoginPageDomainContext extends MinkContext implements Context, SnippetAcce
             ['favorite_comic_character' => "foo", 'user_id' => $this->user->id]
         );
 
-        /** @var \App\Repositories\ProfileRepository $repo */
-        $repo = App::make(\App\Repositories\ProfileRepository::class);
+        /** @var \App\Repositories\ProfileShowPage $profilePage */
+        $profilePage = App::make(\App\Repositories\ProfileShowPage::class);
 
-        $profile = $repo->getProfileForAuthenticatedUser();
+        $this->profile = $profilePage->showMyProfilePage();
 
-        PHPUnit::assertTrue(Gate::allows('see-profile', $profile));
+        var_dump($this->profile->user_id);
+        var_dump($this->user->id);
 
-        PHPUnit::assertContains('foo', json_encode($profile, JSON_PRETTY_PRINT));
+        PHPUnit::assertTrue(Gate::allows('see-profile', $this->profile));
+
+        PHPUnit::assertContains('foo', json_encode($this->profile, JSON_PRETTY_PRINT));
     }
 
     /**
@@ -125,6 +128,6 @@ class LoginPageDomainContext extends MinkContext implements Context, SnippetAcce
      */
     public function iShouldGetRedirectedWithAnErrorMessageToLetMeKnowTheProblem()
     {
-        $this->assertPageContainsText('Error');
+        $this->assertPageContainsText('You need to login first');
     }
 }
