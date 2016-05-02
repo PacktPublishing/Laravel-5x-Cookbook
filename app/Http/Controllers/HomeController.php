@@ -41,7 +41,7 @@ class HomeController extends Controller
             Session::flash('status', $message);
         }
 
-        $results = []; //$this->searchComicsRepository->getComicsByName($name);
+        $results = $this->searchComicsRepository->getComicsByName($name);
         
         return Response::view('home.index', compact('results'));
     }
