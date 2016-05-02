@@ -26,7 +26,7 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 
-<body class="">
+<body class="" ng-app="app">
 
 <div id="wrapper">
 
@@ -151,6 +151,8 @@
 ================================================== -->
 <!-- Core JS -->
 <script src="/js/jquery.min.js"></script>
+<script src="/js/angular.js"></script>
+<script src="/js/app.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 
 
