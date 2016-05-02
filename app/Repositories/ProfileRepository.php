@@ -30,9 +30,6 @@ class ProfileRepository
 
             Log::info("Going to save the file");
 
-            if(!File::exists(public_path(Auth::user()->id)))
-                File::makeDirectory(public_path(Auth::user()->id));
-
             $request->file('profile_image')->move(public_path(Auth::user()->id), 'example_profile.jpg');
             return true;
         }

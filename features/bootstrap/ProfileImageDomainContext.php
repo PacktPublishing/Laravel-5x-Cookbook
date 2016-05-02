@@ -74,6 +74,7 @@ class ProfileImageDomainContext extends MinkContext implements Context, SnippetA
         $upload = new \Illuminate\Http\UploadedFile($path, $originalName, null, null, null, TRUE);
         $file->set('profile_image', $upload);
         $request->files = $file;
+        
         $this->repo = new \App\Repositories\ProfileRepository();
         $results = $this->repo->uploadUserProfileImage($request);
 
