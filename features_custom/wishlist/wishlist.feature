@@ -7,3 +7,4 @@ Feature: Setting up WishList area
   Scenario: User visits wishlist page and sees only their wishlists
     Given I login and visit the wishlist page
     Then I should see Lorna but not see Spiderman
+    And the response status code should be 200
