@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pmd version="@project.version@" timestamp="2016-05-03T23:16:59+00:00">
+  <file name="/mnt/hgfs/Code/recipes/app/Console/Kernel.php">
+    <violation beginline="25" endline="25" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$schedule'.
+    </violation>
+  </file>
+  <file name="/mnt/hgfs/Code/recipes/app/Exceptions/Handler.php">
+    <violation beginline="34" endline="34" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $e. Configured minimum length is 3.
+    </violation>
+    <violation beginline="46" endline="46" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $e. Configured minimum length is 3.
+    </violation>
+  </file>
+  <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/HomeController.php">
+    <violation beginline="22" endline="22" rule="LongVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#longvariable" priority="3">
+      Avoid excessively long variable names like $searchComicsRepository. Keep variable name length under 20.
+    </violation>
+  </file>
+  <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/ProfileShowController.php">
+    <violation beginline="23" endline="23" rule="UnusedFormalParameter" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedformalparameter" priority="3">
+      Avoid unused parameters such as '$request'.
+    </violation>
+  </file>
+  <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/UserController.php">
+    <violation beginline="62" endline="62" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $id. Configured minimum length is 3.
+    </violation>
+    <violation beginline="75" endline="75" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $id. Configured minimum length is 3.
+    </violation>
+    <violation beginline="89" endline="89" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $id. Configured minimum length is 3.
+    </violation>
+    <violation beginline="110" endline="110" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $id. Configured minimum length is 3.
+    </violation>
+  </file>
+  <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/WishListController.php">
+    <violation beginline="63" endline="63" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $id. Configured minimum length is 3.
+    </violation>
+    <violation beginline="76" endline="76" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $id. Configured minimum length is 3.
+    </violation>
+    <violation beginline="90" endline="90" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $id. Configured minimum length is 3.
+    </violation>
+    <violation beginline="108" endline="108" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $id. Configured minimum length is 3.
+    </violation>
+  </file>
+  <file name="/mnt/hgfs/Code/recipes/app/MarvelApi.php">
+    <violation beginline="14" endline="14" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $ts. Configured minimum length is 3.
+    </violation>
+    <violation beginline="93" endline="93" rule="ShortVariable" ruleset="Naming Rules" externalInfoUrl="http://phpmd.org/rules/naming.html#shortvariable" priority="3">
+      Avoid variables with short names like $ts. Configured minimum length is 3.
+    </violation>
+  </file>
+  <file name="/mnt/hgfs/Code/recipes/app/Providers/GuzzleClientProvider.php">
+    <violation beginline="13" endline="13" rule="UnusedLocalVariable" ruleset="Unused Code Rules" externalInfoUrl="http://phpmd.org/rules/unusedcode.html#unusedlocalvariable" priority="3">
+      Avoid unused local variables such as '$app'.
+    </violation>
+  </file>
+</pmd>

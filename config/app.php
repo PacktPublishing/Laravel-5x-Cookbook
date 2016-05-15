@@ -154,7 +154,9 @@ return [
         App\Providers\RouteServiceProvider::class,
         App\Providers\GuzzleClientProvider::class,
 
-        App\Providers\MarvelApiClient::class
+        App\Providers\MarvelApiClient::class,
+
+        Laracasts\Utilities\JavaScript\JavaScriptServiceProvider::class
 
     ],
 

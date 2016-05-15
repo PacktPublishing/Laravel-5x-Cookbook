@@ -27,8 +27,9 @@ class ProfileShowRequest extends Request
         /**
          * @var ProfileShowPage $repository
          */
-        if(Auth::guest())
+        if (Auth::guest()) {
             return false;
+        }
 
         $repository = App::make(\App\Repositories\ProfileShowPage::class);
 
@@ -53,5 +54,4 @@ class ProfileShowRequest extends Request
             //
         ];
     }
-    
 }

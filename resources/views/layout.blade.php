@@ -146,7 +146,7 @@
 
     </div>
 </footer>
-
+@include ('footer')
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
