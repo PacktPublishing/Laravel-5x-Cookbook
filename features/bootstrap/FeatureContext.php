@@ -2,7 +2,6 @@
 
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
-
 /**
  * Defines application features from the specific context.
  */
@@ -17,8 +16,17 @@ class FeatureContext extends \Behat\MinkExtension\Context\MinkContext implements
      */
     public function __construct()
     {
-
     }
 
+
+    /**
+     * @Given I wait
+     */
+    public function iWait()
+    {
+        //sleep(3);
+        //$results = $this->getSession()->getPage()->getContent();
+        //dd($results);
+    }
 
 }

@@ -34,6 +34,9 @@ default:
         wishlist_ui:
             paths: [ %paths.base%/features/wishlist]
             contexts: [ WishListPageUIContext ]
+        search_api_ui:
+            paths: [ %paths.base%/features/search]
+            contexts: [ SearchApiUIContext ]
     extensions:
         Laracasts\Behat:
             env_path: .env.behat
