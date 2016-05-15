@@ -23,8 +23,9 @@ class ProfileEditRequest extends Request
         
         $profile = $repository->getProfileForAuthenticatedUser();
 
-        if(Gate::allows('edit-profile', $profile))
+        if (Gate::allows('edit-profile', $profile)) {
             return true;
+        }
         
         return false;
     }

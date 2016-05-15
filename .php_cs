@@ -71,7 +71,7 @@ $fixers = [
 ];
 
 return Config::create()
-    ->finder(DefaultFinder::create()->in(__DIR__))
+    ->finder(DefaultFinder::create()->exclude('vendor')->in(__DIR__ ))
     ->fixers($fixers)
     ->level(FixerInterface::NONE_LEVEL)
     ->setUsingCache(true);

@@ -26,7 +26,6 @@ class MarvelApiClientTest extends TestCase
         $results = $client->setTimeStamp($ts)->comics();
 
         $this->assertEquals(200, $results['code']);
-
     }
 
     /**

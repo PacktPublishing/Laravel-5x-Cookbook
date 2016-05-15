@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metrics generated="2016-05-03T19:01:19" pdepend="@package_version@" ahh="1.5" andc="0.23076923076923" calls="185" ccn="102" ccn2="104" cloc="409" clsa="3" clsc="34" eloc="875" fanout="69" leafs="19" lloc="470" loc="1590" maxDIT="3" ncloc="1181" noc="37" nof="1" noi="2" nom="75" nop="16" roots="16">
+  <files>
+    <file name="/mnt/hgfs/Code/recipes/app/helpers.php" loc="9" cloc="0" eloc="7" lloc="3" ncloc="9"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Console/Commands/Inspire.php" loc="34" cloc="15" eloc="13" lloc="7" ncloc="19"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Console/Kernel.php" loc="31" cloc="14" eloc="12" lloc="5" ncloc="17"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Events/Event.php" loc="9" cloc="1" eloc="5" lloc="1" ncloc="8"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Exceptions/Handler.php" loc="51" cloc="20" eloc="25" lloc="12" ncloc="31"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Facades/APIClient.php" loc="14" cloc="0" eloc="10" lloc="4" ncloc="14"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/Auth/AuthController.php" loc="73" cloc="32" eloc="32" lloc="14" ncloc="41"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/Auth/PasswordController.php" loc="33" cloc="15" eloc="12" lloc="6" ncloc="18"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/Controller.php" loc="14" cloc="0" eloc="10" lloc="6" ncloc="14"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/HomeController.php" loc="47" cloc="8" eloc="28" lloc="19" ncloc="39"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/ProfileEditController.php" loc="49" cloc="3" eloc="38" lloc="27" ncloc="46"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/ProfileShowController.php" loc="36" cloc="4" eloc="26" lloc="19" ncloc="32"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/SearchComics.php" loc="38" cloc="5" eloc="26" lloc="16" ncloc="33"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/UserController.php" loc="118" cloc="41" eloc="54" lloc="37" ncloc="77"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/WishListController.php" loc="116" cloc="41" eloc="54" lloc="35" ncloc="75"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Http/Kernel.php" loc="53" cloc="19" eloc="27" lloc="5" ncloc="34"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Http/Middleware/Authenticate.php" loc="31" cloc="8" eloc="18" lloc="9" ncloc="23"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Http/Middleware/EncryptCookies.php" loc="18" cloc="6" eloc="8" lloc="3" ncloc="12"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Http/Middleware/RedirectIfAuthenticated.php" loc="27" cloc="8" eloc="14" lloc="7" ncloc="19"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Http/Middleware/VerifyCsrfToken.php" loc="18" cloc="6" eloc="8" lloc="3" ncloc="12"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Http/Requests/ProfileEditRequest.php" loc="45" cloc="14" eloc="23" lloc="13" ncloc="31"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Http/Requests/ProfileShowRequest.php" loc="58" cloc="14" eloc="33" lloc="21" ncloc="44"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Http/Requests/ProfileUploadRequest.php" loc="49" cloc="16" eloc="25" lloc="11" ncloc="33"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Http/Requests/Request.php" loc="11" cloc="1" eloc="6" lloc="2" ncloc="10"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Jobs/Job.php" loc="22" cloc="10" eloc="7" lloc="3" ncloc="12"/>
+    <file name="/mnt/hgfs/Code/recipes/app/MarvelApi.php" loc="104" cloc="9" eloc="73" lloc="44" ncloc="95"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Profile.php" loc="58" cloc="3" eloc="42" lloc="25" ncloc="55"/>
+    <file name="/mnt/hgfs/Code/recipes/app/SearchComicsRepository.php" loc="57" cloc="9" eloc="35" lloc="16" ncloc="48"/>
+    <file name="/mnt/hgfs/Code/recipes/app/User.php" loc="37" cloc="10" eloc="20" lloc="8" ncloc="27"/>
+    <file name="/mnt/hgfs/Code/recipes/app/WishList.php" loc="13" cloc="0" eloc="9" lloc="3" ncloc="13"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Providers/AppServiceProvider.php" loc="31" cloc="11" eloc="15" lloc="6" ncloc="20"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Providers/AuthServiceProvider.php" loc="42" cloc="11" eloc="24" lloc="14" ncloc="31"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Providers/EventServiceProvider.php" loc="34" cloc="12" eloc="16" lloc="6" ncloc="22"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Providers/GuzzleClientProvider.php" loc="31" cloc="0" eloc="23" lloc="9" ncloc="31"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Providers/MarvelApiClient.php" loc="48" cloc="11" eloc="31" lloc="15" ncloc="37"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Providers/RouteServiceProvider.php" loc="45" cloc="20" eloc="18" lloc="10" ncloc="25"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Repositories/ProfileRepository.php" loc="44" cloc="6" eloc="26" lloc="17" ncloc="38"/>
+    <file name="/mnt/hgfs/Code/recipes/app/Repositories/ProfileShowPage.php" loc="23" cloc="6" eloc="11" lloc="5" ncloc="17"/>
+  </files>
+  <package name="+global" noc="0" noi="0" nom="0" nof="1">
+    <function name="is_local_or_s3" start="4" end="7" ccn="2" ccn2="2" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="5" hnt="11" hnd="12" hv="39.434587507933" hd="4.2" hl="0.23809523809524" he="165.62526753332" ht="9.201403751851" hb="0.010053018315896" hi="9.3891875018887" mi="78.148734404971">
+      <file name="/mnt/hgfs/Code/recipes/app/helpers.php"/>
+    </function>
+  </package>
+  <package name="App\Console\Commands" noc="1" noi="0" nom="1" nof="0" cr="0.15" rcr="0.2775">
+    <class name="Inspire" start="8" end="33" loc="26" cloc="15" eloc="3" lloc="1" ncloc="11" dit="2" noam="1" nocc="0" noom="0" nom="1" cr="0.15" rcr="0.2775" ca="0" cbo="1" ce="1" impl="0" cis="1" csz="3" npm="1" vars="2" varsi="2" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="/mnt/hgfs/Code/recipes/app/Console/Commands/Inspire.php"/>
+      <method name="handle" start="29" end="32" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="8" hnd="11" hv="27.675452949098" hd="4.375" hl="0.22857142857143" he="121.08010665231" ht="6.7266725917947" hb="0.0081581923714408" hi="6.3258178169368" mi="79.360024870534"/>
+    </class>
+  </package>
+  <package name="App\Console" noc="1" noi="0" nom="1" nof="0" cr="0.15" rcr="0.2775">
+    <class name="Kernel" start="8" end="30" loc="23" cloc="14" eloc="2" lloc="0" ncloc="9" dit="2" noam="1" nocc="0" noom="0" nom="1" cr="0.15" rcr="0.2775" ca="0" cbo="1" ce="1" impl="0" cis="0" csz="2" npm="0" vars="1" varsi="1" varsnp="0" wmc="1" wmci="1" wmcnp="0">
+      <file name="/mnt/hgfs/Code/recipes/app/Console/Kernel.php"/>
+      <method name="schedule" start="25" end="29" ccn="1" ccn2="1" loc="5" cloc="2" eloc="2" lloc="0" ncloc="3" npath="1" hnt="2" hnd="2" hv="2" hd="2" hl="0.5" he="4" ht="0.22222222222222" hb="0.00083994736659658" hi="1" mi="91.191023588314"/>
+    </class>
+  </package>
+  <package name="App\Events" noc="1" noi="0" nom="0" nof="0" cr="0.15" rcr="0.15">
+    <class name="Event" start="5" end="8" loc="4" cloc="1" eloc="0" lloc="0" ncloc="3" dit="0" noam="0" nocc="0" noom="0" nom="0" cr="0.15" rcr="0.15" ca="0" cbo="0" ce="0" impl="0" cis="0" csz="0" npm="0" vars="0" varsi="0" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="/mnt/hgfs/Code/recipes/app/Events/Event.php"/>
+    </class>
+  </package>
+  <package name="App\Exceptions" noc="1" noi="0" nom="2" nof="0" cr="0.15" rcr="0.2775">
+    <class name="Handler" start="12" end="50" loc="39" cloc="20" eloc="6" lloc="2" ncloc="19" dit="2" noam="2" nocc="0" noom="0" nom="2" cr="0.15" rcr="0.2775" ca="0" cbo="2" ce="2" impl="0" cis="2" csz="3" npm="2" vars="1" varsi="1" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <file name="/mnt/hgfs/Code/recipes/app/Exceptions/Handler.php"/>
+      <method name="report" start="34" end="37" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="7" hnd="7" hv="19.651484454403" hd="6.25" hl="0.16" he="122.82177784002" ht="6.8234321022233" hb="0.0082362400950509" hi="3.1442375127045" mi="80.401219851729"/>
+      <method name="render" start="46" end="49" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="10" hnd="10" hv="33.219280948874" hd="8.1666666666667" hl="0.12244897959184" he="271.2907944158" ht="15.071710800878" hb="0.013969111487834" hi="4.0676670549641" mi="78.804796805669"/>
+    </class>
+  </package>
+  <package name="App\Facades" noc="1" noi="0" nom="1" nof="0" cr="0.15" rcr="0.2775">
+    <class name="APIClient" start="7" end="13" loc="7" cloc="0" eloc="3" lloc="1" ncloc="7" dit="2" noam="1" nocc="0" noom="0" nom="1" cr="0.15" rcr="0.2775" ca="0" cbo="0" ce="0" impl="0" cis="0" csz="1" npm="0" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="0">
+      <file name="/mnt/hgfs/Code/recipes/app/Facades/APIClient.php"/>
+      <method name="getFacadeAccessor" start="9" end="12" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="12.5" hl="0.08" he="193.87218755409" ht="10.770677086338" hb="0.011165780490257" hi="1.2407820003462" mi="81.120955834208"/>
+    </class>
+  </package>
+  <package name="App\Http\Controllers\Auth" noc="2" noi="0" nom="4" nof="0" cr="0.15" rcr="0.385875">
+    <class name="AuthController" start="11" end="72" loc="62" cloc="32" eloc="17" lloc="3" ncloc="30" dit="3" noam="3" nocc="0" noom="0" nom="3" cr="0.15" rcr="0.179484375" ca="0" cbo="3" ce="3" impl="0" cis="1" csz="4" npm="1" vars="1" varsi="1" varsnp="0" wmc="3" wmci="3" wmcnp="1">
+      <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/Auth/AuthController.php"/>
+      <method name="__construct" start="38" end="41" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="11" hnd="12" hv="39.434587507933" hd="7" hl="0.14285714285714" he="276.04211255553" ht="15.335672919752" hb="0.014131740054173" hi="5.6335125011332" mi="78.283237328948"/>
+      <method name="validator" start="49" end="56" ccn="1" ccn2="1" loc="8" cloc="0" eloc="7" lloc="1" ncloc="8" npath="1" hnt="16" hnd="21" hv="70.27707876446" hd="6.5" hl="0.15384615384615" he="456.80101196899" ht="25.377833998277" hb="0.01977106740989" hi="10.811858271455" mi="68.499145007041"/>
+      <method name="create" start="64" end="71" ccn="1" ccn2="1" loc="8" cloc="0" eloc="7" lloc="1" ncloc="8" npath="1" hnt="14" hnd="27" hv="66.568425030289" hd="5.8181818181818" hl="0.171875" he="387.30720017622" ht="21.517066676457" hb="0.017711246430551" hi="11.441448052081" mi="68.664010338947"/>
+    </class>
+    <class name="PasswordController" start="8" end="32" loc="25" cloc="15" eloc="3" lloc="1" ncloc="10" dit="3" noam="1" nocc="0" noom="0" nom="1" cr="0.15" rcr="0.179484375" ca="0" cbo="0" ce="0" impl="0" cis="1" csz="1" npm="1" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/Auth/PasswordController.php"/>
+      <method name="__construct" start="28" end="31" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+    </class>
+  </package>
+  <package name="App\Http\Controllers" noc="7" noi="0" nom="22" nof="0" cr="0.2775" rcr="0.2775">
+    <class name="Controller" start="10" end="13" loc="4" cloc="0" eloc="0" lloc="0" ncloc="4" dit="2" noam="0" nocc="8" noom="0" nom="0" cr="1.17" rcr="0.2775" ca="0" cbo="0" ce="0" impl="0" cis="0" csz="0" npm="0" vars="0" varsi="0" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/Controller.php"/>
+    </class>
+    <class name="HomeController" start="13" end="46" loc="34" cloc="8" eloc="13" lloc="8" ncloc="26" dit="3" noam="2" nocc="0" noom="0" nom="2" cr="0.15" rcr="0.179484375" ca="0" cbo="5" ce="5" impl="0" cis="2" csz="3" npm="2" vars="1" varsi="1" varsnp="0" wmc="3" wmci="3" wmcnp="3">
+      <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/HomeController.php"/>
+      <method name="__construct" start="22" end="25" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+      <method name="index" start="32" end="45" ccn="2" ccn2="2" loc="14" cloc="0" eloc="10" lloc="7" ncloc="14" npath="2" hnt="23" hnd="46" hv="127.04192498931" hd="4.7619047619048" hl="0.21" he="604.96154756815" ht="33.608974864897" hb="0.023843166193614" hi="26.678804247755" mi="63.185165095589"/>
+    </class>
+    <class name="ProfileEditController" start="12" end="48" loc="37" cloc="3" eloc="25" lloc="18" ncloc="34" dit="3" noam="2" nocc="0" noom="0" nom="2" cr="0.15" rcr="0.179484375" ca="0" cbo="6" ce="6" impl="0" cis="2" csz="2" npm="2" vars="0" varsi="0" varsnp="0" wmc="7" wmci="7" wmcnp="7">
+      <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/ProfileEditController.php"/>
+      <method name="getAuthenticatedUsersProfileToEdit" start="14" end="31" ccn="4" ccn2="4" loc="18" cloc="0" eloc="15" lloc="11" ncloc="18" npath="4" hnt="34" hnd="83" hv="216.7513406658" hd="9.0909090909091" hl="0.11" he="1970.4667333254" ht="109.47037407363" hb="0.052391176378554" hi="23.842647473237" mi="57.450340688421"/>
+      <method name="updateAuthenticatedUsersProfile" start="33" end="47" ccn="3" ccn2="3" loc="15" cloc="3" eloc="10" lloc="7" ncloc="12" npath="3" hnt="21" hnd="47" hv="116.64636588523" hd="7.25" hl="0.13793103448276" he="845.68615266792" ht="46.982564037107" hb="0.029809284932375" hi="16.089153915204" mi="63.310267780596"/>
+    </class>
+    <class name="ProfileShowController" start="16" end="35" loc="20" cloc="4" eloc="10" lloc="7" ncloc="16" dit="3" noam="1" nocc="0" noom="0" nom="1" cr="0.15" rcr="0.179484375" ca="0" cbo="4" ce="4" impl="0" cis="1" csz="1" npm="1" vars="0" varsi="0" varsnp="0" wmc="3" wmci="3" wmcnp="3">
+      <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/ProfileShowController.php"/>
+      <method name="getAuthenticatedUsersProfile" start="23" end="34" ccn="3" ccn2="3" loc="12" cloc="0" eloc="10" lloc="7" ncloc="12" npath="3" hnt="24" hnd="47" hv="133.31013244026" hd="8.0555555555556" hl="0.12413793103448" he="1073.887177991" ht="59.660398777278" hb="0.034955687645654" hi="16.548844027067" mi="62.904207405364"/>
+    </class>
+    <class name="SearchComics" start="11" end="37" loc="27" cloc="5" eloc="13" lloc="7" ncloc="22" dit="3" noam="2" nocc="0" noom="0" nom="2" cr="0.15" rcr="0.179484375" ca="0" cbo="5" ce="5" impl="0" cis="2" csz="3" npm="2" vars="1" varsi="1" varsnp="0" wmc="3" wmci="3" wmcnp="3">
+      <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/SearchComics.php"/>
+      <method name="__construct" start="18" end="21" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+      <method name="searchComicsByName" start="23" end="36" ccn="2" ccn2="2" loc="14" cloc="2" eloc="10" lloc="6" ncloc="12" npath="2" hnt="28" hnd="56" hv="162.60593781761" hd="9.2727272727273" hl="0.1078431372549" he="1507.8005143088" ht="83.766695239376" hb="0.043830322888855" hi="17.535934470527" mi="62.434623964132"/>
+    </class>
+    <class name="UserController" start="8" end="117" loc="110" cloc="41" eloc="39" lloc="25" ncloc="69" dit="3" noam="7" nocc="0" noom="0" nom="7" cr="0.15" rcr="0.179484375" ca="0" cbo="3" ce="3" impl="0" cis="7" csz="7" npm="7" vars="0" varsi="0" varsnp="0" wmc="7" wmci="7" wmcnp="7">
+      <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/UserController.php"/>
+      <method name="index" start="16" end="23" ccn="1" ccn2="1" loc="8" cloc="0" eloc="5" lloc="3" ncloc="8" npath="1" hnt="19" hnd="27" hv="90.342862541106" hd="4.375" hl="0.22857142857143" he="395.25002361734" ht="21.958334645408" hb="0.017952572185195" hi="20.649797152253" mi="70.922996102454"/>
+      <method name="create" start="30" end="33" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="7" hnd="7" hv="19.651484454403" hd="6.25" hl="0.16" he="122.82177784002" ht="6.8234321022233" hb="0.0082362400950509" hi="3.1442375127045" mi="80.401219851729"/>
+      <method name="store" start="41" end="54" ccn="1" ccn2="1" loc="14" cloc="0" eloc="9" lloc="7" ncloc="14" npath="1" hnt="27" hnd="47" hv="149.9738989953" hd="6.075" hl="0.16460905349794" he="911.09143639642" ht="50.616190910912" hb="0.031327090017514" hi="24.687061563012" mi="63.813194872173"/>
+      <method name="show" start="62" end="67" ccn="1" ccn2="1" loc="6" cloc="0" eloc="4" lloc="2" ncloc="6" npath="1" hnt="14" hnd="17" hv="57.224479777505" hd="5" hl="0.2" he="286.12239888752" ht="15.895688827085" hb="0.014473713897564" hi="11.444895955501" mi="74.425570830412"/>
+      <method name="edit" start="75" end="80" ccn="1" ccn2="1" loc="6" cloc="0" eloc="4" lloc="2" ncloc="6" npath="1" hnt="14" hnd="17" hv="57.224479777505" hd="5" hl="0.2" he="286.12239888752" ht="15.895688827085" hb="0.014473713897564" hi="11.444895955501" mi="74.425570830412"/>
+      <method name="update" start="89" end="102" ccn="1" ccn2="1" loc="14" cloc="0" eloc="9" lloc="7" ncloc="14" npath="1" hnt="28" hnd="48" hv="156.37895002019" hd="5.7857142857143" hl="0.17283950617284" he="904.76392511683" ht="50.26466250649" hb="0.031181877612196" hi="27.028460497317" mi="63.686020034812"/>
+      <method name="destroy" start="110" end="116" ccn="1" ccn2="1" loc="7" cloc="0" eloc="5" lloc="3" ncloc="7" npath="1" hnt="15" hnd="21" hv="65.884761341681" hd="5.6875" hl="0.17582417582418" he="374.71958013081" ht="20.817754451712" hb="0.017325389346845" hi="11.584133862274" mi="71.883034213579"/>
+    </class>
+    <class name="WishListController" start="9" end="115" loc="107" cloc="41" eloc="37" lloc="21" ncloc="66" dit="3" noam="8" nocc="0" noom="0" nom="8" cr="0.15" rcr="0.179484375" ca="0" cbo="4" ce="4" impl="0" cis="8" csz="8" npm="8" vars="0" varsi="0" varsnp="0" wmc="8" wmci="8" wmcnp="8">
+      <file name="/mnt/hgfs/Code/recipes/app/Http/Controllers/WishListController.php"/>
+      <method name="__construct" start="12" end="15" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+      <method name="index" start="22" end="27" ccn="1" ccn2="1" loc="6" cloc="0" eloc="4" lloc="2" ncloc="6" npath="1" hnt="18" hnd="26" hv="84.60791492654" hd="4.7727272727273" hl="0.20952380952381" he="403.81050305848" ht="22.433916836582" hb="0.018210861262014" hi="17.727372651275" mi="73.236424964657"/>
+      <method name="create" start="34" end="37" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="7" hnd="7" hv="19.651484454403" hd="6.25" hl="0.16" he="122.82177784002" ht="6.8234321022233" hb="0.0082362400950509" hi="3.1442375127045" mi="80.401219851729"/>
+      <method name="store" start="45" end="55" ccn="1" ccn2="1" loc="11" cloc="0" eloc="7" lloc="5" ncloc="11" npath="1" hnt="19" hnd="31" hv="94.129729897351" hd="5.5416666666667" hl="0.18045112781955" he="521.63558651448" ht="28.97975480636" hb="0.021600155937118" hi="16.985815921326" mi="67.610497729609"/>
+      <method name="show" start="63" end="68" ccn="1" ccn2="1" loc="6" cloc="0" eloc="4" lloc="2" ncloc="6" npath="1" hnt="14" hnd="17" hv="57.224479777505" hd="5" hl="0.2" he="286.12239888752" ht="15.895688827085" hb="0.014473713897564" hi="11.444895955501" mi="74.425570830412"/>
+      <method name="edit" start="76" end="81" ccn="1" ccn2="1" loc="6" cloc="0" eloc="4" lloc="2" ncloc="6" npath="1" hnt="14" hnd="17" hv="57.224479777505" hd="5" hl="0.2" he="286.12239888752" ht="15.895688827085" hb="0.014473713897564" hi="11.444895955501" mi="74.425570830412"/>
+      <method name="update" start="90" end="100" ccn="1" ccn2="1" loc="11" cloc="0" eloc="7" lloc="5" ncloc="11" npath="1" hnt="20" hnd="32" hv="100" hd="5.1153846153846" hl="0.19548872180451" he="511.53846153846" ht="28.418803418803" hb="0.021320510893582" hi="19.548872180451" mi="67.426532525243"/>
+      <method name="destroy" start="108" end="114" ccn="1" ccn2="1" loc="7" cloc="0" eloc="5" lloc="3" ncloc="7" npath="1" hnt="15" hnd="21" hv="65.884761341681" hd="5.6875" hl="0.17582417582418" he="374.71958013081" ht="20.817754451712" hb="0.017325389346845" hi="11.584133862274" mi="71.883034213579"/>
+    </class>
+  </package>
+  <package name="App\Http" noc="1" noi="0" nom="0" nof="0" cr="0.15" rcr="0.21375">
+    <class name="Kernel" start="7" end="52" loc="46" cloc="19" eloc="0" lloc="0" ncloc="27" dit="2" noam="0" nocc="0" noom="0" nom="0" cr="0.15" rcr="0.2775" ca="0" cbo="0" ce="0" impl="0" cis="0" csz="3" npm="0" vars="3" varsi="3" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="/mnt/hgfs/Code/recipes/app/Http/Kernel.php"/>
+    </class>
+  </package>
+  <package name="App\Http\Middleware" noc="4" noi="0" nom="2" nof="0" cr="0.15" rcr="0.405">
+    <class name="Authenticate" start="8" end="30" loc="23" cloc="8" eloc="10" lloc="5" ncloc="15" dit="0" noam="0" nocc="0" noom="0" nom="1" cr="0.15" rcr="0.15" ca="0" cbo="2" ce="2" impl="0" cis="1" csz="1" npm="1" vars="0" varsi="0" varsnp="0" wmc="4" wmci="4" wmcnp="4">
+      <file name="/mnt/hgfs/Code/recipes/app/Http/Middleware/Authenticate.php"/>
+      <method name="handle" start="18" end="29" ccn="3" ccn2="4" loc="12" cloc="0" eloc="10" lloc="5" ncloc="12" npath="4" hnt="20" hnd="35" hv="102.5856603389" hd="9.8181818181818" hl="0.10185185185185" he="1007.2046651456" ht="55.955814730309" hb="0.033493245367366" hi="10.448539478962" mi="63.566369041232"/>
+    </class>
+    <class name="EncryptCookies" start="7" end="17" loc="11" cloc="6" eloc="0" lloc="0" ncloc="5" dit="2" noam="0" nocc="0" noom="0" nom="0" cr="0.15" rcr="0.2775" ca="0" cbo="0" ce="0" impl="0" cis="0" csz="1" npm="0" vars="1" varsi="1" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="/mnt/hgfs/Code/recipes/app/Http/Middleware/EncryptCookies.php"/>
+    </class>
+    <class name="RedirectIfAuthenticated" start="8" end="26" loc="19" cloc="8" eloc="6" lloc="3" ncloc="11" dit="0" noam="0" nocc="0" noom="0" nom="1" cr="0.15" rcr="0.15" ca="0" cbo="2" ce="2" impl="0" cis="1" csz="1" npm="1" vars="0" varsi="0" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <file name="/mnt/hgfs/Code/recipes/app/Http/Middleware/RedirectIfAuthenticated.php"/>
+      <method name="handle" start="18" end="25" ccn="2" ccn2="2" loc="8" cloc="0" eloc="6" lloc="3" ncloc="8" npath="2" hnt="12" hnd="18" hv="50.039100017308" hd="6" hl="0.16666666666667" he="300.23460010385" ht="16.679700005769" hb="0.014945802496243" hi="8.3398500028846" mi="70.857843367026"/>
+    </class>
+    <class name="VerifyCsrfToken" start="7" end="17" loc="11" cloc="6" eloc="0" lloc="0" ncloc="5" dit="2" noam="0" nocc="0" noom="0" nom="0" cr="0.15" rcr="0.2775" ca="0" cbo="0" ce="0" impl="0" cis="0" csz="1" npm="0" vars="1" varsi="1" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="/mnt/hgfs/Code/recipes/app/Http/Middleware/VerifyCsrfToken.php"/>
+    </class>
+  </package>
+  <package name="App\Http\Requests" noc="4" noi="0" nom="9" nof="0" cr="0.15" rcr="0.21375">
+    <class name="ProfileEditRequest" start="10" end="44" loc="35" cloc="14" eloc="12" lloc="6" ncloc="21" dit="3" noam="2" nocc="0" noom="0" nom="2" cr="0.15" rcr="0.228625" ca="0" cbo="3" ce="3" impl="0" cis="2" csz="2" npm="2" vars="0" varsi="0" varsnp="0" wmc="3" wmci="3" wmcnp="3">
+      <file name="/mnt/hgfs/Code/recipes/app/Http/Requests/ProfileEditRequest.php"/>
+      <method name="authorize" start="17" end="31" ccn="2" ccn2="2" loc="15" cloc="3" eloc="8" lloc="5" ncloc="12" npath="2" hnt="20" hnd="31" hv="99.083926207738" hd="7.125" hl="0.14035087719298" he="705.97297423013" ht="39.220720790563" hb="0.026428395407764" hi="13.906515958981" mi="66.054980951052"/>
+      <method name="rules" start="38" end="43" ccn="1" ccn2="1" loc="6" cloc="1" eloc="4" lloc="1" ncloc="5" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="12.5" hl="0.08" he="145.12050593046" ht="8.06225032947" hb="0.0092051584355002" hi="0.92877123795494" mi="79.276307042383"/>
+    </class>
+    <class name="ProfileShowRequest" start="15" end="57" loc="43" cloc="14" eloc="15" lloc="7" ncloc="29" dit="3" noam="3" nocc="0" noom="0" nom="3" cr="0.15" rcr="0.228625" ca="1" cbo="4" ce="4" impl="0" cis="3" csz="4" npm="3" vars="1" varsi="1" varsnp="0" wmc="4" wmci="4" wmcnp="4">
+      <file name="/mnt/hgfs/Code/recipes/app/Http/Requests/ProfileShowRequest.php"/>
+      <method name="authorize" start="25" end="39" ccn="2" ccn2="2" loc="15" cloc="3" eloc="8" lloc="5" ncloc="12" npath="2" hnt="20" hnd="32" hv="100" hd="7.5" hl="0.13333333333333" he="750" ht="41.666666666667" hb="0.027516060407455" hi="13.333333333333" mi="66.02699535535"/>
+      <method name="forbiddenResponse" start="41" end="44" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="10" hnd="11" hv="34.594316186373" hd="5.25" hl="0.19047619047619" he="181.62015997846" ht="10.090008887692" hb="0.010690256224877" hi="6.5893935593091" mi="78.681459685251"/>
+      <method name="rules" start="51" end="56" ccn="1" ccn2="1" loc="6" cloc="1" eloc="4" lloc="1" ncloc="5" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="12.5" hl="0.08" he="145.12050593046" ht="8.06225032947" hb="0.0092051584355002" hi="0.92877123795494" mi="79.276307042383"/>
+    </class>
+    <class name="ProfileUploadRequest" start="7" end="48" loc="42" cloc="16" eloc="14" lloc="4" ncloc="26" dit="3" noam="4" nocc="0" noom="0" nom="4" cr="0.15" rcr="0.228625" ca="1" cbo="0" ce="0" impl="0" cis="4" csz="5" npm="4" vars="1" varsi="1" varsnp="0" wmc="4" wmci="4" wmcnp="4">
+      <file name="/mnt/hgfs/Code/recipes/app/Http/Requests/ProfileUploadRequest.php"/>
+      <method name="authorize" start="16" end="19" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+      <method name="rules" start="26" end="31" ccn="1" ccn2="1" loc="6" cloc="0" eloc="5" lloc="1" ncloc="6" npath="1" hnt="12" hnd="12" hv="43.019550008654" hd="13.5" hl="0.074074074074074" he="580.76392511683" ht="32.26466250649" hb="0.023203054839448" hi="3.1866333339744" mi="73.179240682541"/>
+      <method name="getKilobytes" start="36" end="39" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+      <method name="setKilobytes" start="44" end="47" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+    </class>
+    <class name="Request" start="7" end="10" loc="4" cloc="1" eloc="0" lloc="0" ncloc="3" dit="2" noam="0" nocc="3" noom="0" nom="0" cr="0.5325" rcr="0.2775" ca="0" cbo="0" ce="0" impl="0" cis="0" csz="0" npm="0" vars="0" varsi="0" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="/mnt/hgfs/Code/recipes/app/Http/Requests/Request.php"/>
+    </class>
+  </package>
+  <package name="App\Jobs" noc="1" noi="0" nom="0" nof="0" cr="0.15" rcr="0.15">
+    <class name="Job" start="7" end="21" loc="15" cloc="10" eloc="0" lloc="0" ncloc="5" dit="0" noam="0" nocc="0" noom="0" nom="0" cr="0.15" rcr="0.15" ca="0" cbo="0" ce="0" impl="0" cis="0" csz="0" npm="0" vars="0" varsi="0" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="/mnt/hgfs/Code/recipes/app/Jobs/Job.php"/>
+    </class>
+  </package>
+  <package name="App" noc="5" noi="0" nom="20" nof="0" cr="0.15" rcr="0.5325">
+    <class name="MarvelApi" start="9" end="103" loc="95" cloc="9" eloc="48" lloc="23" ncloc="86" dit="0" noam="0" nocc="0" noom="0" nom="11" cr="0.15" rcr="0.2775" ca="3" cbo="3" ce="3" impl="1" cis="9" csz="17" npm="9" vars="6" varsi="6" varsnp="0" wmc="14" wmci="14" wmcnp="11">
+      <file name="/mnt/hgfs/Code/recipes/app/MarvelApi.php"/>
+      <method name="__construct" start="28" end="33" ccn="1" ccn2="1" loc="6" cloc="0" eloc="5" lloc="3" ncloc="6" npath="1" hnt="10" hnd="14" hv="38.073549220576" hd="2.6666666666667" hl="0.375" he="101.5294645882" ht="5.6405258104557" hb="0.0072544887115339" hi="14.277580957716" mi="73.550644962182"/>
+      <method name="comics" start="35" end="46" ccn="2" ccn2="2" loc="12" cloc="0" eloc="8" lloc="5" ncloc="12" npath="2" hnt="25" hnd="49" hv="140.36774610288" hd="7.975" hl="0.12539184952978" he="1119.4327751705" ht="62.190709731693" hb="0.035937187930179" hi="17.600971298167" mi="64.99582759914"/>
+      <method name="makeAuth" start="48" end="52" ccn="1" ccn2="1" loc="5" cloc="0" eloc="4" lloc="2" ncloc="5" npath="1" hnt="18" hnd="28" hv="86.532388597037" hd="7.7272727272727" hl="0.12941176470588" he="668.65936643165" ht="37.147742579536" hb="0.025488759544214" hi="11.198309112558" mi="73.168031404471"/>
+      <method name="getClient" start="54" end="57" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+      <method name="setClient" start="59" end="62" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+      <method name="getBaseUrl" start="64" end="67" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+      <method name="setBaseUrl" start="69" end="72" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+      <method name="getApiVersion" start="74" end="77" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+      <method name="setApiVersion" start="79" end="82" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+      <method name="getTimeStamp" start="84" end="91" ccn="2" ccn2="2" loc="8" cloc="0" eloc="6" lloc="3" ncloc="8" npath="2" hnt="9" hnd="12" hv="32.26466250649" hd="10.5" hl="0.095238095238095" he="338.77895631815" ht="18.821053128786" hb="0.016199055590069" hi="3.0728250006181" mi="72.192303581189"/>
+      <method name="setTimeStamp" start="93" end="102" ccn="2" ccn2="2" loc="10" cloc="0" eloc="7" lloc="4" ncloc="10" npath="2" hnt="12" hnd="18" hv="50.039100017308" hd="8" hl="0.125" he="400.31280013846" ht="22.239600007692" hb="0.018105550328217" hi="6.2548875021635" mi="69.397468505505"/>
+    </class>
+    <class name="Profile" start="12" end="57" loc="46" cloc="3" eloc="24" lloc="13" ncloc="43" dit="2" noam="3" nocc="0" noom="0" nom="3" cr="0.15" rcr="0.21375" ca="3" cbo="3" ce="3" impl="0" cis="3" csz="5" npm="3" vars="2" varsi="2" varsnp="0" wmc="9" wmci="9" wmcnp="9">
+      <file name="/mnt/hgfs/Code/recipes/app/Profile.php"/>
+      <method name="getProfileImageAttribute" start="20" end="33" ccn="6" ccn2="6" loc="14" cloc="0" eloc="11" lloc="7" ncloc="14" npath="55" hnt="27" hnd="66" hv="163.19864122268" hd="10.769230769231" hl="0.092857142857143" he="1757.5238285519" ht="97.640212697329" hb="0.048545192386364" hi="15.154159542106" mi="60.982609575477"/>
+      <method name="scopeMyProfile" start="35" end="38" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="9" hnd="11" hv="31.134884567736" hd="8" hl="0.125" he="249.07907654189" ht="13.837726474549" hb="0.013195836014061" hi="3.891860570967" mi="79.00185423579"/>
+      <method name="getSignedUrl" start="40" end="56" ccn="2" ccn2="2" loc="17" cloc="3" eloc="10" lloc="5" ncloc="14" npath="5" hnt="27" hnd="49" hv="151.59716579111" hd="8.6842105263158" hl="0.11515151515152" he="1316.5017029228" ht="73.138983495711" hb="0.04003990411194" hi="17.456643333522" mi="62.647802484989"/>
+    </class>
+    <class name="SearchComicsRepository" start="13" end="56" loc="44" cloc="3" eloc="24" lloc="9" ncloc="41" dit="0" noam="0" nocc="0" noom="0" nom="4" cr="0.15" rcr="0.15" ca="1" cbo="2" ce="2" impl="0" cis="2" csz="5" npm="2" vars="1" varsi="1" varsnp="0" wmc="5" wmci="5" wmcnp="2">
+      <file name="/mnt/hgfs/Code/recipes/app/SearchComicsRepository.php"/>
+      <method name="__construct" start="21" end="24" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+      <method name="getComicsByName" start="26" end="33" ccn="1" ccn2="1" loc="8" cloc="0" eloc="5" lloc="3" ncloc="8" npath="1" hnt="10" hnd="17" hv="40.874628412503" hd="4.2857142857143" hl="0.23333333333333" he="175.17697891073" ht="9.7320543839294" hb="0.010435904594826" hi="9.5374132962508" mi="73.334769718798"/>
+      <method name="transformResults" start="35" end="42" ccn="2" ccn2="2" loc="8" cloc="0" eloc="6" lloc="3" ncloc="8" npath="2" hnt="11" hnd="18" hv="45.869175015865" hd="10.4" hl="0.096153846153846" he="477.039420165" ht="26.502190009167" hb="0.020350804905819" hi="4.4104975976794" mi="71.122439367228"/>
+      <method name="returnEmptyResults" start="44" end="55" ccn="1" ccn2="1" loc="12" cloc="0" eloc="10" lloc="2" ncloc="12" npath="1" hnt="16" hnd="28" hv="76.917678752922" hd="6.1818181818182" hl="0.16176470588235" he="475.49110501806" ht="26.416172501003" hb="0.020306746312052" hi="12.44256568062" mi="64.845553000407"/>
+    </class>
+    <class name="User" start="7" end="36" loc="30" cloc="10" eloc="6" lloc="2" ncloc="20" dit="2" noam="2" nocc="0" noom="0" nom="2" cr="0.15" rcr="0.2775" ca="2" cbo="2" ce="2" impl="0" cis="2" csz="4" npm="2" vars="2" varsi="2" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <file name="/mnt/hgfs/Code/recipes/app/User.php"/>
+      <method name="wishlists" start="27" end="30" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="9" hnd="10" hv="29.897352853986" hd="7" hl="0.14285714285714" he="209.2814699779" ht="11.626748332106" hb="0.011749857421146" hi="4.2710504077123" mi="79.125191356207"/>
+      <method name="profile" start="32" end="35" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="9" hnd="10" hv="29.897352853986" hd="7" hl="0.14285714285714" he="209.2814699779" ht="11.626748332106" hb="0.011749857421146" hi="4.2710504077123" mi="79.125191356207"/>
+    </class>
+    <class name="WishList" start="7" end="12" loc="6" cloc="0" eloc="0" lloc="0" ncloc="6" dit="2" noam="0" nocc="0" noom="0" nom="0" cr="0.15" rcr="0.21375" ca="2" cbo="0" ce="0" impl="0" cis="0" csz="1" npm="0" vars="1" varsi="1" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="/mnt/hgfs/Code/recipes/app/WishList.php"/>
+    </class>
+  </package>
+  <package name="App\Providers" noc="6" noi="0" nom="9" nof="0" cr="0.15" rcr="0.405">
+    <class name="AppServiceProvider" start="7" end="30" loc="24" cloc="11" eloc="7" lloc="2" ncloc="13" dit="2" noam="2" nocc="0" noom="0" nom="2" cr="0.15" rcr="0.1925" ca="0" cbo="0" ce="0" impl="0" cis="2" csz="2" npm="2" vars="0" varsi="0" varsnp="0" wmc="3" wmci="3" wmcnp="3">
+      <file name="/mnt/hgfs/Code/recipes/app/Providers/AppServiceProvider.php"/>
+      <method name="boot" start="14" end="17" ccn="1" ccn2="1" loc="4" cloc="1" eloc="2" lloc="0" ncloc="3" npath="1" hnt="2" hnd="2" hv="2" hd="2" hl="0.5" he="4" ht="0.22222222222222" hb="0.00083994736659658" hi="1" mi="91.191023588314"/>
+      <method name="register" start="24" end="29" ccn="2" ccn2="2" loc="6" cloc="0" eloc="5" lloc="2" ncloc="6" npath="2" hnt="10" hnd="12" hv="35.849625007212" hd="6" hl="0.16666666666667" he="215.09775004327" ht="11.949875002404" hb="0.01196656002761" hi="5.9749375012019" mi="73.599165884488"/>
+    </class>
+    <class name="AuthServiceProvider" start="10" end="41" loc="32" cloc="11" eloc="11" lloc="7" ncloc="21" dit="2" noam="1" nocc="0" noom="0" nom="1" cr="0.15" rcr="0.2775" ca="0" cbo="1" ce="1" impl="0" cis="1" csz="2" npm="1" vars="1" varsi="1" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="/mnt/hgfs/Code/recipes/app/Providers/AuthServiceProvider.php"/>
+      <method name="boot" start="27" end="40" ccn="1" ccn2="1" loc="14" cloc="0" eloc="11" lloc="7" ncloc="14" npath="1" hnt="14" hnd="28" hv="67.302968908806" hd="6.3" hl="0.15873015873016" he="424.00870412548" ht="23.556039118082" hb="0.018813167690717" hi="10.683010937906" mi="64.348674830125"/>
+    </class>
+    <class name="EventServiceProvider" start="8" end="33" loc="26" cloc="12" eloc="3" lloc="1" ncloc="14" dit="2" noam="1" nocc="0" noom="0" nom="1" cr="0.15" rcr="0.2775" ca="0" cbo="1" ce="1" impl="0" cis="1" csz="2" npm="1" vars="1" varsi="1" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="/mnt/hgfs/Code/recipes/app/Providers/EventServiceProvider.php"/>
+      <method name="boot" start="27" end="32" ccn="1" ccn2="1" loc="6" cloc="1" eloc="3" lloc="1" ncloc="5" npath="1" hnt="7" hnd="7" hv="19.651484454403" hd="6.25" hl="0.16" he="122.82177784002" ht="6.8234321022233" hb="0.0082362400950509" hi="3.1442375127045" mi="80.401219851729"/>
+    </class>
+    <class name="GuzzleClientProvider" start="8" end="30" loc="23" cloc="0" eloc="15" lloc="5" ncloc="23" dit="2" noam="1" nocc="0" noom="0" nom="1" cr="0.15" rcr="0.1925" ca="0" cbo="2" ce="2" impl="0" cis="1" csz="1" npm="1" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="/mnt/hgfs/Code/recipes/app/Providers/GuzzleClientProvider.php"/>
+      <method name="register" start="11" end="29" ccn="1" ccn2="1" loc="19" cloc="0" eloc="15" lloc="5" ncloc="19" npath="1" hnt="28" hnd="50" hv="158.02797331369" hd="6.9047619047619" hl="0.1448275862069" he="1091.1455300231" ht="60.619196112395" hb="0.035329204925756" hi="22.88680992819" mi="58.814720474379"/>
+    </class>
+    <class name="MarvelApiClient" start="9" end="47" loc="39" cloc="11" eloc="21" lloc="9" ncloc="28" dit="2" noam="2" nocc="0" noom="0" nom="2" cr="0.15" rcr="0.1925" ca="0" cbo="3" ce="3" impl="0" cis="2" csz="2" npm="2" vars="0" varsi="0" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <file name="/mnt/hgfs/Code/recipes/app/Providers/MarvelApiClient.php"/>
+      <method name="boot" start="16" end="36" ccn="1" ccn2="1" loc="21" cloc="0" eloc="19" lloc="9" ncloc="21" npath="1" hnt="35" hnd="78" hv="219.98907766018" hd="6.1428571428571" hl="0.16279069767442" he="1351.3614770554" ht="75.075637614188" hb="0.040743634592697" hi="35.812175433052" mi="55.569288577354"/>
+      <method name="register" start="43" end="46" ccn="1" ccn2="1" loc="4" cloc="1" eloc="2" lloc="0" ncloc="3" npath="1" hnt="2" hnd="2" hv="2" hd="2" hl="0.5" he="4" ht="0.22222222222222" hb="0.00083994736659658" hi="1" mi="91.191023588314"/>
+    </class>
+    <class name="RouteServiceProvider" start="8" end="44" loc="37" cloc="20" eloc="8" lloc="4" ncloc="17" dit="2" noam="2" nocc="0" noom="0" nom="2" cr="0.15" rcr="0.2775" ca="0" cbo="1" ce="1" impl="0" cis="2" csz="3" npm="2" vars="1" varsi="1" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <file name="/mnt/hgfs/Code/recipes/app/Providers/RouteServiceProvider.php"/>
+      <method name="boot" start="25" end="30" ccn="1" ccn2="1" loc="6" cloc="1" eloc="3" lloc="1" ncloc="5" npath="1" hnt="7" hnd="7" hv="19.651484454403" hd="6.25" hl="0.16" he="122.82177784002" ht="6.8234321022233" hb="0.0082362400950509" hi="3.1442375127045" mi="80.401219851729"/>
+      <method name="map" start="38" end="43" ccn="1" ccn2="1" loc="6" cloc="0" eloc="5" lloc="3" ncloc="6" npath="1" hnt="13" hnd="16" hv="52" hd="8.8" hl="0.11363636363636" he="457.6" ht="25.422222222222" hb="0.019794115001517" hi="5.9090909090909" mi="72.60271256254"/>
+    </class>
+  </package>
+  <package name="App\Repositories" noc="2" noi="0" nom="3" nof="0" cr="0.15" rcr="0.15">
+    <class name="ProfileRepository" start="18" end="43" loc="26" cloc="0" eloc="13" lloc="8" ncloc="26" dit="0" noam="0" nocc="1" noom="0" nom="2" cr="0.2775" rcr="0.15" ca="2" cbo="5" ce="5" impl="0" cis="2" csz="2" npm="2" vars="0" varsi="0" varsnp="0" wmc="4" wmci="4" wmcnp="4">
+      <file name="/mnt/hgfs/Code/recipes/app/Repositories/ProfileRepository.php"/>
+      <method name="getProfileForAuthenticatedUser" start="22" end="25" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="9" hnd="11" hv="31.134884567736" hd="8" hl="0.125" he="249.07907654189" ht="13.837726474549" hb="0.013195836014061" hi="3.891860570967" mi="79.00185423579"/>
+      <method name="uploadUserProfileImage" start="27" end="42" ccn="2" ccn2="3" loc="16" cloc="0" eloc="10" lloc="7" ncloc="16" npath="3" hnt="25" hnd="47" hv="138.86472129194" hd="7.3684210526316" hl="0.13571428571429" he="1023.2137358354" ht="56.845207546409" hb="0.033847218603913" hi="18.845926461049" mi="62.780070346004"/>
+    </class>
+    <class name="ProfileShowPage" start="14" end="22" loc="9" cloc="0" eloc="3" lloc="1" ncloc="9" dit="1" noam="1" nocc="0" noom="0" nom="1" cr="0.15" rcr="0.2775" ca="2" cbo="1" ce="1" impl="0" cis="1" csz="1" npm="1" vars="0" varsi="0" varsnp="0" wmc="1" wmci="5" wmcnp="1">
+      <file name="/mnt/hgfs/Code/recipes/app/Repositories/ProfileShowPage.php"/>
+      <method name="showMyProfilePage" start="18" end="21" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="12.5" hl="0.08" he="193.87218755409" ht="10.770677086338" hb="0.011165780490257" hi="1.2407820003462" mi="81.120955834208"/>
+    </class>
+  </package>
+</metrics>

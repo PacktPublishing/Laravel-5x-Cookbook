@@ -9,7 +9,4 @@ class WishList extends Model
     protected $casts = [
         'comic_data' => 'array'
     ];
-
-
-    
 }

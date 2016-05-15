@@ -26,9 +26,7 @@ class ProfileRepository
     
     public function uploadUserProfileImage(Request $request)
     {
-        if($request->file('profile_image') && $request->file('profile_image')->isValid())
-        {
-
+        if ($request->file('profile_image') && $request->file('profile_image')->isValid()) {
             Log::info("Going to save the file");
 
             $contents = file_get_contents($request->file('profile_image')->getRealPath());
@@ -42,6 +40,4 @@ class ProfileRepository
         
         return false;
     }
-    
-
 }
