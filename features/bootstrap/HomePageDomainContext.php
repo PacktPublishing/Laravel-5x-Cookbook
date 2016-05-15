@@ -5,10 +5,10 @@ use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
 use Behat\MinkExtension\Context\MinkContext;
 use Mockery as m;
-
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
 use PHPUnit_Framework_Assert as PHPUnit;
+
 /**
  * Created by PhpStorm.
  * User: alfre
@@ -32,7 +32,6 @@ class HomePageDomainContext extends MinkContext implements Context, SnippetAccep
      */
     public function iWillSeeASearchBar()
     {
-
         $client = m::mock(\App\Interfaces\ComicClientInterface::class);
 
         $fixture = File::get(base_path('tests/fixtures/results_no_name.json'));

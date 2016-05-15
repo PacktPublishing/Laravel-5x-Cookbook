@@ -19,16 +19,13 @@ class Profile extends Model
 
     public function getProfileImageAttribute()
     {
-
         $path   = (!Auth::guest()) ? Auth::user()->id . '/example_profile.jpg' : false;
 
-        if(Auth::guest()) {
+        if (Auth::guest()) {
             $image = false;
-        }
-        elseif(is_local_or_s3()) {
+        } elseif (is_local_or_s3()) {
             $image = (Storage::exists(is_local_or_s3() . $path)) ? Storage::url($path): false;
-        }
-        else {
+        } else {
             $image = (Storage::exists($path)) ? $this->getSignedUrl($path, 10): false;
         }
 

@@ -15,7 +15,7 @@ class MarvelApiClient extends ServiceProvider
      */
     public function boot()
     {
-        $this->app->bind(\App\Interfaces\ComicClientInterface::class, function() {
+        $this->app->bind(\App\Interfaces\ComicClientInterface::class, function () {
             $config = [
                 'base_uri'          => env('MARVEL_API_BASE_URL'),
                 'timeout'           => 0,
@@ -33,7 +33,6 @@ class MarvelApiClient extends ServiceProvider
             $client->setApiVersion(env('MARVEL_API_VERSION'));
             return $client;
         });
-
     }
 
     /**

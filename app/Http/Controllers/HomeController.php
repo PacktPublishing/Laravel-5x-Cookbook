@@ -21,7 +21,6 @@ class HomeController extends Controller
 
     public function __construct(SearchComicsRepository $searchComicsRepository)
     {
-
         $this->searchComicsRepository = $searchComicsRepository;
     }
 
@@ -34,17 +33,18 @@ class HomeController extends Controller
     {
         $name = '';
 
-        if($request->input('name'))
-        {
+        if ($request->input('name')) {
             $name = $request->input('name');
             $message = sprintf("Your results for %s", $name);
             Session::flash('status', $message);
         }
 
         $results = $this->searchComicsRepository->getComicsByName($name);
+
+        \JavaScript::put([
+            'api_results' => $results
+        ]);
         
         return Response::view('home.index', compact('results'));
     }
-
-
 }

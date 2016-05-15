@@ -8,7 +8,6 @@
 
 namespace App;
 
-
 use App\Interfaces\ComicClientInterface;
 
 class SearchComicsRepository
@@ -28,15 +27,16 @@ class SearchComicsRepository
     {
         $results = $this->clientInterface->comics($name);
 
-        $results = $this->transformResults($results);   
+        $results = $this->transformResults($results);
         
         return $results;
     }
 
     private function transformResults($results)
     {
-        if(isset($results['data']))
+        if (isset($results['data'])) {
             return $results['data'];
+        }
 
         return $this->returnEmptyResults();
     }
@@ -52,6 +52,5 @@ class SearchComicsRepository
         ];
 
         return $results;
-
     }
 }
