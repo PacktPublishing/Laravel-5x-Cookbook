@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <title>ICDB: Internet Comic Database</title>
 
@@ -150,7 +151,7 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Core JS -->
-<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery-1.12.3.js"></script>
 <script src="/js/angular.js"></script>
 <script src="/js/app.js"></script>
 <script src="/js/bootstrap.min.js"></script>
