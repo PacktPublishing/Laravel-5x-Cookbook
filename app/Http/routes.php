@@ -23,6 +23,7 @@
 |
 */
 
+use App\User;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Request;
@@ -38,32 +39,30 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('profile', 'ProfileController@getAuthenticatedUsersProfile')->name('profile');
     Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
 
-    Route::get('/about', ['as' => 'about', function(){
+    Route::get('/about', ['as' => 'about', function () {
         $title = "About";
         return view('about', compact('title'));
     }]);
 
-    Route::resource("users","UserController"); // Add this line in routes.php
+    Route::resource("users", "UserController"); // Add this line in routes.php
 
-    Route::get('/api/v1/search', ['as' => 'search',
-        'uses' => 'SearchComics@searchComicsByName']);
+    #Route::get('/api/v1/search', ['as' => 'search',
+    #    'uses' => 'SearchComics@searchComicsByName']);
 
-    Route::get('/show_message', function() {
+    Route::get('/show_message', function () {
        return redirect('/')->with("message", "Hello There");
     });
 
-    Route::resource("wish_lists","WishListController");
+    Route::resource("wish_lists", "WishListController");
 
     /**
      * Example of Fake API
      *
      */
-    if(env('MARVEL_API_FAKE') == true)
-    {
-        Route::get('/v1/public/comics', function(){
+    if (env('MARVEL_API_FAKE') == true) {
+        Route::get('/v1/public/comics', function () {
             Log::info(sprintf("Request coming in %s", env('MARVEL_API_FAKE')));
-            if(Request::input('name'))
-            {
+            if (Request::input('name')) {
                 Log::info("This one had a name");
                 $fixture = File::get(base_path('tests/fixtures/results_no_name.json'));
                 $data = ['data' => json_decode($fixture, true)];
@@ -77,4 +76,3 @@ Route::group(['middleware' => ['web']], function () {
         });
     }
 });
-

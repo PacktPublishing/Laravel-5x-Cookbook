@@ -36,8 +36,7 @@ class MarvelApi implements ComicClientInterface
     {
         $query = ['query' => $this->makeAuth()];
 
-        if($title)
-        {
+        if ($title) {
             $query['query'] = array_merge($query['query'], ['titleStartsWith' => $title]);
         }
 
@@ -84,20 +83,21 @@ class MarvelApi implements ComicClientInterface
 
     private function getTimeStamp()
     {
-        if(!$this->ts)
+        if (!$this->ts) {
             $this->setTimeStamp();
+        }
 
         return $this->ts;
     }
 
     public function setTimeStamp($ts = null)
     {
-        if(!$ts)
+        if (!$ts) {
             $ts = Carbon::now()->timestamp;
+        }
 
         $this->ts = $ts;
 
         return $this;
-
     }
 }

@@ -8,7 +8,6 @@
 
 namespace App\Repositories;
 
-
 use App\Profile;
 use Illuminate\Support\Facades\Auth;
 
@@ -20,5 +19,4 @@ class ProfileShowPage extends ProfileRepository
     {
         return Profile::myProfile();
     }
-
 }

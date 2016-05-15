@@ -10,7 +10,6 @@ use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Validator;
 use Mockery as m;
-
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
 use PHPUnit_Framework_Assert as PHPUnit;
@@ -38,8 +37,9 @@ class ProfileImageDomainContext extends MinkContext implements Context, SnippetA
      */
     public function after_scenario()
     {
-        if(File::exists(public_path('storage/' . $this->user->id)))
+        if (File::exists(public_path('storage/' . $this->user->id))) {
             File::deleteDirectory(public_path('storage/' . $this->user->id));
+        }
         m::close();
     }
 
@@ -56,8 +56,9 @@ class ProfileImageDomainContext extends MinkContext implements Context, SnippetA
 
         Auth::login($this->user);
 
-        if(!File::exists(base_path('tests/fixtures/example_profile.jpg')))
-            File::copy(base_path('tests/fixtures/profile.jpg'),base_path('tests/fixtures/example_profile.jpg'));
+        if (!File::exists(base_path('tests/fixtures/example_profile.jpg'))) {
+            File::copy(base_path('tests/fixtures/profile.jpg'), base_path('tests/fixtures/example_profile.jpg'));
+        }
 
         //make sure I have a profile
         factory(\App\Profile::class)->create(['user_id' => $this->user->id]);
@@ -72,7 +73,7 @@ class ProfileImageDomainContext extends MinkContext implements Context, SnippetA
         $file = new \Symfony\Component\HttpFoundation\FileBag();
         $path = base_path('tests/fixtures/example_profile.jpg');
         $originalName = 'example_profile.jpg';
-        $upload = new \Illuminate\Http\UploadedFile($path, $originalName, null, null, null, TRUE);
+        $upload = new \Illuminate\Http\UploadedFile($path, $originalName, null, null, null, true);
         $file->set('profile_image', $upload);
         $request->files = $file;
         
@@ -105,7 +106,7 @@ class ProfileImageDomainContext extends MinkContext implements Context, SnippetA
         $file = new \Symfony\Component\HttpFoundation\FileBag();
         $path = base_path('tests/fixtures/example_profile.png');
         $originalName = 'example_profile.png';
-        $upload = new \Illuminate\Http\UploadedFile($path, $originalName, null, null, null, TRUE);
+        $upload = new \Illuminate\Http\UploadedFile($path, $originalName, null, null, null, true);
         $file->set('profile_image', $upload);
         $request->files = $file;
 
@@ -128,7 +129,7 @@ class ProfileImageDomainContext extends MinkContext implements Context, SnippetA
         $file = new \Symfony\Component\HttpFoundation\FileBag();
         $path = base_path('tests/fixtures/example_profile.jpg');
         $originalName = 'example_profile.jpg';
-        $upload = new \Illuminate\Http\UploadedFile($path, $originalName, null, 10000, null, TRUE);
+        $upload = new \Illuminate\Http\UploadedFile($path, $originalName, null, 10000, null, true);
         $file->set('profile_image', $upload);
         $request->files = $file;
 

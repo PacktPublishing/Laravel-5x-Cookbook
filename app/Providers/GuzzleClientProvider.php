@@ -10,7 +10,7 @@ class GuzzleClientProvider extends ServiceProvider
 
     public function register()
     {
-        $this->app->bind(\App\Interfaces\ClientInterface::class, function($app) {
+        $this->app->bind(\App\Interfaces\ClientInterface::class, function ($app) {
 
             $config = [
                 'base_uri'          => env('API_CLIENT_URL'),

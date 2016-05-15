@@ -10,5 +10,4 @@ class APIClient extends Facade
     {
         return '\App\Interfaces\ClientInterface';
     }
-
 }

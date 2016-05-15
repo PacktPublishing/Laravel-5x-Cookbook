@@ -8,7 +8,6 @@ use Illuminate\Foundation\Auth\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Gate;
 use Mockery as m;
-
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
 use PHPUnit_Framework_Assert as PHPUnit;
