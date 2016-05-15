@@ -24,14 +24,19 @@ class SearchComics extends Controller
     {
         try {
             $name = $request->input('name');
+
             $results = $this->clientInterface->comics($name);
 
-            //File::put(base_path('tests/fixtures/search_no_name.json'),
-            //  json_encode($results, JSON_PRETTY_PRINT));
             return Response::json(['data' => $results['data'], 'message' => "Success Getting Comics"], 200);
         } catch (\Exception $e) {
             return Response::json(
                 ['data' => [], 'message' => sprintf("Error Getting Comics %s", $e->getMessage())], 400);
         }
+    }
+
+    protected function makeFixture($results, $name = 'no_name')
+    {
+        //File::put(base_path('tests/fixtures/search_no_name.json'),
+        //  json_encode($results, JSON_PRETTY_PRINT));
     }
 }

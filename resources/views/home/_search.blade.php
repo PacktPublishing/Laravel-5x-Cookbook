@@ -9,7 +9,8 @@
         </span>
         </div>
         <div class="help-block">You are going to search for ... @{{ vm.search }}</div>
-        <div class="alert alert-info" ng-if="vm.searching">Searching for results will be right back...</div>
+        <div class="alert alert-info" ng-if="vm.searching">
+            <i class="fa fa-gear fa-spin"></i>&nbsp;Searching for results will be right back...</div>
         <div class="alert alert-danger" ng-if="vm.error">Error getting results :( </div>
     </form>
     <hr>

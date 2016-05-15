@@ -46,8 +46,8 @@ Route::group(['middleware' => ['web']], function () {
 
     Route::resource("users", "UserController"); // Add this line in routes.php
 
-    #Route::get('/api/v1/search', ['as' => 'search',
-    #    'uses' => 'SearchComics@searchComicsByName']);
+    Route::get('/api/v1/search', ['as' => 'search',
+        'uses' => 'SearchComics@searchComicsByName']);
 
     Route::get('/show_message', function () {
        return redirect('/')->with("message", "Hello There");

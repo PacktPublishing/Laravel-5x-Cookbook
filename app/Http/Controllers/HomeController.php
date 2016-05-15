@@ -31,11 +31,7 @@ class HomeController extends Controller
      */
     public function index(Request $request)
     {
-        $name = '';
-
-        if ($request->input('name')) {
-            $name = $request->input('name');
-        }
+        $name = $request->input('name');
 
         $results = $this->searchComicsRepository->getComicsByName($name);
 
