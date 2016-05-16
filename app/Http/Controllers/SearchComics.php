@@ -25,7 +25,8 @@ class SearchComics extends Controller
         try {
             $name = $request->input('name');
 
-            $results = $this->clientInterface->comics($name);
+            $offset  = $request->input('offset');
+            $results = $this->clientInterface->comics($name, $offset);
 
             return Response::json(['data' => $results['data'], 'message' => "Success Getting Comics"], 200);
         } catch (\Exception $e) {

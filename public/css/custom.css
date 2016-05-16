@@ -25,3 +25,5 @@ div#form-buttons input[type=checkbox]:checked + label
 .larger p {
     font-size: 155%;
 }
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }

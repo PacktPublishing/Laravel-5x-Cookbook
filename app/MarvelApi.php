@@ -32,9 +32,11 @@ class MarvelApi implements ComicClientInterface
         $this->client = $client;
     }
 
-    public function comics($title = false)
+    public function comics($title = false, $offset = 0)
     {
         $query = ['query' => $this->makeAuth()];
+
+        $query['query'] = array_merge($query['query'], ['offset' => $offset]);
 
         if ($title) {
             $query['query'] = array_merge($query['query'], ['titleStartsWith' => $title]);
