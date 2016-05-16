@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Session;
 class HomeController extends Controller
 {
 
+    use \App\UserTrait;
 
     /**
      * @var SearchComicsRepository
@@ -35,8 +36,10 @@ class HomeController extends Controller
 
         $results = $this->searchComicsRepository->getComicsByName($name);
 
+        
         \JavaScript::put([
-            'api_results' => $results
+            'api_results' => $results,
+            'user' => $this->getUserInfo()
         ]);
         
         return Response::view('home.index', compact('results'));
