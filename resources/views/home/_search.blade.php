@@ -1,11 +1,10 @@
-<div ng-controller="MainController as vm">
-
+<div>
     <form method="GET" class="form-horizontal" novalidate>
         <div class="input-group">
             <input type="text" name="name" class="form-control col-lg-10"
                    placeholder="Search for your comic..." ng-model="vm.search">
         <span class="input-group-btn">
-            <input type="submit" class="btn btn-primary" ng-click="vm.searchFor()" ng-disabled="vm.disableSearch()">Search</input>
+            <input type="submit" id="search" class="btn btn-primary" ng-click="vm.searchFor()" ng-disabled="vm.disableSearch()">Search</input>
         </span>
         </div>
         <div class="help-block">You are going to search for ... @{{ vm.search }}</div>

@@ -15,6 +15,7 @@ class HomePageUiContext extends MinkContext implements Context, SnippetAccepting
 
 
     private $baseUrl;
+    private $searching_for;
 
     public function __construct()
     {
@@ -48,5 +49,36 @@ class HomePageUiContext extends MinkContext implements Context, SnippetAccepting
     public function iWillSeeLotsAndLotsOfComicsAndImages()
     {
         $this->assertPageContainsText("BLACK CAT makes her move against SPIDER-MAN!!!");
+    }
+
+    /**
+     * @Given I search for :arg1
+     */
+    public function iSearchFor($arg1)
+    {
+        $this->searching_for = $arg1;
+        $this->assertPageNotContainsText($arg1);
+        $this->fillField("name", $arg1);
+        $this->pressButton("search");
+        
+        sleep(3);
+    }
+
+    /**
+     * @Then I should see a ton of results about him
+     */
+    public function iShouldSeeATonOfResultsAboutHim()
+    {
+        $this->assertPageContainsText($this->searching_for);
+    }
+
+    /**
+     * @Then if I click the Next in the Pagination I can see even more :arg1
+     */
+    public function ifIClickTheNextInThePaginationICanSeeEvenMore2($arg1)
+    {
+        $this->clickLink("Next");
+        sleep(4);
+        $this->assertPageContainsText($arg1);
     }
 }
