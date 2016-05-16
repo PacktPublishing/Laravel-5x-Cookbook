@@ -22,7 +22,10 @@
             </div>
         </div>
 
-        <uib-pagination max-size="vm.maxSize" total-items="vm.api_results.total" ng-model="vm.currentPage" ng-change="vm.paginate()"></uib-pagination>
+        <uib-pagination max-size="vm.maxSize" total-items="vm.api_results.total"
+                        ng-model="vm.currentPage" ng-change="vm.paginate()">
+
+        </uib-pagination>
 
     </div>
 </div>

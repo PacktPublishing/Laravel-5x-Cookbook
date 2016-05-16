@@ -52,7 +52,6 @@
         function searchApiForComics()
         {
             vm.offset = (vm.currentPage - 1) * vm.totalPerRequest;
-            console.log(vm.offset);
             vm.searching = true;
             vm.error = false;
             var query = $httpParamSerializer({ 'name': vm.search });
