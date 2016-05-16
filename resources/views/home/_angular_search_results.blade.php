@@ -1,6 +1,7 @@
 <div class="panel panel-default">
     <div class="panel-heading">Find some comics!</div>
     <div class="panel-body">
+        <uib-pagination max-size="vm.maxSize" total-items="vm.api_results.total" ng-model="vm.currentPage" ng-change="vm.paginate()"></uib-pagination>
 
         <div ng-repeat="result in vm.api_results.results">
             <div class="media">
@@ -20,5 +21,8 @@
                 </div>
             </div>
         </div>
+
+        <uib-pagination max-size="vm.maxSize" total-items="vm.api_results.total" ng-model="vm.currentPage" ng-change="vm.paginate()"></uib-pagination>
+
     </div>
 </div>

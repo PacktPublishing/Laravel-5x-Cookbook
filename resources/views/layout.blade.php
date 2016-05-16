@@ -20,6 +20,8 @@
 
     <!-- App CSS -->
     <link rel="stylesheet" href="/css/mvpready-landing.css">
+    <link rel="stylesheet" href="/css/ui-bootstrap-csp.css">
+
     <link rel="stylesheet" href="/css/custom.css">
     <link href="/css/animate.min.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="./css/custom.css"> -->
@@ -153,6 +155,8 @@
 <!-- Core JS -->
 <script src="/js/jquery-1.12.3.js"></script>
 <script src="/js/angular.js"></script>
+<script src="/js/ui-bootstrap.js"></script>
+<script src="/js/ui-bootstrap-tpls.js"></script>
 <script src="/js/app.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 
