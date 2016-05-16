@@ -10,6 +10,7 @@
 
     <!-- Google Font: Open Sans -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic">
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:400,300,700">
 
     <!-- Font Awesome CSS -->
