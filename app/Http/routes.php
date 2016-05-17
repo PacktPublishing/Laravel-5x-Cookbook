@@ -33,6 +33,9 @@ Route::group(['middleware' => ['web']], function () {
 
     Route::auth();
 
+    Route::post('api/v1/favorite', 'FavoriteCreate@create')->name('favorite.create');
+    Route::delete('api/v1/favorite/{comic_id}', 'FavoriteRemove@remove')->name('favorite.remove');
+
     Route::get('profile/edit', 'ProfileEditController@getAuthenticatedUsersProfileToEdit')->name('profile.edit');
     Route::put('profile/edit', 'ProfileEditController@updateAuthenticatedUsersProfile')->name('profile.update');
 

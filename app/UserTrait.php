@@ -18,8 +18,9 @@ trait UserTrait
     {
         if(Auth::guest())
             return [];
-        
-        return Auth::user()->load('favorites');
+
+        $user = Auth::user()->load('favorites');
+        return $user->toArray();
     }
     
 }
