@@ -53,9 +53,6 @@
 
         function favoriteRemove(comic_id, index) {
 
-            var index = index - 1;
-            console.log(vm.favorites);
-
             var req = {
                 'headers': {
                     'Content-Type': 'application/json',
@@ -68,15 +65,17 @@
             };
 
             $http(req).success(function(response) {
-                    console.log(response);
-                    console.log(vm.favorites);
-                    vm.favorites.splice(index, 1, vm.favorites);
-                    console.log(vm.favorites);
+
+                    //Was having an issue with splice off off the incoming index
+                    angular.forEach(vm.favorites, function(v,i) {
+                        if(i == index)
+                        {
+                            vm.favorites.splice(i, 1);
+                        }
+                    })
                 })
                 .error(function(response) {
-                    console.log("Error creating favorite");
                     vm.error = true;
-                    console.log(response);
                 });
         }
 
@@ -94,15 +93,10 @@
             };
 
             $http(req).success(function(response) {
-                    console.log(response);
-                    console.log(vm.favorites);
                     vm.favorites.push(response.data);
-                    console.log(vm.favorites);
                 })
                 .error(function(response) {
-                    console.log("Error creating favorite");
                     vm.error = true;
-                    console.log(response);
                 });
         }
 
