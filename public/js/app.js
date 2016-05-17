@@ -21,6 +21,9 @@
         vm.offset = 0;
         vm.totalPerRequest = 20;
         vm.paginate = paginate;
+        vm.favorite = favorite;
+        vm.favorites = [];
+        vm.favoriteRemove = favoriteRemove;
 
         activate();
 
@@ -30,6 +33,8 @@
             vm.api_results = $window.api_results;
             console.log(vm.api_results);
             vm.smallnumPages = vm.api_results.total / vm.api_results.limit;
+            vm.favorites = $window.user.favorites;
+            console.log(vm.favorites);
         }
 
         function disableSearch()
@@ -45,7 +50,62 @@
         {
             searchApiForComics();    
         }
-        
+
+        function favoriteRemove(comic_id, index) {
+
+            var index = index - 1;
+            console.log(vm.favorites);
+
+            var req = {
+                'headers': {
+                    'Content-Type': 'application/json',
+                    'charset': 'utf-8',
+                    'Accept': 'application/json'
+                },
+                'method': 'DELETE',
+                'data': [],
+                'url': '/api/v1/favorite/' + comic_id
+            };
+
+            $http(req).success(function(response) {
+                    console.log(response);
+                    console.log(vm.favorites);
+                    vm.favorites.splice(index, 1, vm.favorites);
+                    console.log(vm.favorites);
+                })
+                .error(function(response) {
+                    console.log("Error creating favorite");
+                    vm.error = true;
+                    console.log(response);
+                });
+        }
+
+        function favorite(comic)
+        {
+            var req = {
+                'headers': {
+                    'Content-Type': 'application/json',
+                    'charset': 'utf-8',
+                    'Accept': 'application/json'
+                },
+                'method': 'POST',
+                'data': { 'comic': comic },
+                'url': '/api/v1/favorite'
+            };
+
+            $http(req).success(function(response) {
+                    console.log(response);
+                    console.log(vm.favorites);
+                    vm.favorites.push(response.data);
+                    console.log(vm.favorites);
+                })
+                .error(function(response) {
+                    console.log("Error creating favorite");
+                    vm.error = true;
+                    console.log(response);
+                });
+        }
+
         /**
          * @NOTE we can pull this out into a service as well
          */
