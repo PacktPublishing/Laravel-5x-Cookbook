@@ -11,7 +11,13 @@ use Illuminate\Support\Facades\Response;
 
 class FavoriteCreate extends Controller
 {
-    public function create(Request $request)
+    
+    public function __construct()
+    {
+        $this->middleware('auth');    
+    }
+
+    public function create(Requests\FavoriteCreateRequest $request)
     {
         $comic = $request->input('comic');
 

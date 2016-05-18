@@ -1,11 +1,11 @@
 (function(){
     'use strict';
 
-    angular.module('app', ['ui.bootstrap']);
+    angular.module('app', ['ui.bootstrap', 'ngAnimate', 'toastr']);
 
-    MainController.$inject = ['$http', '$httpParamSerializer', '$window'];
+    MainController.$inject = ['$http', '$httpParamSerializer', '$window', 'toastr'];
 
-    function MainController($http, $httpParamSerializer, $window)
+    function MainController($http, $httpParamSerializer, $window, toastr)
     {
         var vm = this;
         vm.hello = "Hello Angular";
@@ -68,6 +68,7 @@
 
                     //Was having an issue with splice off
                     //so resorted to this for now
+                    toastr.success('Removed Favorite');
                     angular.forEach(vm.favorites, function(v,i) {
                         if(i == index)
                         {
@@ -82,6 +83,8 @@
 
         function favorite(comic)
         {
+            toastr.success('Adding Favorite');
+
             var req = {
                 'headers': {
                     'Content-Type': 'application/json',
@@ -94,9 +97,21 @@
             };
 
             $http(req).success(function(response) {
+                    toastr.success('Added Favorite');
+
                     vm.favorites.push(response.data);
                 })
                 .error(function(response) {
+                    toastr.error('Error Adding Favorite', 'Error');
+
+                    angular.forEach(response, function(v, i) {
+
+                        angular.forEach(v, function(message, index) {
+                            toastr.error(message, 'Error');
+                        })
+
+                    });
+
                     vm.error = true;
                 });
         }

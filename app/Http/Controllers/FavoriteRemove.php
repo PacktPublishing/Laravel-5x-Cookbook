@@ -11,6 +11,12 @@ use Illuminate\Support\Facades\Response;
 
 class FavoriteRemove extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+    
     public function remove(Request $request, $id)
     {
 
