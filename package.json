@@ -4,6 +4,7 @@
     "gulp": "^3.8.8"
   },
   "dependencies": {
+    "angular-toastr": "^1.7.0",
     "angular-ui-bootstrap": "^1.3.2",
     "bootstrap-sass": "^3.0.0",
     "laravel-elixir": "^4.0.0"
