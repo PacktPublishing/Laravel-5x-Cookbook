@@ -66,7 +66,8 @@
 
             $http(req).success(function(response) {
 
-                    //Was having an issue with splice off off the incoming index
+                    //Was having an issue with splice off
+                    //so resorted to this for now
                     angular.forEach(vm.favorites, function(v,i) {
                         if(i == index)
                         {
