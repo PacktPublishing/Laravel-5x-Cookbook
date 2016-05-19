@@ -19,13 +19,20 @@
                     Profile
                 </a>
             </li>
+            <li class="dropdown ">
+                <a href="/admin/feature_flags">
+                    Admin Feature Flags
+                </a>
+            </li>
         @endif
 
-        <li class="dropdown ">
-            <a href="/login">
-                Login
-            </a>
-        </li>
+        @if(Auth::guest())
+            <li class="dropdown ">
+                <a href="/login">
+                    Login
+                </a>
+            </li>
+        @endif
 
 
     </ul>

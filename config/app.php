@@ -156,7 +156,8 @@ return [
 
         App\Providers\MarvelApiClient::class,
 
-        Laracasts\Utilities\JavaScript\JavaScriptServiceProvider::class
+        Laracasts\Utilities\JavaScript\JavaScriptServiceProvider::class,
+        AlfredNutileInc\LaravelFeatureFlags\FeatureFlagsProvider::class,
 
     ],
 

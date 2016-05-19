@@ -4,9 +4,56 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "10c3d471a84cfdd80e7d6ed4911f351b",
-    "content-hash": "c54cca352273db700bdc7473c328c407",
+    "hash": "4bdcd7ce34c470a832f5a49ecf930021",
+    "content-hash": "2ad48684bfc0351b4b8000f1e2c7d372",
     "packages": [
+        {
+            "name": "alfred-nutile-inc/laravel-feature-flag",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alfred-nutile-inc/laravel-feature-flag.git",
+                "reference": "9b5861148bf0f2eea86ceebcd420fdf018c6bfe8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alfred-nutile-inc/laravel-feature-flag/zipball/9b5861148bf0f2eea86ceebcd420fdf018c6bfe8",
+                "reference": "9b5861148bf0f2eea86ceebcd420fdf018c6bfe8",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "*",
+                "jowy/feature": "*",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AlfredNutileInc\\LaravelFeatureFlags\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Alfred Nutile Inc",
+                    "email": "me@alfrednutile.info"
+                },
+                {
+                    "name": "Nathan Kirschbaum",
+                    "email": "nathan@nathankirschbaum.com"
+                }
+            ],
+            "description": "Feature Flags for Laravel",
+            "keywords": [
+                "feature-flags",
+                "feature-toggles",
+                "toggles"
+            ],
+            "time": "2016-05-05 10:48:44"
+        },
         {
             "name": "aws/aws-sdk-php",
             "version": "3.18.6",
@@ -1031,6 +1078,42 @@
                 "tokenizer"
             ],
             "time": "2016-02-29 04:36:50"
+        },
+        {
+            "name": "jowy/feature",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Atriedes/feature.git",
+                "reference": "294735100b6b2ac1f6211b787b1cfd416e23d99d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Atriedes/feature/zipball/294735100b6b2ac1f6211b787b1cfd416e23d99d",
+                "reference": "294735100b6b2ac1f6211b787b1cfd416e23d99d",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Feature\\": "src/Feature"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Prasetyo Wicaksono",
+                    "email": "pras@openmailbox.org"
+                }
+            ],
+            "description": "Feature flagging API used for operational rampups and A/B testing.",
+            "time": "2015-12-14 11:16:10"
         },
         {
             "name": "laracasts/behat-laravel-extension",
@@ -4447,7 +4530,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "laralib/l5scaffold": 20,
-        "behat/mink-extension": 20
+        "behat/mink-extension": 20,
+        "alfred-nutile-inc/laravel-feature-flag": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
