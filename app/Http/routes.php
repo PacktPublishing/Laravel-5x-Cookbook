@@ -29,9 +29,20 @@ use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Response;
 
+
+
 Route::group(['middleware' => ['web']], function () {
 
     Route::auth();
+
+    Route::post('/api/v1/test', 'TestController@foo');
+
+    Route::get('/api/v1/token', function(){
+        return csrf_token();
+    });
+    
+    Route::get('/test_cors', 'TestController@view');
+
 
     Route::post('api/v1/favorite', 'FavoriteCreate@create')->name('favorite.create');
     Route::delete('api/v1/favorite/{comic_id}', 'FavoriteRemove@remove')->name('favorite.remove');
