@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Favorite;
 use Illuminate\Http\Request;
-
 use App\Http\Requests;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Response;
@@ -14,7 +13,7 @@ class FavoriteCreate extends Controller
     
     public function __construct()
     {
-        $this->middleware('auth');    
+        $this->middleware('auth');
     }
 
     public function create(Requests\FavoriteCreateRequest $request)

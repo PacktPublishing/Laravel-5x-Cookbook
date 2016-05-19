@@ -2,6 +2,7 @@
 
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
+
 /**
  * Defines application features from the specific context.
  */
@@ -28,5 +29,4 @@ class FeatureContext extends \Behat\MinkExtension\Context\MinkContext implements
         //$results = $this->getSession()->getPage()->getContent();
         //dd($results);
     }
-
 }
