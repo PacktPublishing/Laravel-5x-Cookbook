@@ -48,9 +48,11 @@ Route::group(['middleware' => ['web']], function () {
     Route::delete('api/v1/favorite/{comic_id}', 'FavoriteRemove@remove')->name('favorite.remove');
 
     Route::get('profile/edit', 'ProfileEditController@getAuthenticatedUsersProfileToEdit')->name('profile.edit');
+
     Route::put('profile/edit', 'ProfileEditController@updateAuthenticatedUsersProfile')->name('profile.update');
 
-    Route::get('profile', 'ProfileController@getAuthenticatedUsersProfile')->name('profile');
+    Route::get('profile', 'ProfileShowController@getAuthenticatedUsersProfile')->name('profile');
+
     Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
 
     Route::get('/about', ['as' => 'about', function () {

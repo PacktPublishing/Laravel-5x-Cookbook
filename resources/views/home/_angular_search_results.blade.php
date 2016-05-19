@@ -15,9 +15,13 @@
                 </div>
                 <div class="media-body">
                     <h4 class="media-heading">@{{ result['title'] }}
-                        <span ng-click="vm.favorite(result)"><i class="fa fa-bookmark" style="cursor:pointer"></i></span></h4>
-                    @{{ result['description'] }} <a
+                        @can('feature-flag', 'add-favorite')
+                            <span ng-click="vm.favorite(result)"><i class="fa fa-bookmark" style="cursor:pointer"></i></span>
+                        @endcan
+                    </h4>
+                            @{{ result['description'] }} <a
                             href="@{{ result['urls'][0]['url']}}">more...</a>
+
                 </div>
             </div>
         </div>

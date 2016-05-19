@@ -16,5 +16,11 @@ class UserTableSeeder extends Seeder
                 'password' => bcrypt(env('ADMIN_PASSWORD'))
             ]
         );
+        factory(\App\User::class)->create(
+            [
+                'email' => 'demo@foo.com',
+                'password' => bcrypt(env('DEMO_PASSWORD'))
+            ]
+        );
     }
 }
