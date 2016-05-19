@@ -2,7 +2,12 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
     mix
-        .styles(["vendor/*.css", "custom/custom.css"], "public/css/all.css")
+        .styles(
+            [
+                "vendor/*.css", 
+                "core/bootstrap.min.css",
+                "custom/custom.css"
+            ], "public/css/all.css")
         .scripts(
             [
                 "core/jquery-1.12.3.js",

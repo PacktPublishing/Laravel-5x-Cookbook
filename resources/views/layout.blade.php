@@ -8,12 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!-- Google Font: Open Sans -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic">
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:400,300,700">
-
-    @include('shared.assets_css')
+   <link rel="stylesheet" href="{{ elixir('css/all.css') }}">
 
     <meta name="theme-color" content="#ffffff">
 
@@ -143,7 +138,7 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Core JS -->
-@include('shared.assets_js')
+<script src="{{ asset('js/all.js', true) }}"></script>
 
 </body>
 </html>

@@ -8,7 +8,6 @@
 
 namespace App;
 
-
 use Illuminate\Support\Facades\Auth;
 
 trait UserTrait
@@ -16,11 +15,11 @@ trait UserTrait
 
     public function getUserInfo()
     {
-        if(Auth::guest())
+        if (Auth::guest()) {
             return [];
+        }
 
         $user = Auth::user()->load('favorites');
         return $user->toArray();
     }
-    
 }
