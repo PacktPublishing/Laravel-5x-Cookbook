@@ -11,6 +11,7 @@ before_script:
   - mysql -e 'create database recipes_test;'
   - travis_retry composer self-update
   - travis_retry composer install --prefer-source --no-interaction --dev
+  - php artisan migrate:refresh --seed
   - php -S localhost:8000 public/index.php &
   - sleep 3
 
