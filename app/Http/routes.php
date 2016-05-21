@@ -35,6 +35,10 @@ Route::group(['middleware' => ['web']], function () {
 
     Route::auth();
 
+    Route::get('/facebook/redirect', 'FacebookAuthController@redirect');
+
+    Route::get('/facebook/callback', 'FacebookAuthController@callback');
+
     Route::post('/api/v1/test', 'TestController@foo');
 
     Route::get('/api/v1/token', function(){

@@ -159,6 +159,8 @@ return [
         Laracasts\Utilities\JavaScript\JavaScriptServiceProvider::class,
         AlfredNutileInc\LaravelFeatureFlags\FeatureFlagsProvider::class,
 
+        Laravel\Socialite\SocialiteServiceProvider::class,
+
     ],
 
     /*
@@ -205,7 +207,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'APIClient' => App\Facades\APIClient::class,
-
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
+        
     ],
 
 ];
