@@ -35,6 +35,12 @@ Route::group(['middleware' => ['web']], function () {
 
     Route::auth();
 
+    Route::group(['middleware' => ['is_admin']], function () {
+        Route::get('/admin/users', function () {
+            return "You are here";
+        })->name('admin.users');
+    });
+
     Route::get('/facebook/redirect', 'FacebookAuthController@redirect');
 
     Route::get('/facebook/callback', 'FacebookAuthController@callback');

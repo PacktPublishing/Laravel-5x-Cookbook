@@ -18,6 +18,7 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
         'twitter' => str_random(10),
         'password' => bcrypt(str_random(10)),
         'remember_token' => str_random(10),
+        'is_admin' => 0
     ];
 });
 
