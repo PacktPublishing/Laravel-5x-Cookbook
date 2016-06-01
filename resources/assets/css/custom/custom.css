@@ -26,4 +26,10 @@ div#form-buttons input[type=checkbox]:checked + label
     font-size: 155%;
 }
 
+.pricing-tables div.plan {
+    border-color: grey;
+    border-left-style: ridge;
+    border: 1px solid black;
+}
+
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }

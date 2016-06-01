@@ -1,7 +1,55 @@
 (function(){
     'use strict';
 
-    angular.module('app', ['ui.bootstrap', 'ngAnimate', 'toastr']);
+    angular.module('app', ['ui.bootstrap', 'ngAnimate', 'toastr', 'googlechart']);
+
+    ChartController.$inject = ['$window'];
+
+    function ChartController($window) {
+        var vm = this;
+        vm.myChartObject = {};
+
+
+        activate();
+
+        function activate()
+        {
+            myChartObject();
+        }
+
+        function myChartObject()
+        {
+
+            var levels = $window.levels;
+
+            vm.myChartObject = {};
+
+            vm.myChartObject.type = "PieChart";
+
+            vm.myChartObject.data = {"cols": [
+                {id: "t", label: "Name", type: "string"},
+                {id: "s", label: "Total", type: "number"}
+            ], "rows": [
+                {c: [
+                    {v: levels.level1.name},
+                    {v: levels.level1.total}
+                ]},
+                {c: [
+                    {v: levels.level2.name},
+                    {v: levels.level2.total}
+                ]},
+                {c: [
+                    {v: levels.fan.name},
+                    {v: levels.fan.total}
+                ]}
+            ]};
+
+            vm.myChartObject.options = {
+                'title': 'Memberships'
+            };
+        }
+    }
+
 
     MainController.$inject = ['$http', '$httpParamSerializer', '$window', 'toastr'];
 
@@ -31,11 +79,14 @@
         {
             console.log("Here is angular");
             vm.api_results = $window.api_results;
+
             console.log(vm.api_results);
+
             vm.smallnumPages = vm.api_results.total / vm.api_results.limit;
             vm.favorites = $window.user.favorites;
             console.log(vm.favorites);
         }
+
 
         function disableSearch()
         {
@@ -153,6 +204,7 @@
 
 
     angular.module('app')
-        .controller('MainController', MainController);
+        .controller('MainController', MainController)
+        .controller('ChartController', ChartController);
 
 })();

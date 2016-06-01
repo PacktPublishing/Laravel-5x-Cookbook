@@ -35,11 +35,52 @@ Route::group(['middleware' => ['web']], function () {
 
     Route::auth();
 
+
+
+    /**
+     * Subscriptions area
+     */
+
     Route::group(['middleware' => ['is_admin']], function () {
         Route::get('/admin/users', function () {
-            return "You are here";
-        })->name('admin.users');
+            return "You are here";})
+            ->name('admin.users');
+
+        Route::get('/admin/memberships', 'AdminMembershipsDashboardController@get')
+            ->name('admin.memberships');
+
     });
+
+    Route::post('/user/membership/edit', 'ProfileController@postEdit')
+        ->name('user.membership.edit');
+
+    Route::get('/user/membership/invoice/{invoice}', 'ProfileController@getPrintInvoice')
+        ->name('user.membership.invoices');
+
+    Route::get('/user/membership/cancel', 'ProfileController@getCancel')
+        ->name('user.membership.cancel');
+    
+    Route::post('/user/membership', 'SubscriptionSwapController@swap')
+        ->name('user.membership.swap');
+
+    Route::get('/user/membership', 'ProfileController@getUser')
+        ->name('user.membership.show');
+
+    Route::group(['prefix' => 'subscribe'], function() {
+        Route::get('/', 'SubscribeController@getLevelsPage')
+            ->name('user.membership.signup');
+
+        Route::post('comicslevel1', 'SubscribeController@postLevel1')
+            ->name('user.membership.level1');
+
+        Route::post('comicslevel2', 'SubscribeController@postLevel2')
+            ->name('user.membership.level2');
+    });
+
+    Route::post('stripe/webhook', 'WebhookController@handleWebhook')
+        ->name('user.membership.webhook');
+
+    /** end subscription area */
 
     Route::get('/facebook/redirect', 'FacebookAuthController@redirect');
 
@@ -72,8 +113,19 @@ Route::group(['middleware' => ['web']], function () {
 
     Route::resource("users", "UserController"); // Add this line in routes.php
 
-    Route::get('/api/v1/search', ['as' => 'search',
-        'uses' => 'SearchComics@searchComicsByName']);
+
+    Route::group(['prefix' => '/api/v1'], function () {
+        Route::get('/search', 'SearchComics@searchComicsByName');
+    });
+
+    Route::group(['middleware' => 'auth'], function() {
+        Route::get('foo', function () {
+
+            $data = ['label' => "Hello", 'value' => "World"];
+
+            return view('examples.route_view', compact('data'));
+        })->name('example_view');
+    });
 
     Route::get('/show_message', function () {
        return redirect('/')->with("message", "Hello There");

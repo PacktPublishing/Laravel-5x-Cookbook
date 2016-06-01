@@ -36,7 +36,8 @@
                 </div>
             </form>
 
-            <a class="btn btn-link" href="{{ route('users.index') }}"><i class="glyphicon glyphicon-backward"></i>  Back</a>
+            <a class="btn btn-link" href="{{ route('user.membership.show') }}">
+                <i class="fa fa-inbox"></i>See Membership</a>
 
         </div>
     </div>

@@ -9,6 +9,7 @@
 namespace App\Repositories;
 
 use App\Profile;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Support\Facades\Auth;
 
 class ProfileShowPage extends ProfileRepository
@@ -17,6 +18,16 @@ class ProfileShowPage extends ProfileRepository
 
     public function showMyProfilePage()
     {
-        return Profile::myProfile();
+        try {
+
+            return Profile::myProfile();
+
+        } catch (ModelNotFoundException $e) {
+            $profile = new Profile();
+            $profile->user_id = Auth::user()->id;
+            $profile->save();
+            
+            return $profile;
+        }
     }
 }

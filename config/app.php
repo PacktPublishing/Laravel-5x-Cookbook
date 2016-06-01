@@ -161,6 +161,8 @@ return [
 
         Laravel\Socialite\SocialiteServiceProvider::class,
 
+        Laravel\Cashier\CashierServiceProvider::class,
+
     ],
 
     /*
