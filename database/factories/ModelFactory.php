@@ -11,6 +11,7 @@
 |
 */
 
+
 $factory->define(App\User::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->name,
@@ -19,6 +20,20 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
         'password' => bcrypt(str_random(10)),
         'remember_token' => str_random(10),
         'is_admin' => 0
+    ];
+});
+
+
+$factory->define(Laravel\Cashier\Subscription::class, function (Faker\Generator $faker) {
+    return [
+        'name' => \App\Plans::$LEVEL1,
+        'stripe_id' => \App\Plans::$LEVEL1,
+        'stripe_plan' => str_random(16),
+        'quantity' => 1,
+        'ends_at' => null,
+        'user_id' => function () {
+            return factory(App\User::class)->create()->id;
+        }
     ];
 });
 

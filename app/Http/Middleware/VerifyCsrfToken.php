@@ -17,7 +17,9 @@ class VerifyCsrfToken extends BaseVerifier
      * @var array
      */
     protected $except = [
-        //
+        'subscribe',
+        'subscribe/*',
+        'stripe/*'
     ];
 
     public function handle($request, Closure $next)

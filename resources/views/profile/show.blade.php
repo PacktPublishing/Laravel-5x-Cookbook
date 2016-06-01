@@ -22,7 +22,10 @@
                                 <a href="{{ route('profile.edit') }}" class="btn btn-default">edit</a>
                             </li>
                         </ul>
-                
+
+                        <a class="btn btn-success" href="{{ route('user.membership.show') }}">
+                            <i class="fa fa-inbox"></i>&nbsp;See Membership</a>
+
                     </div>
                 </div>
 
