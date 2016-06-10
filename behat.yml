@@ -37,6 +37,9 @@ default:
         search_api_ui:
             paths: [ %paths.base%/features/search]
             contexts: [ SearchApiUIContext ]
+        site_foo:
+            paths: [ %paths.base%/features/example]
+            contexts: [ MainContext ]
     extensions:
         Laracasts\Behat:
             env_path: .env.behat
@@ -47,6 +50,15 @@ default:
             selenium2:
               wd_host: "http://selenium.dev:4444/wd/hub"
             browser_name: chrome
+us:
+  extensions:
+    Behat\MinkExtension:
+      base_url: https://en.wikipedia.org/wiki/Main_Page
+
+italy:
+  extensions:
+    Behat\MinkExtension:
+      base_url: https://it.wikipedia.org/wiki/Main_Page
 
 travis:
   extensions:

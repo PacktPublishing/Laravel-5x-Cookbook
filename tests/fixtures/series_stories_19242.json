@@ -1,0 +1,2354 @@
+{
+    "code": 200,
+    "status": "Ok",
+    "copyright": "\u00a9 2016 MARVEL",
+    "attributionText": "Data provided by Marvel. \u00a9 2016 MARVEL",
+    "attributionHTML": "<a href=\"http:\/\/marvel.com\">Data provided by Marvel. \u00a9 2016 MARVEL<\/a>",
+    "etag": "b8a3d457356dd0f4bac9ddd2a6ba5975630adf1f",
+    "data": {
+        "offset": 0,
+        "limit": 20,
+        "total": 31,
+        "count": 20,
+        "results": [
+            {
+                "id": 55771,
+                "digitalId": 0,
+                "title": "Star Wars (2015) #22",
+                "issueNumber": 22,
+                "variantDescription": "",
+                "description": "The Star Destroyer Harbinger, a massive weapon of Imperial war. Also the target of the rebels\u2019 new top-secret plan. Join Luke Skywalker, Han Solo and Leia Organa for \u201cThe Last Flight of the Harbinger\u201d!\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization. Text and illustrations for Star Wars are \u00a9 2016 Lucasfilm Ltd.",
+                "modified": "2016-05-18T12:02:24-0400",
+                "isbn": "",
+                "upc": "75960608113402211",
+                "diamondCode": "",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "The Star Destroyer Harbinger, a massive weapon of Imperial war. Also the target of the rebels\u2019 new top-secret plan. Join Luke Skywalker, Han Solo and Leia Organa for \u201cThe Last Flight of the Harbinger\u201d!\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization. Text and illustrations for Star Wars are \u00a9 2016 Lucasfilm Ltd."
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55771",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/55771\/star_wars_2015_22?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+                    "name": "Star Wars (2015 - Present)"
+                },
+                "variants": [],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2016-08-24T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2016-08-10T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/60\/5734bd1a4d936",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/60\/5734bd1a4d936",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 4,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55771\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11463",
+                            "name": "Jason Aaron",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/312",
+                            "name": "Mike Deodato",
+                            "role": "penciller"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8825",
+                            "name": "Jorge Molina",
+                            "role": "penciller"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                            "name": "Jordan White",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 4
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55771\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55771\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122585",
+                            "name": "cover from Star Wars (2015) #22",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122586",
+                            "name": "story from Star Wars (2015) #22",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55771\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 55769,
+                "digitalId": 0,
+                "title": "Star Wars (2015) #20",
+                "issueNumber": 20,
+                "variantDescription": "",
+                "description": "Another dive into the journal of Obi-Wan Kenobi! Jabba has hired bounty hunter Black Krrsantan to find out who\u2019s been thwarting his men! The old hermit of the dune wastes might know something about that.\n",
+                "modified": "2016-04-05T10:50:01-0400",
+                "isbn": "",
+                "upc": "75960608113402011",
+                "diamondCode": "",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "Another dive into the journal of Obi-Wan Kenobi! Jabba has hired bounty hunter Black Krrsantan to find out who\u2019s been thwarting his men! The old hermit of the dune wastes might know something about that.\n"
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55769",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/55769\/star_wars_2015_20?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+                    "name": "Star Wars (2015 - Present)"
+                },
+                "variants": [],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2016-06-15T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2016-06-01T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/b\/40\/image_not_available",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/2\/e0\/5751ed00c5505",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55769\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11463",
+                            "name": "Jason Aaron",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/243",
+                            "name": "Mike Mayhew",
+                            "role": "penciller (cover)"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                            "name": "Jordan White",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55769\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55769\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122581",
+                            "name": "cover from Star Wars (2015) #20",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122582",
+                            "name": "story from Star Wars (2015) #20",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55769\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 55768,
+                "digitalId": 0,
+                "title": "Star Wars (2015) #19",
+                "issueNumber": 19,
+                "variantDescription": "",
+                "description": "Will Leia be able to save a prison full of Imperial forces? Or will the mastermind of the takeover strike back against the Empire? Find out as \u201cRebel Jail\u201d concludes!\n",
+                "modified": "2016-05-16T12:24:04-0400",
+                "isbn": "",
+                "upc": "75960608113401911",
+                "diamondCode": "MAR160891",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "Will Leia be able to save a prison full of Imperial forces? Or will the mastermind of the takeover strike back against the Empire? Find out as \u201cRebel Jail\u201d concludes!\n"
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55768",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/55768\/star_wars_2015_19?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http:\/\/comicstore.marvel.com\/Star-Wars-19\/digital-comic\/41616?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+                    "name": "Star Wars (2015 - Present)"
+                },
+                "variants": [],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2016-05-25T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2016-05-11T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/9\/03\/5739f1f812233",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/9\/03\/5739f1f812233",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55768\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11463",
+                            "name": "Jason Aaron",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                            "name": "Jordan White",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/758",
+                            "name": "Leinil Francis Yu",
+                            "role": "penciller (cover)"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55768\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55768\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122579",
+                            "name": "cover from Star Wars (2015) #19",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122580",
+                            "name": "story from Star Wars (2015) #19",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55768\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 55767,
+                "digitalId": 0,
+                "title": "Star Wars (2015) #18",
+                "issueNumber": 18,
+                "variantDescription": "",
+                "description": "With the Rebel base completely overtaken, our only hope is...Leia...Sana...and APHRA?!? Can they save the Imperial prisoners? Do they want to?\n\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization. Text and illustrations for Star Wars are \u00a9 2015 Lucasfilm Ltd.\n",
+                "modified": "2016-04-22T15:57:49-0400",
+                "isbn": "",
+                "upc": "75960608113401811",
+                "diamondCode": "FEB160935",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "With the Rebel base completely overtaken, our only hope is...Leia...Sana...and APHRA?!? Can they save the Imperial prisoners? Do they want to?\n\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization. Text and illustrations for Star Wars are \u00a9 2015 Lucasfilm Ltd.\n"
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55767",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/55767\/star_wars_2015_18?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http:\/\/comicstore.marvel.com\/Star-Wars-18\/digital-comic\/41959?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+                    "name": "Star Wars (2015 - Present)"
+                },
+                "variants": [],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2016-04-27T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2016-04-13T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/3\/70\/571a817f6c711",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/3\/70\/571a817f6c711",
+                        "extension": "jpg"
+                    },
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/8\/80\/56a0f6a6ba032",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55767\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11463",
+                            "name": "Jason Aaron",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                            "name": "Jordan White",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/758",
+                            "name": "Leinil Francis Yu",
+                            "role": "penciller"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55767\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55767\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122577",
+                            "name": "cover from Star Wars (2015) #18",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122578",
+                            "name": "story from Star Wars (2015) #18",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55767\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 55766,
+                "digitalId": 0,
+                "title": "Star Wars (2015) #17",
+                "issueNumber": 17,
+                "variantDescription": "",
+                "description": "Han takes Luke out to fly the Falcon with him! Meanwhile...Leia and a few of her \u201cfriends\u201d have troubles of their own... The rebel prison base is under siege!\n\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization. Text and illustrations for Star Wars are \u00a9 2015 Lucasfilm Ltd.\n",
+                "modified": "2016-03-14T16:14:58-0400",
+                "isbn": "",
+                "upc": "75960608113401711",
+                "diamondCode": "JAN160915",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "Han takes Luke out to fly the Falcon with him! Meanwhile...Leia and a few of her \u201cfriends\u201d have troubles of their own... The rebel prison base is under siege!\n\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization. Text and illustrations for Star Wars are \u00a9 2015 Lucasfilm Ltd.\n"
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55766",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/55766\/star_wars_2015_17?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http:\/\/comicstore.marvel.com\/Star-Wars-17\/digital-comic\/41460?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+                    "name": "Star Wars (2015 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58803",
+                        "name": "Star Wars (2015) #17 (Yu Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58925",
+                        "name": "Star Wars (2015) #17 (Francavilla Mile High Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58801",
+                        "name": "Star Wars (2015) #17 (Dodson Sketch Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58802",
+                        "name": "Star Wars (2015) #17 (Christopher Action Figure Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2016-03-23T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2016-03-09T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/9\/b0\/56e71aef71d19",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/9\/b0\/56e71aef71d19",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55766\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/277",
+                            "name": "Terry Dodson",
+                            "role": "penciller (cover)"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                            "name": "Jordan White",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55766\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55766\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122575",
+                            "name": "cover from Star Wars (2015) #17",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122576",
+                            "name": "story from Star Wars (2015) #17",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55766\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 58801,
+                "digitalId": 0,
+                "title": "Star Wars (2015) #17 (Dodson Sketch Variant)",
+                "issueNumber": 17,
+                "variantDescription": "Dodson Sketch Variant",
+                "description": null,
+                "modified": "2016-03-08T16:52:12-0500",
+                "isbn": "",
+                "upc": "75960608113401721",
+                "diamondCode": "JAN160916",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58801",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/58801\/star_wars_2015_17_dodson_sketch_variant\/dodson_sketch_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+                    "name": "Star Wars (2015 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55766",
+                        "name": "Star Wars (2015) #17"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58802",
+                        "name": "Star Wars (2015) #17 (Christopher Action Figure Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58803",
+                        "name": "Star Wars (2015) #17 (Yu Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58925",
+                        "name": "Star Wars (2015) #17 (Francavilla Mile High Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2016-03-23T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2016-03-09T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/b\/40\/image_not_available",
+                    "extension": "jpg"
+                },
+                "images": [],
+                "creators": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58801\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                            "name": "Jordan White",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58801\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58801\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/128188",
+                            "name": "cover from Star Wars (2015) #17 (DODSON SKETCH VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/128189",
+                            "name": "story from Star Wars (2015) #17 (DODSON SKETCH VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58801\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 58802,
+                "digitalId": 0,
+                "title": "Star Wars (2015) #17 (Christopher Action Figure Variant)",
+                "issueNumber": 17,
+                "variantDescription": "Christopher Action Figure Variant",
+                "description": null,
+                "modified": "2016-03-08T16:53:45-0500",
+                "isbn": "",
+                "upc": "75960608113401731",
+                "diamondCode": "JAN160918",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58802",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/58802\/star_wars_2015_17_christopher_action_figure_variant\/christopher_action_figure_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+                    "name": "Star Wars (2015 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55766",
+                        "name": "Star Wars (2015) #17"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58801",
+                        "name": "Star Wars (2015) #17 (Dodson Sketch Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58803",
+                        "name": "Star Wars (2015) #17 (Yu Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58925",
+                        "name": "Star Wars (2015) #17 (Francavilla Mile High Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2016-03-23T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2016-03-09T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/b\/40\/image_not_available",
+                    "extension": "jpg"
+                },
+                "images": [],
+                "creators": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58802\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                            "name": "Jordan White",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58802\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58802\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/128190",
+                            "name": "cover from Star Wars (2015) #17 (CHRISTOPHER ACTION FIGURE VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/128191",
+                            "name": "story from Star Wars (2015) #17 (CHRISTOPHER ACTION FIGURE VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58802\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 58803,
+                "digitalId": 0,
+                "title": "Star Wars (2015) #17 (Yu Variant)",
+                "issueNumber": 17,
+                "variantDescription": "Yu Variant",
+                "description": null,
+                "modified": "2016-03-08T16:56:48-0500",
+                "isbn": "",
+                "upc": "75960608113401741",
+                "diamondCode": "JAN160917",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58803",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/58803\/star_wars_2015_17_yu_variant\/yu_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+                    "name": "Star Wars (2015 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55766",
+                        "name": "Star Wars (2015) #17"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58801",
+                        "name": "Star Wars (2015) #17 (Dodson Sketch Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58802",
+                        "name": "Star Wars (2015) #17 (Christopher Action Figure Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58925",
+                        "name": "Star Wars (2015) #17 (Francavilla Mile High Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2016-03-23T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2016-03-09T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/b\/40\/image_not_available",
+                    "extension": "jpg"
+                },
+                "images": [],
+                "creators": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58803\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                            "name": "Jordan White",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58803\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58803\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/128192",
+                            "name": "cover from Star Wars (2015) #17 (YU VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/128193",
+                            "name": "story from Star Wars (2015) #17 (YU VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58803\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 58925,
+                "digitalId": 0,
+                "title": "Star Wars (2015) #17 (Francavilla Mile High Variant)",
+                "issueNumber": 17,
+                "variantDescription": "Francavilla Mile High Variant",
+                "description": null,
+                "modified": "2016-01-15T14:20:16-0500",
+                "isbn": "",
+                "upc": "75960608113401751",
+                "diamondCode": "",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58925",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/58925\/star_wars_2015_17_francavilla_mile_high_variant\/francavilla_mile_high_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+                    "name": "Star Wars (2015 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58802",
+                        "name": "Star Wars (2015) #17 (Christopher Action Figure Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58803",
+                        "name": "Star Wars (2015) #17 (Yu Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55766",
+                        "name": "Star Wars (2015) #17"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58801",
+                        "name": "Star Wars (2015) #17 (Dodson Sketch Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2016-03-23T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2016-03-09T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/b\/40\/image_not_available",
+                    "extension": "jpg"
+                },
+                "images": [],
+                "creators": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58925\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                            "name": "Jordan White",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58925\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58925\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/128430",
+                            "name": "cover from Star Wars (2015) #17 (FRANCAVILLA MILE HIGH VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/128431",
+                            "name": "story from Star Wars (2015) #17 (FRANCAVILLA MILE HIGH VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58925\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 58483,
+                "digitalId": 0,
+                "title": "Star Wars (2015) #16 (Christopher Action Figure Variant)",
+                "issueNumber": 16,
+                "variantDescription": "Christopher Action Figure Variant",
+                "description": null,
+                "modified": "2016-01-15T11:18:31-0500",
+                "isbn": "",
+                "upc": "75960608113401621",
+                "diamondCode": "DEC150869",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58483",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/58483\/star_wars_2015_16_christopher_action_figure_variant\/christopher_action_figure_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+                    "name": "Star Wars (2015 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58484",
+                        "name": "Star Wars (2015) #16 (Dodson Sketch Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58552",
+                        "name": "Star Wars (2015) #16 (Immonen Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58566",
+                        "name": "Star Wars (2015) #16 (Yu Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55765",
+                        "name": "Star Wars (2015) #16"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2016-02-17T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2016-02-03T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/b\/40\/image_not_available",
+                    "extension": "jpg"
+                },
+                "images": [],
+                "creators": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58483\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                            "name": "Jordan White",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58483\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58483\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/127564",
+                            "name": "cover from Star Wars (2015) #16 (CHRISTOPHER ACTION FIGURE VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/127565",
+                            "name": "story from Star Wars (2015) #16 (CHRISTOPHER ACTION FIGURE VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58483\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 58484,
+                "digitalId": 0,
+                "title": "Star Wars (2015) #16 (Dodson Sketch Variant)",
+                "issueNumber": 16,
+                "variantDescription": "Dodson Sketch Variant",
+                "description": null,
+                "modified": "2016-01-15T11:18:31-0500",
+                "isbn": "",
+                "upc": "75960608113401631",
+                "diamondCode": "DEC150867",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58484",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/58484\/star_wars_2015_16_dodson_sketch_variant\/dodson_sketch_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+                    "name": "Star Wars (2015 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58483",
+                        "name": "Star Wars (2015) #16 (Christopher Action Figure Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58552",
+                        "name": "Star Wars (2015) #16 (Immonen Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58566",
+                        "name": "Star Wars (2015) #16 (Yu Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55765",
+                        "name": "Star Wars (2015) #16"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2016-02-17T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2016-02-03T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/b\/40\/image_not_available",
+                    "extension": "jpg"
+                },
+                "images": [],
+                "creators": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58484\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                            "name": "Jordan White",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58484\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58484\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/127566",
+                            "name": "cover from Star Wars (2015) #16 (DODSON SKETCH VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/127567",
+                            "name": "story from Star Wars (2015) #16 (DODSON SKETCH VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58484\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 58552,
+                "digitalId": 0,
+                "title": "Star Wars (2015) #16 (Immonen Variant)",
+                "issueNumber": 16,
+                "variantDescription": "Immonen Variant",
+                "description": null,
+                "modified": "2016-01-15T11:18:31-0500",
+                "isbn": "",
+                "upc": "75960608113401641",
+                "diamondCode": "DEC150868",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58552",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/58552\/star_wars_2015_16_immonen_variant\/immonen_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+                    "name": "Star Wars (2015 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58483",
+                        "name": "Star Wars (2015) #16 (Christopher Action Figure Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58484",
+                        "name": "Star Wars (2015) #16 (Dodson Sketch Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58566",
+                        "name": "Star Wars (2015) #16 (Yu Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55765",
+                        "name": "Star Wars (2015) #16"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2016-02-17T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2016-02-03T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/b\/40\/image_not_available",
+                    "extension": "jpg"
+                },
+                "images": [],
+                "creators": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58552\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                            "name": "Jordan White",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58552\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58552\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/127703",
+                            "name": "cover from Star Wars (2015) #16 (IMMONEN VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/127704",
+                            "name": "story from Star Wars (2015) #16 (IMMONEN VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58552\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 58566,
+                "digitalId": 0,
+                "title": "Star Wars (2015) #16 (Yu Variant)",
+                "issueNumber": 16,
+                "variantDescription": "Yu Variant",
+                "description": null,
+                "modified": "2016-01-15T11:18:31-0500",
+                "isbn": "",
+                "upc": "75960608113401651",
+                "diamondCode": "OCT158415",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58566",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/58566\/star_wars_2015_16_yu_variant\/yu_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+                    "name": "Star Wars (2015 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58483",
+                        "name": "Star Wars (2015) #16 (Christopher Action Figure Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58484",
+                        "name": "Star Wars (2015) #16 (Dodson Sketch Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58552",
+                        "name": "Star Wars (2015) #16 (Immonen Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55765",
+                        "name": "Star Wars (2015) #16"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2016-02-17T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2016-02-03T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/b\/40\/image_not_available",
+                    "extension": "jpg"
+                },
+                "images": [],
+                "creators": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58566\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                            "name": "Jordan White",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58566\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58566\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/127731",
+                            "name": "cover from Star Wars (2015) #16 (YU VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/127732",
+                            "name": "story from Star Wars (2015) #16 (YU VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58566\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 59237,
+                "digitalId": 0,
+                "title": "Star Wars (2015) #14 (Brooks 2nd Printing Variant)",
+                "issueNumber": 14,
+                "variantDescription": "Brooks 2nd Printing Variant",
+                "description": null,
+                "modified": "2016-01-15T11:18:31-0500",
+                "isbn": "",
+                "upc": "75960608113401412",
+                "diamondCode": "DEC158107",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59237",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/59237\/star_wars_2015_14_brooks_2nd_printing_variant\/brooks_2nd_printing_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+                    "name": "Star Wars (2015 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55763",
+                        "name": "Star Wars (2015) #14"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2016-02-17T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2016-02-03T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/b\/40\/image_not_available",
+                    "extension": "jpg"
+                },
+                "images": [],
+                "creators": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59237\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                            "name": "Jordan White",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59237\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59237\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/129010",
+                            "name": "cover from Star Wars (2015) #14 (BROOKS 2ND PRINTING VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/129011",
+                            "name": "story from Star Wars (2015) #14 (BROOKS 2ND PRINTING VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59237\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 55765,
+                "digitalId": 0,
+                "title": "Star Wars (2015) #16",
+                "issueNumber": 16,
+                "variantDescription": "",
+                "description": "\u201cREBEL JAIL\u201d STARTS NOW! The Rebels travel to a prison base having taken an important captive in VADER DOWN. Unfortunately, they aren\u2019t the only ones with their eyes on the prisoners. The adventures of Luke Skywalker and the Rebel Alliance continue!\n\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization. Text and illustrations for Star Wars are \u00a9 2015 Lucasfilm Ltd.\n",
+                "modified": "2016-01-25T09:10:32-0500",
+                "isbn": "",
+                "upc": "75960608113401611",
+                "diamondCode": "DEC150866",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "\u201cREBEL JAIL\u201d STARTS NOW! The Rebels travel to a prison base having taken an important captive in VADER DOWN. Unfortunately, they aren\u2019t the only ones with their eyes on the prisoners. The adventures of Luke Skywalker and the Rebel Alliance continue!\n\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization. Text and illustrations for Star Wars are \u00a9 2015 Lucasfilm Ltd.\n"
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55765",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/55765\/star_wars_2015_16?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http:\/\/comicstore.marvel.com\/Star-Wars-16\/digital-comic\/41193?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+                    "name": "Star Wars (2015 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58483",
+                        "name": "Star Wars (2015) #16 (Christopher Action Figure Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58484",
+                        "name": "Star Wars (2015) #16 (Dodson Sketch Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58552",
+                        "name": "Star Wars (2015) #16 (Immonen Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58566",
+                        "name": "Star Wars (2015) #16 (Yu Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2016-02-17T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2016-02-03T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/d\/03\/56bb606883752",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/d\/03\/56bb606883752",
+                        "extension": "jpg"
+                    },
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/7\/80\/568ff83ae9581",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 4,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55765\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11463",
+                            "name": "Jason Aaron",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/277",
+                            "name": "Terry Dodson",
+                            "role": "penciller (cover)"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                            "name": "Jordan White",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/758",
+                            "name": "Leinil Francis Yu",
+                            "role": "penciller"
+                        }
+                    ],
+                    "returned": 4
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55765\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55765\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122573",
+                            "name": "cover from Star Wars (2015) #16",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122574",
+                            "name": "story from Star Wars (2015) #16",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55765\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 58895,
+                "digitalId": 0,
+                "title": "Star Wars (2015) #13 (Brooks 2nd Printing Variant)",
+                "issueNumber": 13,
+                "variantDescription": "Brooks 2nd Printing Variant",
+                "description": null,
+                "modified": "2016-01-15T14:24:43-0500",
+                "isbn": "",
+                "upc": "75960608113401312",
+                "diamondCode": "OCT158867",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58895",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/58895\/star_wars_2015_13_brooks_2nd_printing_variant\/brooks_2nd_printing_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+                    "name": "Star Wars (2015 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52664",
+                        "name": "Star Wars (2015) #13"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2016-01-27T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2016-01-12T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/b\/40\/image_not_available",
+                    "extension": "jpg"
+                },
+                "images": [],
+                "creators": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58895\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                            "name": "Jordan White",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58895\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58895\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/128376",
+                            "name": "cover from Star Wars (2015) #13 (BROOKS 2ND PRINTING VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/128377",
+                            "name": "story from Star Wars (2015) #13 (BROOKS 2ND PRINTING VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58895\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 55764,
+                "digitalId": 0,
+                "title": "Star Wars (2015) #15",
+                "issueNumber": 15,
+                "variantDescription": "",
+                "description": "Another tale of Obi-Wan\u2019s exile on Tatooine! Owen Lars took Luke in...but he refused to let Ben be part of his life. Why? What trouble could have been stirred up by Ben protecting Luke?",
+                "modified": "2015-12-30T11:24:11-0500",
+                "isbn": "",
+                "upc": "75960608113401511",
+                "diamondCode": "NOV150920",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "Another tale of Obi-Wan\u2019s exile on Tatooine! Owen Lars took Luke in...but he refused to let Ben be part of his life. Why? What trouble could have been stirred up by Ben protecting Luke?"
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55764",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/55764\/star_wars_2015_15?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http:\/\/comicstore.marvel.com\/Star-Wars-15\/digital-comic\/40927?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+                    "name": "Star Wars (2015 - Present)"
+                },
+                "variants": [],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2016-01-20T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2016-01-05T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/4\/00\/569932ed860f0",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/4\/00\/569932ed860f0",
+                        "extension": "jpg"
+                    },
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/b0\/5684056dd93bb",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55764\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11463",
+                            "name": "Jason Aaron",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/243",
+                            "name": "Mike Mayhew",
+                            "role": "penciller (cover)"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                            "name": "Jordan White",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55764\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55764\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122571",
+                            "name": "cover from Star Wars (2015) #15",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122572",
+                            "name": "story from Star Wars (2015) #15",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55764\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 55763,
+                "digitalId": 0,
+                "title": "Star Wars (2015) #14",
+                "issueNumber": 14,
+                "variantDescription": "",
+                "description": "VADER DOWN, PART FIVE\n\u2022 CHEWBACCA VERSUS BLACK KRRSANTAN!\n\u2022 What else do you need?\n\u2022 Marvel\u2019s first Star Wars event continues!\n",
+                "modified": "2016-01-04T12:54:39-0500",
+                "isbn": "",
+                "upc": "75960608113401411",
+                "diamondCode": "OCT150945",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "VADER DOWN, PART FIVE\n\u2022 CHEWBACCA VERSUS BLACK KRRSANTAN!\n\u2022 What else do you need?\n\u2022 Marvel\u2019s first Star Wars event continues!\n"
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55763",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/55763\/star_wars_2015_14?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http:\/\/comicstore.marvel.com\/Star-Wars-14\/digital-comic\/40809?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+                    "name": "Star Wars (2015 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59237",
+                        "name": "Star Wars (2015) #14 (Brooks 2nd Printing Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2016-01-06T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2015-12-21T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/4\/50\/568a978b0e935",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/4\/50\/568a978b0e935",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55763\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11463",
+                            "name": "Jason Aaron",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/694",
+                            "name": "Mark Brooks",
+                            "role": "penciller (cover)"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/312",
+                            "name": "Mike Deodato",
+                            "role": "artist"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55763\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55763\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122569",
+                            "name": "cover from Star Wars (2015) #14",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122570",
+                            "name": "story from Star Wars (2015) #14",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55763\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 52664,
+                "digitalId": 0,
+                "title": "Star Wars (2015) #13",
+                "issueNumber": 13,
+                "variantDescription": "",
+                "description": "\u2022 Bringing together the smash-hit Star Wars and Darth Vader series!\n\u2022 Leia comes face to face with true evil!\n",
+                "modified": "2015-12-01T11:11:29-0500",
+                "isbn": "",
+                "upc": "75960608113401311",
+                "diamondCode": "SEP150832",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "\u2022 Bringing together the smash-hit Star Wars and Darth Vader series!\n\u2022 Leia comes face to face with true evil!\n"
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52664",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/52664\/star_wars_2015_13?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http:\/\/comicstore.marvel.com\/Star-Wars-13\/digital-comic\/40638?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+                    "name": "Star Wars (2015 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58895",
+                        "name": "Star Wars (2015) #13 (Brooks 2nd Printing Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2015-12-02T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2015-11-17T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/3\/e0\/5655d6e20939b",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/3\/e0\/5655d6e20939b",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52664\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11463",
+                            "name": "Jason Aaron",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/694",
+                            "name": "Mark Brooks",
+                            "role": "penciller (cover)"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/312",
+                            "name": "Mike Deodato",
+                            "role": "artist"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52664\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52664\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/116905",
+                            "name": "cover from Star Wars (2015) #13",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/116906",
+                            "name": "story from Star Wars (2015) #13",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52664\/events",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/events\/327",
+                            "name": "Star Wars"
+                        }
+                    ],
+                    "returned": 1
+                }
+            },
+            {
+                "id": 52663,
+                "digitalId": 40519,
+                "title": "Star Wars (2015) #12",
+                "issueNumber": 12,
+                "variantDescription": "",
+                "description": "Showdown on the Smuggler\u2019s Moon! Plus: Lightsabers! Loads of Lightsabers! And finally: the truth about Sana Solo!",
+                "modified": "2015-11-12T16:17:19-0500",
+                "isbn": "",
+                "upc": "75960608113401211",
+                "diamondCode": "SEP150835",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "Showdown on the Smuggler\u2019s Moon! Plus: Lightsabers! Loads of Lightsabers! And finally: the truth about Sana Solo!"
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52663",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/52663\/star_wars_2015_12?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http:\/\/comicstore.marvel.com\/Star-Wars-12\/digital-comic\/40519?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "reader",
+                        "url": "http:\/\/marvel.com\/digitalcomics\/view.htm?iid=40519&utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "inAppLink",
+                        "url": "http:\/\/applink.marvel.com\/issue\/40519?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+                    "name": "Star Wars (2015 - Present)"
+                },
+                "variants": [],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2015-11-18T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2015-11-03T00:00:00-0500"
+                    },
+                    {
+                        "type": "unlimitedDate",
+                        "date": "2016-05-23T00:00:00-0400"
+                    },
+                    {
+                        "type": "digitalPurchaseDate",
+                        "date": "2015-11-18T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    },
+                    {
+                        "type": "digitalPurchasePrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/7\/03\/564500eb03888",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/7\/03\/564500eb03888",
+                        "extension": "jpg"
+                    },
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/70\/5616c7deda5b5",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52663\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11463",
+                            "name": "Jason Aaron",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/192",
+                            "name": "Stuart Immonen",
+                            "role": "penciller (cover)"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52663\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52663\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/116903",
+                            "name": "cover from Star Wars (2015) #12",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/116904",
+                            "name": "story from Star Wars (2015) #12",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52663\/events",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/events\/327",
+                            "name": "Star Wars"
+                        }
+                    ],
+                    "returned": 1
+                }
+            }
+        ]
+    }
+}

@@ -32,6 +32,28 @@ class MarvelApi implements ComicClientInterface
         $this->client = $client;
     }
 
+    public function seriesStories($id, $offset = 0)
+    {
+        $query = ['query' => $this->makeAuth()];
+
+        $query['query'] = array_merge($query['query'], ['offset' => $offset]);
+
+        $results = $this->client->request('GET', $this->getApiVersion() . '/series/' . $id . "/comics", $query);
+
+        return json_decode($results->getBody(), true);
+    }
+
+    public function series($id, $offset = 0)
+    {
+        $query = ['query' => $this->makeAuth()];
+
+        $query['query'] = array_merge($query['query'], ['offset' => $offset]);
+
+        $results = $this->client->request('GET', $this->getApiVersion() . '/series/' . $id, $query);
+
+        return json_decode($results->getBody(), true);
+    }
+        
     public function comics($title = false, $offset = 0)
     {
         $query = ['query' => $this->makeAuth()];

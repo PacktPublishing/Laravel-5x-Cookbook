@@ -1,0 +1,2768 @@
+{
+    "code": 200,
+    "status": "Ok",
+    "copyright": "\u00a9 2016 MARVEL",
+    "attributionText": "Data provided by Marvel. \u00a9 2016 MARVEL",
+    "attributionHTML": "<a href=\"http:\/\/marvel.com\">Data provided by Marvel. \u00a9 2016 MARVEL<\/a>",
+    "etag": "5d755f2841fe5fa86a9970250e49b5d4fd215252",
+    "data": {
+        "offset": 0,
+        "limit": 20,
+        "total": 122,
+        "count": 20,
+        "results": [
+            {
+                "id": 48398,
+                "digitalId": 37778,
+                "title": "Avengers (2012) #44",
+                "issueNumber": 44,
+                "variantDescription": "",
+                "description": "FINAL ISSUE!",
+                "modified": "2015-12-14T17:28:32-0500",
+                "isbn": "",
+                "upc": "75960607902504411",
+                "diamondCode": "FEB150705",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 56,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "FINAL ISSUE!"
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48398",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/48398\/avengers_2012_44?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http:\/\/comicstore.marvel.com\/Avengers-44\/digital-comic\/37778?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "reader",
+                        "url": "http:\/\/marvel.com\/digitalcomics\/view.htm?iid=37778&utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "inAppLink",
+                        "url": "http:\/\/applink.marvel.com\/issue\/37778?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/16452",
+                    "name": "Avengers (2012 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51415",
+                        "name": "Avengers (2012) #44 (Au Movie Connecting Variant a)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53343",
+                        "name": "Avengers (2012) #44 (Harris Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53344",
+                        "name": "Avengers (2012) #44 (Cheung End of an Era Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/54829",
+                        "name": "Avengers (2012) #44 (Cheung Final Issue Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2015-04-29T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2015-04-15T00:00:00-0400"
+                    },
+                    {
+                        "type": "unlimitedDate",
+                        "date": "2015-10-26T00:00:00-0400"
+                    },
+                    {
+                        "type": "digitalPurchaseDate",
+                        "date": "2015-04-29T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 4.99
+                    },
+                    {
+                        "type": "digitalPurchasePrice",
+                        "price": 4.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/20\/553e4ecf080cb",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/20\/553e4ecf080cb",
+                        "extension": "jpg"
+                    },
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/7\/10\/5536763cd3d9f",
+                        "extension": "jpg"
+                    },
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/3\/70\/54c163800d8d8",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48398\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/312",
+                            "name": "Mike Deodato",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11743",
+                            "name": "Jonathan Hickman",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8404",
+                            "name": "Dustin Weaver",
+                            "role": "penciller (cover)"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48398\/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/characters\/1009165",
+                            "name": "Avengers"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48398\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/108939",
+                            "name": "cover from Avengers (2012) #44",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/108940",
+                            "name": "story from Avengers (2012) #44",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48398\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 51415,
+                "digitalId": 0,
+                "title": "Avengers (2012) #44 (Au Movie Connecting Variant a)",
+                "issueNumber": 44,
+                "variantDescription": "Au Movie Connecting Variant a",
+                "description": "FINAL ISSUE! ",
+                "modified": "2015-04-21T12:41:10-0400",
+                "isbn": "",
+                "upc": "75960607902504421",
+                "diamondCode": "FEB150708",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 56,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "FINAL ISSUE! "
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51415",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/51415\/avengers_2012_44_au_movie_connecting_variant_a\/au_movie_connecting_variant_a?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/16452",
+                    "name": "Avengers (2012 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48398",
+                        "name": "Avengers (2012) #44"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53343",
+                        "name": "Avengers (2012) #44 (Harris Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53344",
+                        "name": "Avengers (2012) #44 (Cheung End of an Era Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/54829",
+                        "name": "Avengers (2012) #44 (Cheung Final Issue Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2015-04-29T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2015-04-15T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 4.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/4\/30\/5536774cd682f",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/4\/30\/5536774cd682f",
+                        "extension": "jpg"
+                    },
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/9\/60\/54beb1ec47933",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51415\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/312",
+                            "name": "Mike Deodato",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11743",
+                            "name": "Jonathan Hickman",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51415\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51415\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/114407",
+                            "name": "cover from Avengers (2012) #44 (MOVIE VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/114408",
+                            "name": "story from Avengers (2012) #44 (MOVIE VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51415\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 53343,
+                "digitalId": 0,
+                "title": "Avengers (2012) #44 (Harris Variant)",
+                "issueNumber": 44,
+                "variantDescription": "Harris Variant",
+                "description": "FINAL ISSUE! ",
+                "modified": "2015-04-21T12:24:08-0400",
+                "isbn": "",
+                "upc": "75960607902504431",
+                "diamondCode": "FEB150706",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 56,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "FINAL ISSUE! "
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53343",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/53343\/avengers_2012_44_harris_variant\/harris_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/16452",
+                    "name": "Avengers (2012 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48398",
+                        "name": "Avengers (2012) #44"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51415",
+                        "name": "Avengers (2012) #44 (Au Movie Connecting Variant a)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53344",
+                        "name": "Avengers (2012) #44 (Cheung End of an Era Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/54829",
+                        "name": "Avengers (2012) #44 (Cheung Final Issue Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2015-04-29T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2015-04-15T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 4.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/7\/10\/5536789abdf53",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/7\/10\/5536789abdf53",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53343\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/312",
+                            "name": "Mike Deodato",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/460",
+                            "name": "Tony Harris",
+                            "role": "penciller (cover)"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11743",
+                            "name": "Jonathan Hickman",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53343\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53343\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/118051",
+                            "name": "cover from Avengers (2012) #44 (HARRIS VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/118052",
+                            "name": "story from Avengers (2012) #44 (HARRIS VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53343\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 53344,
+                "digitalId": 0,
+                "title": "Avengers (2012) #44 (Cheung End of an Era Variant)",
+                "issueNumber": 44,
+                "variantDescription": "Cheung End of an Era Variant",
+                "description": "FINAL ISSUE! ",
+                "modified": "2015-04-21T12:29:02-0400",
+                "isbn": "",
+                "upc": "75960607902504441",
+                "diamondCode": "FEB150707",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 56,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "FINAL ISSUE! "
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53344",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/53344\/avengers_2012_44_cheung_end_of_an_era_variant\/cheung_end_of_an_era_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/16452",
+                    "name": "Avengers (2012 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48398",
+                        "name": "Avengers (2012) #44"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51415",
+                        "name": "Avengers (2012) #44 (Au Movie Connecting Variant a)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53343",
+                        "name": "Avengers (2012) #44 (Harris Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/54829",
+                        "name": "Avengers (2012) #44 (Cheung Final Issue Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2015-04-29T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2015-04-15T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 4.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/2\/d0\/55367a21e80a0",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/2\/d0\/55367a21e80a0",
+                        "extension": "jpg"
+                    },
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/4\/30\/54e781f35d567",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53344\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/357",
+                            "name": "Jim Cheung",
+                            "role": "penciller (cover)"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/312",
+                            "name": "Mike Deodato",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11743",
+                            "name": "Jonathan Hickman",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53344\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53344\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/118053",
+                            "name": "cover from Avengers (2012) #44 (CHEUNG END OF AN ERA VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/118054",
+                            "name": "story from Avengers (2012) #44 (CHEUNG END OF AN ERA VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53344\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 54829,
+                "digitalId": 0,
+                "title": "Avengers (2012) #44 (Cheung Final Issue Variant)",
+                "issueNumber": 44,
+                "variantDescription": "Cheung Final Issue Variant",
+                "description": "FINAL ISSUE! ",
+                "modified": "2015-04-21T12:37:52-0400",
+                "isbn": "",
+                "upc": "75960607902504451",
+                "diamondCode": "JAN158251",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 56,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "FINAL ISSUE! "
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/54829",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/54829\/avengers_2012_44_cheung_final_issue_variant\/cheung_final_issue_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/16452",
+                    "name": "Avengers (2012 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48398",
+                        "name": "Avengers (2012) #44"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51415",
+                        "name": "Avengers (2012) #44 (Au Movie Connecting Variant a)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53343",
+                        "name": "Avengers (2012) #44 (Harris Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53344",
+                        "name": "Avengers (2012) #44 (Cheung End of an Era Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2015-04-29T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2015-04-15T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 4.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/4\/20\/55367c464f68b",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/4\/20\/55367c464f68b",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/54829\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/357",
+                            "name": "Jim Cheung",
+                            "role": "penciller (cover)"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/312",
+                            "name": "Mike Deodato",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11743",
+                            "name": "Jonathan Hickman",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/54829\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/54829\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/120875",
+                            "name": "cover from Avengers (2012) #44 (TBD ARTIST FINAL ISSUE VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/120876",
+                            "name": "story from Avengers (2012) #44 (TBD ARTIST FINAL ISSUE VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/54829\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 48397,
+                "digitalId": 36942,
+                "title": "Avengers (2012) #43",
+                "issueNumber": 43,
+                "variantDescription": "",
+                "description": "IN TWO MONTHS...TIME RUNS OUT! ",
+                "modified": "2015-12-14T17:25:36-0500",
+                "isbn": "",
+                "upc": "75960607902504311",
+                "diamondCode": "JAN150817",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "IN TWO MONTHS...TIME RUNS OUT! "
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48397",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/48397\/avengers_2012_43?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http:\/\/comicstore.marvel.com\/Avengers-43\/digital-comic\/36942?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "reader",
+                        "url": "http:\/\/marvel.com\/digitalcomics\/view.htm?iid=36942&utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "inAppLink",
+                        "url": "http:\/\/applink.marvel.com\/issue\/36942?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/16452",
+                    "name": "Avengers (2012 - Present)"
+                },
+                "variants": [],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2015-04-01T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2015-03-18T00:00:00-0400"
+                    },
+                    {
+                        "type": "unlimitedDate",
+                        "date": "2015-09-21T00:00:00-0400"
+                    },
+                    {
+                        "type": "digitalPurchaseDate",
+                        "date": "2015-04-01T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    },
+                    {
+                        "type": "digitalPurchasePrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/3\/03\/55119c23c6219",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/3\/03\/55119c23c6219",
+                        "extension": "jpg"
+                    },
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/f\/40\/54afe2fdf051f",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48397\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/1133",
+                            "name": "Stefano Caselli",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11743",
+                            "name": "Jonathan Hickman",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/2879",
+                            "name": "Adam Kubert",
+                            "role": "penciller (cover)"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48397\/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/characters\/1009165",
+                            "name": "Avengers"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48397\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/108937",
+                            "name": "cover from Avengers (2012) #43",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/108938",
+                            "name": "story from Avengers (2012) #43",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48397\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 48396,
+                "digitalId": 36844,
+                "title": "Avengers (2012) #42",
+                "issueNumber": 42,
+                "variantDescription": "",
+                "description": "IN TWO MONTHS...TIME RUNS OUT! ",
+                "modified": "2015-12-14T17:25:18-0500",
+                "isbn": "",
+                "upc": "75960607902504211",
+                "diamondCode": "JAN150815",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "IN TWO MONTHS...TIME RUNS OUT! "
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48396",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/48396\/avengers_2012_42?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http:\/\/comicstore.marvel.com\/Avengers-42\/digital-comic\/36844?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "reader",
+                        "url": "http:\/\/marvel.com\/digitalcomics\/view.htm?iid=36844&utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "inAppLink",
+                        "url": "http:\/\/applink.marvel.com\/issue\/36844?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/16452",
+                    "name": "Avengers (2012 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53062",
+                        "name": "Avengers (2012) #42 (Casagrande Wom Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2015-03-04T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2015-02-18T00:00:00-0500"
+                    },
+                    {
+                        "type": "unlimitedDate",
+                        "date": "2015-09-07T00:00:00-0400"
+                    },
+                    {
+                        "type": "digitalPurchaseDate",
+                        "date": "2015-03-04T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    },
+                    {
+                        "type": "digitalPurchasePrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/50\/54ece6c21db84",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/50\/54ece6c21db84",
+                        "extension": "jpg"
+                    },
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/9\/40\/54aab0937f18d",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48396\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/1133",
+                            "name": "Stefano Caselli",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11743",
+                            "name": "Jonathan Hickman",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/194",
+                            "name": "Scott Kolins",
+                            "role": "penciller (cover)"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48396\/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/characters\/1009165",
+                            "name": "Avengers"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48396\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/108935",
+                            "name": "cover from Avengers (2012) #42",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/108936",
+                            "name": "story from Avengers (2012) #42",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48396\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 53062,
+                "digitalId": 0,
+                "title": "Avengers (2012) #42 (Casagrande Wom Variant)",
+                "issueNumber": 42,
+                "variantDescription": "Casagrande Wom Variant",
+                "description": "IN TWO MONTHS...TIME RUNS OUT! ",
+                "modified": "2015-02-24T16:22:20-0500",
+                "isbn": "",
+                "upc": "75960607902504221",
+                "diamondCode": "JAN150816",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "IN TWO MONTHS...TIME RUNS OUT! "
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53062",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/53062\/avengers_2012_42_casagrande_wom_variant\/casagrande_wom_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/16452",
+                    "name": "Avengers (2012 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48396",
+                        "name": "Avengers (2012) #42"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2015-03-04T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2015-02-18T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/b\/40\/image_not_available",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/f\/90\/54ece94a3abf8",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53062\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/1133",
+                            "name": "Stefano Caselli",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11743",
+                            "name": "Jonathan Hickman",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53062\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53062\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/117717",
+                            "name": "story from Avengers (2012) #42 (TBD ARTIST WOM VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53062\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 48395,
+                "digitalId": 35750,
+                "title": "Avengers (2012) #41",
+                "issueNumber": 41,
+                "variantDescription": "",
+                "description": "IN 3 MONTHS...TIME RUNS OUT!",
+                "modified": "2015-12-14T17:18:24-0500",
+                "isbn": "",
+                "upc": "75960607902504111",
+                "diamondCode": "DEC140856",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "IN 3 MONTHS...TIME RUNS OUT!"
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48395",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/48395\/avengers_2012_41?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http:\/\/comicstore.marvel.com\/Avengers-41\/digital-comic\/35750?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "reader",
+                        "url": "http:\/\/marvel.com\/digitalcomics\/view.htm?iid=35750&utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "inAppLink",
+                        "url": "http:\/\/applink.marvel.com\/issue\/35750?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/16452",
+                    "name": "Avengers (2012 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51414",
+                        "name": "Avengers (2012) #41 (Noto Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2015-02-04T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2015-01-21T00:00:00-0500"
+                    },
+                    {
+                        "type": "unlimitedDate",
+                        "date": "2015-08-03T00:00:00-0400"
+                    },
+                    {
+                        "type": "digitalPurchaseDate",
+                        "date": "2015-02-04T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    },
+                    {
+                        "type": "digitalPurchasePrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/8\/e0\/54c147ab537ab",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/8\/e0\/54c147ab537ab",
+                        "extension": "jpg"
+                    },
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/9\/00\/54a2e63de4a70",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48395\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/1133",
+                            "name": "Stefano Caselli",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11743",
+                            "name": "Jonathan Hickman",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/339",
+                            "name": "Bryan Hitch",
+                            "role": "penciller (cover)"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48395\/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/characters\/1009165",
+                            "name": "Avengers"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48395\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/108933",
+                            "name": "cover from Avengers (2012) #41",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/108934",
+                            "name": "story from Avengers (2012) #41",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48395\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 51414,
+                "digitalId": 0,
+                "title": "Avengers (2012) #41 (Noto Variant)",
+                "issueNumber": 41,
+                "variantDescription": "Noto Variant",
+                "description": "IN 3 MONTHS...TIME RUNS OUT!",
+                "modified": "2015-01-22T14:06:10-0500",
+                "isbn": "",
+                "upc": "75960607902504131",
+                "diamondCode": "DEC140857",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "IN 3 MONTHS...TIME RUNS OUT!"
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51414",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/51414\/avengers_2012_41_noto_variant\/noto_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/16452",
+                    "name": "Avengers (2012 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48395",
+                        "name": "Avengers (2012) #41"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2015-02-04T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2015-01-21T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/40\/54c148d83d13c",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/40\/54c148d83d13c",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51414\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/1133",
+                            "name": "Stefano Caselli",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11743",
+                            "name": "Jonathan Hickman",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/5160",
+                            "name": "Phil Noto",
+                            "role": "penciller (cover)"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51414\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51414\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/114405",
+                            "name": "cover from Avengers (2012) #41 (NOTO VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/114406",
+                            "name": "story from Avengers (2012) #41 (NOTO VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51414\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 51411,
+                "digitalId": 0,
+                "title": "Avengers (2012) #34.2 (Araujo Variant)",
+                "issueNumber": 34.2,
+                "variantDescription": "Araujo Variant",
+                "description": "- The god-like STARBRAND is losing his grip on his humanity!\n- Can NIGHTMASK bring him back to Earth?\n- And as our planetary defense, we need STARBRAND more than ever!\n- Feel the heat of KOLOBUS...a cosmic threat powerful enough to burn us all down\n",
+                "modified": "2015-01-05T16:38:17-0500",
+                "isbn": "",
+                "upc": "75960608084700221",
+                "diamondCode": "NOV140758",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 40,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "- The god-like STARBRAND is losing his grip on his humanity!\n- Can NIGHTMASK bring him back to Earth?\n- And as our planetary defense, we need STARBRAND more than ever!\n- Feel the heat of KOLOBUS...a cosmic threat powerful enough to burn us all down\n"
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51411",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/51411\/avengers_2012_34.2_araujo_variant\/araujo_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/16452",
+                    "name": "Avengers (2012 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51410",
+                        "name": "Avengers (2012) #34.2"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2015-01-14T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2014-12-29T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 4.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/8\/90\/54ab00f04cf90",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/8\/90\/54ab00f04cf90",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51411\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8098",
+                            "name": "Bengal",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/12297",
+                            "name": "Andr\u00e9 Lima Ara\u00fajo",
+                            "role": "penciller (cover)"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11530",
+                            "name": "Sam Humphries",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51411\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51411\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/114399",
+                            "name": "cover from Avengers (2012) #34.2 (ARAUJO VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/114400",
+                            "name": "story from Avengers (2012) #34.2 (ARAUJO VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51411\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 51413,
+                "digitalId": 0,
+                "title": "Avengers (2012) #40 (Larroca Welcome Home Variant)",
+                "issueNumber": 40,
+                "variantDescription": "Larroca Welcome Home Variant",
+                "description": "IN 4 MONTHS...TIME RUNS OUT!",
+                "modified": "2015-01-06T11:03:59-0500",
+                "isbn": "",
+                "upc": "75960607902504021",
+                "diamondCode": "NOV140754",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 40,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "IN 4 MONTHS...TIME RUNS OUT!"
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51413",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/51413\/avengers_2012_40_larroca_welcome_home_variant\/larroca_welcome_home_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/16452",
+                    "name": "Avengers (2012 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48394",
+                        "name": "Avengers (2012) #40"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53061",
+                        "name": "Avengers (2012) #40 (In Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2015-01-14T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2014-12-29T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 4.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/8\/90\/54ac06d0da093",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/8\/90\/54ac06d0da093",
+                        "extension": "jpg"
+                    },
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/9\/d0\/5481fd375dad8",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51413\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/1133",
+                            "name": "Stefano Caselli",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11743",
+                            "name": "Jonathan Hickman",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11757",
+                            "name": "Salvador Larroca",
+                            "role": "penciller (cover)"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51413\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51413\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/114403",
+                            "name": "cover from Avengers (2012) #40 (TBD ARTIST WELCOME HOME VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/114404",
+                            "name": "story from Avengers (2012) #40 (TBD ARTIST WELCOME HOME VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51413\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 53061,
+                "digitalId": 0,
+                "title": "Avengers (2012) #40 (In Variant)",
+                "issueNumber": 40,
+                "variantDescription": "In Variant",
+                "description": "IN 4 MONTHS...TIME RUNS OUT!",
+                "modified": "2015-01-06T12:54:17-0500",
+                "isbn": "",
+                "upc": "75960607902504031",
+                "diamondCode": "OCT148186",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 40,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "IN 4 MONTHS...TIME RUNS OUT!"
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53061",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/53061\/avengers_2012_40_in_variant\/in_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/16452",
+                    "name": "Avengers (2012 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48394",
+                        "name": "Avengers (2012) #40"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51413",
+                        "name": "Avengers (2012) #40 (Larroca Welcome Home Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2015-01-14T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2014-12-29T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 4.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/5\/f0\/54ac208c8415b",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/5\/f0\/54ac208c8415b",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53061\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/1133",
+                            "name": "Stefano Caselli",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11743",
+                            "name": "Jonathan Hickman",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53061\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53061\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/117714",
+                            "name": "cover from Avengers (2012) #40 (IN VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/117715",
+                            "name": "story from Avengers (2012) #40 (IN VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53061\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 48394,
+                "digitalId": 35749,
+                "title": "Avengers (2012) #40",
+                "issueNumber": 40,
+                "variantDescription": "",
+                "description": "IN 4 MONTHS...TIME RUNS OUT!",
+                "modified": "2015-12-14T17:16:55-0500",
+                "isbn": "",
+                "upc": "75960607902504011",
+                "diamondCode": "NOV140753",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 40,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "IN 4 MONTHS...TIME RUNS OUT!"
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48394",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/48394\/avengers_2012_40?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http:\/\/comicstore.marvel.com\/Avengers-40\/digital-comic\/35749?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "reader",
+                        "url": "http:\/\/marvel.com\/digitalcomics\/view.htm?iid=35749&utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "inAppLink",
+                        "url": "http:\/\/applink.marvel.com\/issue\/35749?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/16452",
+                    "name": "Avengers (2012 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51413",
+                        "name": "Avengers (2012) #40 (Larroca Welcome Home Variant)"
+                    },
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/53061",
+                        "name": "Avengers (2012) #40 (In Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2015-01-14T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2014-12-29T00:00:00-0500"
+                    },
+                    {
+                        "type": "unlimitedDate",
+                        "date": "2015-07-06T00:00:00-0400"
+                    },
+                    {
+                        "type": "digitalPurchaseDate",
+                        "date": "2015-01-14T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 4.99
+                    },
+                    {
+                        "type": "digitalPurchasePrice",
+                        "price": 4.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/10\/54abfb471a37e",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/10\/54abfb471a37e",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48394\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/1133",
+                            "name": "Stefano Caselli",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11743",
+                            "name": "Jonathan Hickman",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/241",
+                            "name": "Dale Keown",
+                            "role": "penciller (cover)"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48394\/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/characters\/1009165",
+                            "name": "Avengers"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48394\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/108931",
+                            "name": "cover from Avengers (2012) #40",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/108932",
+                            "name": "story from Avengers (2012) #40",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48394\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 48393,
+                "digitalId": 35747,
+                "title": "Avengers (2012) #39",
+                "issueNumber": 39,
+                "variantDescription": "",
+                "description": "IN 5 MONTHS...TIME RUNS OUT!",
+                "modified": "2015-12-14T17:05:46-0500",
+                "isbn": "",
+                "upc": "75960607902503911",
+                "diamondCode": "OCT140847",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "IN 5 MONTHS...TIME RUNS OUT!"
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48393",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/48393\/avengers_2012_39?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http:\/\/comicstore.marvel.com\/Avengers-39\/digital-comic\/35747?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "reader",
+                        "url": "http:\/\/marvel.com\/digitalcomics\/view.htm?iid=35747&utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "inAppLink",
+                        "url": "http:\/\/applink.marvel.com\/issue\/35747?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/16452",
+                    "name": "Avengers (2012 - Present)"
+                },
+                "variants": [],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2014-12-10T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2014-11-24T00:00:00-0500"
+                    },
+                    {
+                        "type": "unlimitedDate",
+                        "date": "2015-06-08T00:00:00-0400"
+                    },
+                    {
+                        "type": "digitalPurchaseDate",
+                        "date": "2014-12-10T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    },
+                    {
+                        "type": "digitalPurchasePrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/b\/03\/54822674178ac",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/b\/03\/54822674178ac",
+                        "extension": "jpg"
+                    },
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/40\/54666c06b61db",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48393\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/16",
+                            "name": "Alan Davis",
+                            "role": "penciller (cover)"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/312",
+                            "name": "Mike Deodato",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11743",
+                            "name": "Jonathan Hickman",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48393\/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/characters\/1009165",
+                            "name": "Avengers"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48393\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/108929",
+                            "name": "cover from Avengers (2012) #39",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/108930",
+                            "name": "story from Avengers (2012) #39",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48393\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 51412,
+                "digitalId": 0,
+                "title": "Avengers (2012) #38 (Zdarsky Rr&G Variant)",
+                "issueNumber": 38,
+                "variantDescription": "Zdarsky Rr&G Variant",
+                "description": "IN 6 MONTHS...TIME RUNS OUT! ",
+                "modified": "2014-11-13T15:54:33-0500",
+                "isbn": "",
+                "upc": "75960607902503821",
+                "diamondCode": "SEP140822",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "IN 6 MONTHS...TIME RUNS OUT! "
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51412",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/51412\/avengers_2012_38_zdarsky_rrg_variant\/zdarsky_rrg_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/16452",
+                    "name": "Avengers (2012 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48392",
+                        "name": "Avengers (2012) #38"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2014-11-19T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2014-11-05T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/60\/546519cbbd7bc",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/60\/546519cbbd7bc",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51412\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/1133",
+                            "name": "Stefano Caselli",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11743",
+                            "name": "Jonathan Hickman",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/532",
+                            "name": "Brandon Peterson",
+                            "role": "penciller (cover)"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51412\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51412\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/114401",
+                            "name": "cover from Avengers (2012) #38 (ZDARSKY RR&G VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/114402",
+                            "name": "story from Avengers (2012) #38 (ZDARSKY RR&G VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51412\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 48392,
+                "digitalId": 35385,
+                "title": "Avengers (2012) #38",
+                "issueNumber": 38,
+                "variantDescription": "",
+                "description": "IN 6 MONTHS...TIME RUNS OUT! ",
+                "modified": "2015-12-14T17:05:14-0500",
+                "isbn": "",
+                "upc": "75960607902503811",
+                "diamondCode": "",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "IN 6 MONTHS...TIME RUNS OUT! "
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48392",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/48392\/avengers_2012_38?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http:\/\/comicstore.marvel.com\/Avengers-38\/digital-comic\/35385?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "reader",
+                        "url": "http:\/\/marvel.com\/digitalcomics\/view.htm?iid=35385&utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "inAppLink",
+                        "url": "http:\/\/applink.marvel.com\/issue\/35385?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/16452",
+                    "name": "Avengers (2012 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/51412",
+                        "name": "Avengers (2012) #38 (Zdarsky Rr&G Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2014-11-19T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2014-10-27T00:00:00-0400"
+                    },
+                    {
+                        "type": "unlimitedDate",
+                        "date": "2015-05-11T00:00:00-0400"
+                    },
+                    {
+                        "type": "digitalPurchaseDate",
+                        "date": "2014-11-19T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    },
+                    {
+                        "type": "digitalPurchasePrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/3\/10\/54622b38a92d0",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/3\/10\/54622b38a92d0",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48392\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/1133",
+                            "name": "Stefano Caselli",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11743",
+                            "name": "Jonathan Hickman",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/532",
+                            "name": "Brandon Peterson",
+                            "role": "penciller (cover)"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48392\/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/characters\/1009165",
+                            "name": "Avengers"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48392\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/108927",
+                            "name": "cover from Avengers (2012) #38",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/108928",
+                            "name": "story from Avengers (2012) #38",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48392\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 48391,
+                "digitalId": 34894,
+                "title": "Avengers (2012) #37",
+                "issueNumber": 37,
+                "variantDescription": "",
+                "description": "IN 7 MONTHS...TIME RUNS OUT!",
+                "modified": "2015-12-04T15:19:30-0500",
+                "isbn": "",
+                "upc": "75960607902503711",
+                "diamondCode": "",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "IN 7 MONTHS...TIME RUNS OUT!"
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48391",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/48391\/avengers_2012_37?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http:\/\/comicstore.marvel.com\/Avengers-37\/digital-comic\/34894?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "reader",
+                        "url": "http:\/\/marvel.com\/digitalcomics\/view.htm?iid=34894&utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "inAppLink",
+                        "url": "http:\/\/applink.marvel.com\/issue\/34894?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/16452",
+                    "name": "Avengers (2012 - Present)"
+                },
+                "variants": [],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2014-10-22T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2014-09-29T00:00:00-0400"
+                    },
+                    {
+                        "type": "unlimitedDate",
+                        "date": "2015-04-20T00:00:00-0400"
+                    },
+                    {
+                        "type": "digitalPurchaseDate",
+                        "date": "2014-10-22T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    },
+                    {
+                        "type": "digitalPurchasePrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/60\/54383a52ce8a5",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/60\/54383a52ce8a5",
+                        "extension": "jpg"
+                    },
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/2\/b0\/5416fc19a0420",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48391\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/1133",
+                            "name": "Stefano Caselli",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11743",
+                            "name": "Jonathan Hickman",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8671",
+                            "name": "Jamie McKelvie",
+                            "role": "penciller (cover)"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48391\/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/characters\/1009165",
+                            "name": "Avengers"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48391\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/108925",
+                            "name": "cover from Avengers (2012) #37",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/108926",
+                            "name": "story from Avengers (2012) #37",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48391\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 48390,
+                "digitalId": 34882,
+                "title": "Avengers (2012) #36",
+                "issueNumber": 36,
+                "variantDescription": "",
+                "description": "IN 7 MONTHS...TIME RUNS OUT!",
+                "modified": "2015-12-04T15:18:42-0500",
+                "isbn": "",
+                "upc": "75960607902503611",
+                "diamondCode": "",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "IN 7 MONTHS...TIME RUNS OUT!"
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48390",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/48390\/avengers_2012_36?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http:\/\/comicstore.marvel.com\/Avengers-36\/digital-comic\/34882?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "reader",
+                        "url": "http:\/\/marvel.com\/digitalcomics\/view.htm?iid=34882&utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "inAppLink",
+                        "url": "http:\/\/applink.marvel.com\/issue\/34882?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/16452",
+                    "name": "Avengers (2012 - Present)"
+                },
+                "variants": [],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2014-10-08T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2014-09-15T00:00:00-0400"
+                    },
+                    {
+                        "type": "unlimitedDate",
+                        "date": "2015-04-06T00:00:00-0400"
+                    },
+                    {
+                        "type": "digitalPurchaseDate",
+                        "date": "2014-10-08T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    },
+                    {
+                        "type": "digitalPurchasePrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/1\/20\/54299756a3c92",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/1\/20\/54299756a3c92",
+                        "extension": "jpg"
+                    },
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/4\/70\/541867ff7097d",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 3,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48390\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/1133",
+                            "name": "Stefano Caselli",
+                            "role": "artist"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11743",
+                            "name": "Jonathan Hickman",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/192",
+                            "name": "Stuart Immonen",
+                            "role": "penciller (cover)"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48390\/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/characters\/1009165",
+                            "name": "Avengers"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48390\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/108923",
+                            "name": "cover from Avengers (2012) #36",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/108924",
+                            "name": "story from Avengers (2012) #36",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48390\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 48389,
+                "digitalId": 34774,
+                "title": "Avengers (2012) #35",
+                "issueNumber": 35,
+                "variantDescription": "",
+                "description": "Extra-sized issue! IN 8 MONTHS...TIME RUNS OUT!\n",
+                "modified": "2015-12-04T15:18:25-0500",
+                "isbn": "",
+                "upc": "75960607902503511",
+                "diamondCode": "",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [
+                    {
+                        "type": "issue_solicit_text",
+                        "language": "en-us",
+                        "text": "Extra-sized issue! IN 8 MONTHS...TIME RUNS OUT!\n"
+                    }
+                ],
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48389",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http:\/\/marvel.com\/comics\/issue\/48389\/avengers_2012_35?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http:\/\/comicstore.marvel.com\/Avengers-35\/digital-comic\/34774?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "reader",
+                        "url": "http:\/\/marvel.com\/digitalcomics\/view.htm?iid=34774&utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    },
+                    {
+                        "type": "inAppLink",
+                        "url": "http:\/\/applink.marvel.com\/issue\/34774?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/16452",
+                    "name": "Avengers (2012 - Present)"
+                },
+                "variants": [],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2014-09-17T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2014-08-25T00:00:00-0400"
+                    },
+                    {
+                        "type": "unlimitedDate",
+                        "date": "2015-03-16T00:00:00-0400"
+                    },
+                    {
+                        "type": "digitalPurchaseDate",
+                        "date": "2014-09-17T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    },
+                    {
+                        "type": "digitalPurchasePrice",
+                        "price": 4.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/8\/a0\/5410aed23a94b",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/8\/a0\/5410aed23a94b",
+                        "extension": "jpg"
+                    },
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/a\/10\/53f7b5d87d9d0",
+                        "extension": "jpg"
+                    },
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/00\/53f7b5b21ce0f",
+                        "extension": "jpg"
+                    },
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/3\/40\/53f7b5803271b",
+                        "extension": "jpg"
+                    },
+                    {
+                        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/e\/d0\/53adbd11f28fa",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48389\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/357",
+                            "name": "Jim Cheung",
+                            "role": "penciller (cover)"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11743",
+                            "name": "Jonathan Hickman",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48389\/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/characters\/1009165",
+                            "name": "Avengers"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48389\/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/108921",
+                            "name": "cover from Avengers (2012) #35",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/108922",
+                            "name": "story from Avengers (2012) #35",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/48389\/events",
+                    "items": [],
+                    "returned": 0
+                }
+            }
+        ]
+    }
+}
