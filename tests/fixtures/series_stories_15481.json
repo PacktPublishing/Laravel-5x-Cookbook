@@ -1,0 +1,134 @@
+{
+    "code": 200,
+    "status": "Ok",
+    "copyright": "\u00a9 2016 MARVEL",
+    "attributionText": "Data provided by Marvel. \u00a9 2016 MARVEL",
+    "attributionHTML": "<a href=\"http:\/\/marvel.com\">Data provided by Marvel. \u00a9 2016 MARVEL<\/a>",
+    "etag": "2ba57f5122f21759644b4a6803701019a5fbcf73",
+    "data": {
+        "offset": 0,
+        "limit": 20,
+        "total": 2,
+        "count": 2,
+        "results": [
+            {
+                "id": 93946,
+                "title": "Cover #93946",
+                "description": "",
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/93946",
+                "type": "cover",
+                "modified": "2012-07-06T09:16:56-0400",
+                "thumbnail": null,
+                "creators": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/93946\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/4430",
+                            "name": "Jeff Youngquist",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/93946\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/93946\/series",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/15481",
+                            "name": "Ant-Man: So (2011 - Present)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/93946\/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/41530",
+                            "name": "Ant-Man: So (Trade Paperback)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/93946\/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/41530",
+                    "name": "Ant-Man: So (Trade Paperback)"
+                }
+            },
+            {
+                "id": 93947,
+                "title": "Interior #93947",
+                "description": "",
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/93947",
+                "type": "story",
+                "modified": "2011-07-12T01:31:58-0400",
+                "thumbnail": null,
+                "creators": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/93947\/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/4430",
+                            "name": "Jeff Youngquist",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/93947\/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "series": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/93947\/series",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/15481",
+                            "name": "Ant-Man: So (2011 - Present)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "comics": {
+                    "available": 1,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/93947\/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/41530",
+                            "name": "Ant-Man: So (Trade Paperback)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/93947\/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "originalIssue": {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/41530",
+                    "name": "Ant-Man: So (Trade Paperback)"
+                }
+            }
+        ]
+    }
+}

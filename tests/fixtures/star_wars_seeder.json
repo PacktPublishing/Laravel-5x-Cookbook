@@ -1,0 +1,2402 @@
+[
+    {
+        "id": 55771,
+        "digitalId": 0,
+        "title": "Star Wars (2015) #22",
+        "issueNumber": 22,
+        "variantDescription": "",
+        "description": "The Star Destroyer Harbinger, a massive weapon of Imperial war. Also the target of the rebels\u2019 new top-secret plan. Join Luke Skywalker, Han Solo and Leia Organa for \u201cThe Last Flight of the Harbinger\u201d!\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization. Text and illustrations for Star Wars are \u00a9 2016 Lucasfilm Ltd.",
+        "modified": "2016-05-18T12:02:24-0400",
+        "isbn": "",
+        "upc": "75960608113402211",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+            {
+                "type": "issue_solicit_text",
+                "language": "en-us",
+                "text": "The Star Destroyer Harbinger, a massive weapon of Imperial war. Also the target of the rebels\u2019 new top-secret plan. Join Luke Skywalker, Han Solo and Leia Organa for \u201cThe Last Flight of the Harbinger\u201d!\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization. Text and illustrations for Star Wars are \u00a9 2016 Lucasfilm Ltd."
+            }
+        ],
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55771",
+        "urls": [
+            {
+                "type": "detail",
+                "url": "http:\/\/marvel.com\/comics\/issue\/55771\/star_wars_2015_22?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            }
+        ],
+        "series": {
+            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+            "name": "Star Wars (2015 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+            {
+                "type": "onsaleDate",
+                "date": "2016-08-24T00:00:00-0400"
+            },
+            {
+                "type": "focDate",
+                "date": "2016-08-10T00:00:00-0400"
+            }
+        ],
+        "prices": [
+            {
+                "type": "printPrice",
+                "price": 3.99
+            }
+        ],
+        "thumbnail": {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/60\/5734bd1a4d936",
+            "extension": "jpg"
+        },
+        "images": [
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/60\/5734bd1a4d936",
+                "extension": "jpg"
+            }
+        ],
+        "creators": {
+            "available": 4,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55771\/creators",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11463",
+                    "name": "Jason Aaron",
+                    "role": "writer"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/312",
+                    "name": "Mike Deodato",
+                    "role": "penciller"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8825",
+                    "name": "Jorge Molina",
+                    "role": "penciller"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                    "name": "Jordan White",
+                    "role": "editor"
+                }
+            ],
+            "returned": 4
+        },
+        "characters": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55771\/characters",
+            "items": [],
+            "returned": 0
+        },
+        "stories": {
+            "available": 2,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55771\/stories",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122585",
+                    "name": "cover from Star Wars (2015) #22",
+                    "type": "cover"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122586",
+                    "name": "story from Star Wars (2015) #22",
+                    "type": "interiorStory"
+                }
+            ],
+            "returned": 2
+        },
+        "events": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55771\/events",
+            "items": [],
+            "returned": 0
+        }
+    },
+    {
+        "id": 59018,
+        "digitalId": 0,
+        "title": "Star Wars: The Force Awakens Adaptation (2016) #3",
+        "issueNumber": 3,
+        "variantDescription": "",
+        "description": "Rey and Finn escaped Jakku in the Millennium Falcon and teamed up with Han Solo and Chewbacca! But they\u2019re not in the clear yet \u2014 there be RATHTARS! Meanwhile, Kylo Ren meets with the mysterious Supreme Leader Snoke! The search for Luke Skywalker continues!\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization. Text and illustrations for Star Wars are \u00a9 2016 Lucasfilm Ltd.\n",
+        "modified": "2016-05-18T11:57:19-0400",
+        "isbn": "",
+        "upc": "75960608493700311",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+            {
+                "type": "issue_solicit_text",
+                "language": "en-us",
+                "text": "Rey and Finn escaped Jakku in the Millennium Falcon and teamed up with Han Solo and Chewbacca! But they\u2019re not in the clear yet \u2014 there be RATHTARS! Meanwhile, Kylo Ren meets with the mysterious Supreme Leader Snoke! The search for Luke Skywalker continues!\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization. Text and illustrations for Star Wars are \u00a9 2016 Lucasfilm Ltd.\n"
+            }
+        ],
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59018",
+        "urls": [
+            {
+                "type": "detail",
+                "url": "http:\/\/marvel.com\/comics\/issue\/59018\/star_wars_the_force_awakens_adaptation_2016_3?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            }
+        ],
+        "series": {
+            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/21493",
+            "name": "Star Wars: The Force Awakens Adaptation (2016 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+            {
+                "type": "onsaleDate",
+                "date": "2016-08-24T00:00:00-0400"
+            },
+            {
+                "type": "focDate",
+                "date": "2016-08-10T00:00:00-0400"
+            }
+        ],
+        "prices": [
+            {
+                "type": "printPrice",
+                "price": 3.99
+            }
+        ],
+        "thumbnail": {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/2\/50\/5734befcebf3a",
+            "extension": "jpg"
+        },
+        "images": [
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/2\/50\/5734befcebf3a",
+                "extension": "jpg"
+            }
+        ],
+        "creators": {
+            "available": 3,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59018\/creators",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/312",
+                    "name": "Mike Deodato",
+                    "role": "penciller (cover)"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/2338",
+                    "name": "Luke Ross",
+                    "role": "penciller"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/12816",
+                    "name": "Chuck Wendig",
+                    "role": "writer"
+                }
+            ],
+            "returned": 3
+        },
+        "characters": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59018\/characters",
+            "items": [],
+            "returned": 0
+        },
+        "stories": {
+            "available": 2,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59018\/stories",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/128582",
+                    "name": "cover from Star Wars: The Force Awakens Adaptation (2016) #3",
+                    "type": "cover"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/128583",
+                    "name": "story from Star Wars: The Force Awakens Adaptation (2016) #3",
+                    "type": "interiorStory"
+                }
+            ],
+            "returned": 2
+        },
+        "events": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59018\/events",
+            "items": [],
+            "returned": 0
+        }
+    },
+    {
+        "id": 57990,
+        "digitalId": 0,
+        "title": "Star Wars: Poe Dameron (2016) #5",
+        "issueNumber": 5,
+        "variantDescription": "",
+        "description": "Black Squadron\u2019s been locked away in a Republic prison! But they\u2019re not locked in there with us, they\u2019re locked in with\u2026Terrex?! Can Poe and co. get the info they need and get free?\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization. Text and illustrations for Star Wars are \u00a9 2016 Lucasfilm Ltd.\n",
+        "modified": "2016-05-18T12:01:25-0400",
+        "isbn": "",
+        "upc": "75960608458600511",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+            {
+                "type": "issue_solicit_text",
+                "language": "en-us",
+                "text": "Black Squadron\u2019s been locked away in a Republic prison! But they\u2019re not locked in there with us, they\u2019re locked in with\u2026Terrex?! Can Poe and co. get the info they need and get free?\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization. Text and illustrations for Star Wars are \u00a9 2016 Lucasfilm Ltd.\n"
+            }
+        ],
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57990",
+        "urls": [
+            {
+                "type": "detail",
+                "url": "http:\/\/marvel.com\/comics\/issue\/57990\/star_wars_poe_dameron_2016_5?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            }
+        ],
+        "series": {
+            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/21131",
+            "name": "Star Wars: Poe Dameron (2016 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+            {
+                "type": "onsaleDate",
+                "date": "2016-08-17T00:00:00-0400"
+            },
+            {
+                "type": "focDate",
+                "date": "2016-08-03T00:00:00-0400"
+            }
+        ],
+        "prices": [
+            {
+                "type": "printPrice",
+                "price": 3.99
+            }
+        ],
+        "thumbnail": {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/7\/b0\/573377f778eed",
+            "extension": "jpg"
+        },
+        "images": [
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/7\/b0\/573377f778eed",
+                "extension": "jpg"
+            }
+        ],
+        "creators": {
+            "available": 3,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57990\/creators",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/5160",
+                    "name": "Phil Noto",
+                    "role": "penciller (cover)"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/12371",
+                    "name": "Charles Soule",
+                    "role": "writer"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                    "name": "Jordan White",
+                    "role": "editor"
+                }
+            ],
+            "returned": 3
+        },
+        "characters": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57990\/characters",
+            "items": [],
+            "returned": 0
+        },
+        "stories": {
+            "available": 2,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57990\/stories",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/126682",
+                    "name": "cover from Star Wars: The Force Awakens (2016) #5",
+                    "type": "cover"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/126683",
+                    "name": "story from Star Wars: The Force Awakens (2016) #5",
+                    "type": "interiorStory"
+                }
+            ],
+            "returned": 2
+        },
+        "events": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57990\/events",
+            "items": [],
+            "returned": 0
+        }
+    },
+    {
+        "id": 59016,
+        "digitalId": 0,
+        "title": "Star Wars: The Force Awakens Adaptation (2016) #1",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": "It\u2019s true\u2014all of it! The biggest movie of the year jumps from the big screen to the comic book page! It\u2019s been three decades since the Rebel Alliance destroyed the Death Star and toppled the Galactic Empire...but now, on the remote planet of Jakku...there is a stirring in the Force. A young scavenger named Rey...a deserting stormtrooper named Finn...an ace pilot name Poe...and a dark apprentice named Kylo Ren...Their lives are about to collide as the awakening begins. Written by Chuck Wendig (STAR WARS: AFTERMATH) and drawn by Luke Ross (HERCULES), take us on our first steps back into the Saga of a lifetime!",
+        "modified": "2016-04-05T15:16:04-0400",
+        "isbn": "",
+        "upc": "75960608493700111",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 40,
+        "textObjects": [
+            {
+                "type": "issue_solicit_text",
+                "language": "en-us",
+                "text": "It\u2019s true\u2014all of it! The biggest movie of the year jumps from the big screen to the comic book page! It\u2019s been three decades since the Rebel Alliance destroyed the Death Star and toppled the Galactic Empire...but now, on the remote planet of Jakku...there is a stirring in the Force. A young scavenger named Rey...a deserting stormtrooper named Finn...an ace pilot name Poe...and a dark apprentice named Kylo Ren...Their lives are about to collide as the awakening begins. Written by Chuck Wendig (STAR WARS: AFTERMATH) and drawn by Luke Ross (HERCULES), take us on our first steps back into the Saga of a lifetime!"
+            }
+        ],
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59016",
+        "urls": [
+            {
+                "type": "detail",
+                "url": "http:\/\/marvel.com\/comics\/issue\/59016\/star_wars_the_force_awakens_adaptation_2016_1?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            }
+        ],
+        "series": {
+            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/21493",
+            "name": "Star Wars: The Force Awakens Adaptation (2016 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+            {
+                "type": "onsaleDate",
+                "date": "2016-06-22T00:00:00-0400"
+            },
+            {
+                "type": "focDate",
+                "date": "2016-06-08T00:00:00-0400"
+            }
+        ],
+        "prices": [
+            {
+                "type": "printPrice",
+                "price": 4.99
+            }
+        ],
+        "thumbnail": {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/c0\/57040fbe8f718",
+            "extension": "jpg"
+        },
+        "images": [
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/80\/57040fc65f35e",
+                "extension": "jpg"
+            },
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/c0\/57040fbe8f718",
+                "extension": "jpg"
+            }
+        ],
+        "creators": {
+            "available": 3,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59016\/creators",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/182",
+                    "name": "Esad Ribic",
+                    "role": "penciller (cover)"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/2338",
+                    "name": "Luke Ross",
+                    "role": "penciller"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/12816",
+                    "name": "Chuck Wendig",
+                    "role": "writer"
+                }
+            ],
+            "returned": 3
+        },
+        "characters": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59016\/characters",
+            "items": [],
+            "returned": 0
+        },
+        "stories": {
+            "available": 2,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59016\/stories",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/128578",
+                    "name": "cover from Star Wars: The Force Awakens Adaptation (2016) #1",
+                    "type": "cover"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/128579",
+                    "name": "story from Star Wars: The Force Awakens Adaptation (2016) #1",
+                    "type": "interiorStory"
+                }
+            ],
+            "returned": 2
+        },
+        "events": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59016\/events",
+            "items": [],
+            "returned": 0
+        }
+    },
+    {
+        "id": 55769,
+        "digitalId": 0,
+        "title": "Star Wars (2015) #20",
+        "issueNumber": 20,
+        "variantDescription": "",
+        "description": "Another dive into the journal of Obi-Wan Kenobi! Jabba has hired bounty hunter Black Krrsantan to find out who\u2019s been thwarting his men! The old hermit of the dune wastes might know something about that.\n",
+        "modified": "2016-04-05T10:50:01-0400",
+        "isbn": "",
+        "upc": "75960608113402011",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+            {
+                "type": "issue_solicit_text",
+                "language": "en-us",
+                "text": "Another dive into the journal of Obi-Wan Kenobi! Jabba has hired bounty hunter Black Krrsantan to find out who\u2019s been thwarting his men! The old hermit of the dune wastes might know something about that.\n"
+            }
+        ],
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55769",
+        "urls": [
+            {
+                "type": "detail",
+                "url": "http:\/\/marvel.com\/comics\/issue\/55769\/star_wars_2015_20?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            }
+        ],
+        "series": {
+            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+            "name": "Star Wars (2015 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+            {
+                "type": "onsaleDate",
+                "date": "2016-06-15T00:00:00-0400"
+            },
+            {
+                "type": "focDate",
+                "date": "2016-06-01T00:00:00-0400"
+            }
+        ],
+        "prices": [
+            {
+                "type": "printPrice",
+                "price": 3.99
+            }
+        ],
+        "thumbnail": {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/b\/40\/image_not_available",
+            "extension": "jpg"
+        },
+        "images": [
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/2\/e0\/5751ed00c5505",
+                "extension": "jpg"
+            }
+        ],
+        "creators": {
+            "available": 3,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55769\/creators",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11463",
+                    "name": "Jason Aaron",
+                    "role": "writer"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/243",
+                    "name": "Mike Mayhew",
+                    "role": "penciller (cover)"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                    "name": "Jordan White",
+                    "role": "editor"
+                }
+            ],
+            "returned": 3
+        },
+        "characters": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55769\/characters",
+            "items": [],
+            "returned": 0
+        },
+        "stories": {
+            "available": 2,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55769\/stories",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122581",
+                    "name": "cover from Star Wars (2015) #20",
+                    "type": "cover"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122582",
+                    "name": "story from Star Wars (2015) #20",
+                    "type": "interiorStory"
+                }
+            ],
+            "returned": 2
+        },
+        "events": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55769\/events",
+            "items": [],
+            "returned": 0
+        }
+    },
+    {
+        "id": 57988,
+        "digitalId": 0,
+        "title": "Star Wars: Poe Dameron (2016) #3",
+        "issueNumber": 3,
+        "variantDescription": "",
+        "description": "The First Order has caught up with Poe\u2019s X-wing squadron! Agent Terrex has them boxed into a corner! Then...the egg starts to hatch.",
+        "modified": "2016-06-03T15:18:36-0400",
+        "isbn": "",
+        "upc": "75960608458600311",
+        "diamondCode": "APR161050",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+            {
+                "type": "issue_solicit_text",
+                "language": "en-us",
+                "text": "The First Order has caught up with Poe\u2019s X-wing squadron! Agent Terrex has them boxed into a corner! Then...the egg starts to hatch."
+            }
+        ],
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57988",
+        "urls": [
+            {
+                "type": "detail",
+                "url": "http:\/\/marvel.com\/comics\/issue\/57988\/star_wars_poe_dameron_2016_3?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            },
+            {
+                "type": "purchase",
+                "url": "http:\/\/comicstore.marvel.com\/Star-Wars-Poe-Dameron-3\/digital-comic\/41780?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            }
+        ],
+        "series": {
+            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/21131",
+            "name": "Star Wars: Poe Dameron (2016 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+            {
+                "type": "onsaleDate",
+                "date": "2016-06-08T00:00:00-0400"
+            },
+            {
+                "type": "focDate",
+                "date": "2016-05-25T00:00:00-0400"
+            }
+        ],
+        "prices": [
+            {
+                "type": "printPrice",
+                "price": 3.99
+            }
+        ],
+        "thumbnail": {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/7\/03\/5750652a908e1",
+            "extension": "jpg"
+        },
+        "images": [
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/7\/03\/5750652a908e1",
+                "extension": "jpg"
+            }
+        ],
+        "creators": {
+            "available": 3,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57988\/creators",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/5160",
+                    "name": "Phil Noto",
+                    "role": "penciller (cover)"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/12371",
+                    "name": "Charles Soule",
+                    "role": "writer"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                    "name": "Jordan White",
+                    "role": "editor"
+                }
+            ],
+            "returned": 3
+        },
+        "characters": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57988\/characters",
+            "items": [],
+            "returned": 0
+        },
+        "stories": {
+            "available": 2,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57988\/stories",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/126678",
+                    "name": "cover from Star Wars: Poe Dameron (2016) #3",
+                    "type": "cover"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/126679",
+                    "name": "story from Star Wars: Poe Dameron (2016) #3",
+                    "type": "interiorStory"
+                }
+            ],
+            "returned": 2
+        },
+        "events": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57988\/events",
+            "items": [],
+            "returned": 0
+        }
+    },
+    {
+        "id": 57746,
+        "digitalId": 0,
+        "title": "Star Wars: Droids & Ewoks Omnibus (Hardcover)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "The most lovable stars of a galaxy far, far away, in a complete collection of their adorable all-ages adventures! Join Wicket and his Ewok friends Teebo and Princess Kneesaa in their forest home of Endor for colorful capers filled with rainbow bridges and rites of power! And, in stories set years before they find a home with the Rebels, follow C-3P0 and R2-D2 in their search for a master! The quest will stretch across space and beyond, as a crazy chronal crossover sees them meet the Ewoks again for the very first time! Plus, get a fresh perspective on the epic events of the film that started it all, in a tale that could only be called \"Star Wars According to the Droids.\" As Threepio might say, oh my! COLLECTING: EWOKS #1-14, DROIDS #1-8, EWOKS UK ANNUAL 1989.",
+        "modified": "2016-05-27T14:32:15-0400",
+        "isbn": "978-1-302-90085-4",
+        "upc": "",
+        "diamondCode": "DEC150878",
+        "ean": "9781302 900854 57500",
+        "issn": "",
+        "format": "Hardcover",
+        "pageCount": 536,
+        "textObjects": [
+            {
+                "type": "issue_solicit_text",
+                "language": "en-us",
+                "text": "The most lovable stars of a galaxy far, far away, in a complete collection of their adorable all-ages adventures! Join Wicket and his Ewok friends Teebo and Princess Kneesaa in their forest home of Endor for colorful capers filled with rainbow bridges and rites of power! And, in stories set years before they find a home with the Rebels, follow C-3P0 and R2-D2 in their search for a master! The quest will stretch across space and beyond, as a crazy chronal crossover sees them meet the Ewoks again for the very first time! Plus, get a fresh perspective on the epic events of the film that started it all, in a tale that could only be called \"Star Wars According to the Droids.\" As Threepio might say, oh my! COLLECTING: EWOKS #1-14, DROIDS #1-8, EWOKS UK ANNUAL 1989."
+            }
+        ],
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57746",
+        "urls": [
+            {
+                "type": "detail",
+                "url": "http:\/\/marvel.com\/comics\/collection\/57746\/star_wars_droids_ewoks_omnibus_hardcover?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            }
+        ],
+        "series": {
+            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/21023",
+            "name": "Star Wars: Droids & Ewoks Omnibus (2016)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+            {
+                "type": "onsaleDate",
+                "date": "2016-06-01T00:00:00-0400"
+            },
+            {
+                "type": "focDate",
+                "date": "2016-04-12T00:00:00-0400"
+            }
+        ],
+        "prices": [
+            {
+                "type": "printPrice",
+                "price": 75
+            }
+        ],
+        "thumbnail": {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/7\/30\/57488a6372eee",
+            "extension": "jpg"
+        },
+        "images": [
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/7\/30\/57488a6372eee",
+                "extension": "jpg"
+            }
+        ],
+        "creators": {
+            "available": 7,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57746\/creators",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/2381",
+                    "name": "George Caragonne",
+                    "role": "writer"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/12629",
+                    "name": "Dave Manak",
+                    "role": "writer"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/3822",
+                    "name": "Ernie Colon",
+                    "role": "penciller"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/10099",
+                    "name": "WARREN KREMER",
+                    "role": "penciller"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/214",
+                    "name": "John Romita JR.",
+                    "role": "penciller"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/1322",
+                    "name": "Mary Wilshire",
+                    "role": "penciller"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/4430",
+                    "name": "Jeff Youngquist",
+                    "role": "editor"
+                }
+            ],
+            "returned": 7
+        },
+        "characters": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57746\/characters",
+            "items": [],
+            "returned": 0
+        },
+        "stories": {
+            "available": 2,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57746\/stories",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/126247",
+                    "name": "cover from Star Wars: Droids & Ewoks (2016)",
+                    "type": "cover"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/126248",
+                    "name": "story from Star Wars: Droids & Ewoks (2016)",
+                    "type": "interiorStory"
+                }
+            ],
+            "returned": 2
+        },
+        "events": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57746\/events",
+            "items": [],
+            "returned": 0
+        }
+    },
+    {
+        "id": 59423,
+        "digitalId": 0,
+        "title": "Star Wars: Episode I - The Phantom Menace (Hardcover)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "The official comic book adaptation of the first chapter in the epic saga of Star Wars! Years before Luke Skywalker would clash with Darth Vader, turmoil has engulfed the Galactic Republic. But when a pair of Jedi Knights - Qui-Gon Jinn and Obi-Wan Kenobi - are dispatched to end the trade conflict that has gripped the galaxy, they make a surprising discovery: the \"chosen one\" destined to bring balance to the Force - a young boy named Anakin Skywalker! But this new hope may not last long when an ancient enemy returns to threaten the Jedi after centuries in hiding. As the Sith rise again, the small planet of Naboo finds itself in the middle of a power struggle for the ages. Can Queen Padm\u00e9 Amidala save her people from invasion? COLLECTING: STAR WARS: Episode I - The Phantom Menace #1-4.",
+        "modified": "2016-05-20T17:28:03-0400",
+        "isbn": "978-1-302-90074-8",
+        "upc": "",
+        "diamondCode": "FEB160950",
+        "ean": "9781302 900748 52499",
+        "issn": "",
+        "format": "Hardcover",
+        "pageCount": 120,
+        "textObjects": [
+            {
+                "type": "issue_solicit_text",
+                "language": "en-us",
+                "text": "The official comic book adaptation of the first chapter in the epic saga of Star Wars! Years before Luke Skywalker would clash with Darth Vader, turmoil has engulfed the Galactic Republic. But when a pair of Jedi Knights - Qui-Gon Jinn and Obi-Wan Kenobi - are dispatched to end the trade conflict that has gripped the galaxy, they make a surprising discovery: the \"chosen one\" destined to bring balance to the Force - a young boy named Anakin Skywalker! But this new hope may not last long when an ancient enemy returns to threaten the Jedi after centuries in hiding. As the Sith rise again, the small planet of Naboo finds itself in the middle of a power struggle for the ages. Can Queen Padm\u00e9 Amidala save her people from invasion? COLLECTING: STAR WARS: Episode I - The Phantom Menace #1-4."
+            }
+        ],
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59423",
+        "urls": [
+            {
+                "type": "detail",
+                "url": "http:\/\/marvel.com\/comics\/collection\/59423\/star_wars_episode_i_-_the_phantom_menace_hardcover?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            },
+            {
+                "type": "purchase",
+                "url": "http:\/\/comicstore.marvel.com\/Star-Wars-Episode-I-The-Phantom-Menace-0\/digital-comic\/41617?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            }
+        ],
+        "series": {
+            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/21645",
+            "name": "Star Wars: Episode I - The Phantom Menace (2016)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+            {
+                "type": "onsaleDate",
+                "date": "2016-05-25T00:00:00-0400"
+            },
+            {
+                "type": "focDate",
+                "date": "2016-04-26T00:00:00-0400"
+            }
+        ],
+        "prices": [
+            {
+                "type": "printPrice",
+                "price": 24.99
+            }
+        ],
+        "thumbnail": {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/a\/40\/573f782dae9c7",
+            "extension": "jpg"
+        },
+        "images": [
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/a\/40\/573f782dae9c7",
+                "extension": "jpg"
+            }
+        ],
+        "creators": {
+            "available": 3,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59423\/creators",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/9366",
+                    "name": "Rodolfo DaMaggio",
+                    "role": "penciller"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/12562",
+                    "name": "Henry Gilroy",
+                    "role": "writer"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/4430",
+                    "name": "Jeff Youngquist",
+                    "role": "editor"
+                }
+            ],
+            "returned": 3
+        },
+        "characters": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59423\/characters",
+            "items": [],
+            "returned": 0
+        },
+        "stories": {
+            "available": 2,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59423\/stories",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/129350",
+                    "name": "cover from Star Wars: Episode I - The Phantom Menace (2016)",
+                    "type": "cover"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/129351",
+                    "name": "story from Star Wars: Episode I - The Phantom Menace (2016)",
+                    "type": "interiorStory"
+                }
+            ],
+            "returned": 2
+        },
+        "events": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/59423\/events",
+            "items": [],
+            "returned": 0
+        }
+    },
+    {
+        "id": 55768,
+        "digitalId": 0,
+        "title": "Star Wars (2015) #19",
+        "issueNumber": 19,
+        "variantDescription": "",
+        "description": "Will Leia be able to save a prison full of Imperial forces? Or will the mastermind of the takeover strike back against the Empire? Find out as \u201cRebel Jail\u201d concludes!\n",
+        "modified": "2016-05-16T12:24:04-0400",
+        "isbn": "",
+        "upc": "75960608113401911",
+        "diamondCode": "MAR160891",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+            {
+                "type": "issue_solicit_text",
+                "language": "en-us",
+                "text": "Will Leia be able to save a prison full of Imperial forces? Or will the mastermind of the takeover strike back against the Empire? Find out as \u201cRebel Jail\u201d concludes!\n"
+            }
+        ],
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55768",
+        "urls": [
+            {
+                "type": "detail",
+                "url": "http:\/\/marvel.com\/comics\/issue\/55768\/star_wars_2015_19?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            },
+            {
+                "type": "purchase",
+                "url": "http:\/\/comicstore.marvel.com\/Star-Wars-19\/digital-comic\/41616?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            }
+        ],
+        "series": {
+            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+            "name": "Star Wars (2015 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+            {
+                "type": "onsaleDate",
+                "date": "2016-05-25T00:00:00-0400"
+            },
+            {
+                "type": "focDate",
+                "date": "2016-05-11T00:00:00-0400"
+            }
+        ],
+        "prices": [
+            {
+                "type": "printPrice",
+                "price": 3.99
+            }
+        ],
+        "thumbnail": {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/9\/03\/5739f1f812233",
+            "extension": "jpg"
+        },
+        "images": [
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/9\/03\/5739f1f812233",
+                "extension": "jpg"
+            }
+        ],
+        "creators": {
+            "available": 3,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55768\/creators",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11463",
+                    "name": "Jason Aaron",
+                    "role": "writer"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                    "name": "Jordan White",
+                    "role": "editor"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/758",
+                    "name": "Leinil Francis Yu",
+                    "role": "penciller (cover)"
+                }
+            ],
+            "returned": 3
+        },
+        "characters": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55768\/characters",
+            "items": [],
+            "returned": 0
+        },
+        "stories": {
+            "available": 2,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55768\/stories",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122579",
+                    "name": "cover from Star Wars (2015) #19",
+                    "type": "cover"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122580",
+                    "name": "story from Star Wars (2015) #19",
+                    "type": "interiorStory"
+                }
+            ],
+            "returned": 2
+        },
+        "events": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55768\/events",
+            "items": [],
+            "returned": 0
+        }
+    },
+    {
+        "id": 55942,
+        "digitalId": 0,
+        "title": "STAR WARS: KANAN VOL. 2 - FIRST BLOOD TPB (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": null,
+        "modified": "2016-05-10T15:31:03-0400",
+        "isbn": "978-0-7851-9603-7",
+        "upc": "",
+        "diamondCode": "JAN160963",
+        "ean": "9780785 196037 51799",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 144,
+        "textObjects": [],
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55942",
+        "urls": [
+            {
+                "type": "detail",
+                "url": "http:\/\/marvel.com\/comics\/collection\/55942\/star_wars_kanan_vol_2_-_first_blood_tpb_trade_paperback?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            }
+        ],
+        "series": {
+            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/20581",
+            "name": "STAR WARS: KANAN VOL. 2 - FIRST BLOOD TPB (2016)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+            {
+                "type": "onsaleDate",
+                "date": "2016-05-18T00:00:00-0400"
+            },
+            {
+                "type": "focDate",
+                "date": "2016-04-19T00:00:00-0400"
+            }
+        ],
+        "prices": [
+            {
+                "type": "printPrice",
+                "price": 17.99
+            }
+        ],
+        "thumbnail": {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/3\/30\/57323750ca3b9",
+            "extension": "jpg"
+        },
+        "images": [
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/3\/30\/57323750ca3b9",
+                "extension": "jpg"
+            }
+        ],
+        "creators": {
+            "available": 1,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55942\/creators",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/4430",
+                    "name": "Jeff Youngquist",
+                    "role": "editor"
+                }
+            ],
+            "returned": 1
+        },
+        "characters": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55942\/characters",
+            "items": [],
+            "returned": 0
+        },
+        "stories": {
+            "available": 1,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55942\/stories",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122869",
+                    "name": "cover from Kanan - The Last Padawan (2016)",
+                    "type": "cover"
+                }
+            ],
+            "returned": 1
+        },
+        "events": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55942\/events",
+            "items": [],
+            "returned": 0
+        }
+    },
+    {
+        "id": 57986,
+        "digitalId": 0,
+        "title": "Star Wars: Poe Dameron (2016) #2",
+        "issueNumber": 2,
+        "variantDescription": "",
+        "description": "The first FORCE AWAKENS era comic series continues! Who is Captain Terrex of the First Order...and how did he find Poe's squadron? Can Poe and company beat Terrex to their prize?",
+        "modified": "2016-04-29T14:00:34-0400",
+        "isbn": "",
+        "upc": "75960608458600211",
+        "diamondCode": "MAR160894",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+            {
+                "type": "issue_solicit_text",
+                "language": "en-us",
+                "text": "The first FORCE AWAKENS era comic series continues! Who is Captain Terrex of the First Order...and how did he find Poe's squadron? Can Poe and company beat Terrex to their prize?"
+            }
+        ],
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57986",
+        "urls": [
+            {
+                "type": "detail",
+                "url": "http:\/\/marvel.com\/comics\/issue\/57986\/star_wars_poe_dameron_2016_2?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            },
+            {
+                "type": "purchase",
+                "url": "http:\/\/comicstore.marvel.com\/Star-Wars-Poe-Dameron-2\/digital-comic\/41527?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            }
+        ],
+        "series": {
+            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/21131",
+            "name": "Star Wars: Poe Dameron (2016 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+            {
+                "type": "onsaleDate",
+                "date": "2016-05-04T00:00:00-0400"
+            },
+            {
+                "type": "focDate",
+                "date": "2016-04-20T00:00:00-0400"
+            }
+        ],
+        "prices": [
+            {
+                "type": "printPrice",
+                "price": 3.99
+            }
+        ],
+        "thumbnail": {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/7\/50\/571f9bf83c738",
+            "extension": "jpg"
+        },
+        "images": [
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/7\/50\/571f9bf83c738",
+                "extension": "jpg"
+            }
+        ],
+        "creators": {
+            "available": 3,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57986\/creators",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/5160",
+                    "name": "Phil Noto",
+                    "role": "penciller (cover)"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/12371",
+                    "name": "Charles Soule",
+                    "role": "writer"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                    "name": "Jordan White",
+                    "role": "editor"
+                }
+            ],
+            "returned": 3
+        },
+        "characters": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57986\/characters",
+            "items": [],
+            "returned": 0
+        },
+        "stories": {
+            "available": 2,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57986\/stories",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/126674",
+                    "name": "cover from Star Wars: The Force Awakens (2016) #2",
+                    "type": "cover"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/126675",
+                    "name": "story from Star Wars: The Force Awakens (2016) #2",
+                    "type": "interiorStory"
+                }
+            ],
+            "returned": 2
+        },
+        "events": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57986\/events",
+            "items": [],
+            "returned": 0
+        }
+    },
+    {
+        "id": 55767,
+        "digitalId": 0,
+        "title": "Star Wars (2015) #18",
+        "issueNumber": 18,
+        "variantDescription": "",
+        "description": "With the Rebel base completely overtaken, our only hope is...Leia...Sana...and APHRA?!? Can they save the Imperial prisoners? Do they want to?\n\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization. Text and illustrations for Star Wars are \u00a9 2015 Lucasfilm Ltd.\n",
+        "modified": "2016-04-22T15:57:49-0400",
+        "isbn": "",
+        "upc": "75960608113401811",
+        "diamondCode": "FEB160935",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+            {
+                "type": "issue_solicit_text",
+                "language": "en-us",
+                "text": "With the Rebel base completely overtaken, our only hope is...Leia...Sana...and APHRA?!? Can they save the Imperial prisoners? Do they want to?\n\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization. Text and illustrations for Star Wars are \u00a9 2015 Lucasfilm Ltd.\n"
+            }
+        ],
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55767",
+        "urls": [
+            {
+                "type": "detail",
+                "url": "http:\/\/marvel.com\/comics\/issue\/55767\/star_wars_2015_18?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            },
+            {
+                "type": "purchase",
+                "url": "http:\/\/comicstore.marvel.com\/Star-Wars-18\/digital-comic\/41959?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            }
+        ],
+        "series": {
+            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+            "name": "Star Wars (2015 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+            {
+                "type": "onsaleDate",
+                "date": "2016-04-27T00:00:00-0400"
+            },
+            {
+                "type": "focDate",
+                "date": "2016-04-13T00:00:00-0400"
+            }
+        ],
+        "prices": [
+            {
+                "type": "printPrice",
+                "price": 3.99
+            }
+        ],
+        "thumbnail": {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/3\/70\/571a817f6c711",
+            "extension": "jpg"
+        },
+        "images": [
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/3\/70\/571a817f6c711",
+                "extension": "jpg"
+            },
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/8\/80\/56a0f6a6ba032",
+                "extension": "jpg"
+            }
+        ],
+        "creators": {
+            "available": 3,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55767\/creators",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11463",
+                    "name": "Jason Aaron",
+                    "role": "writer"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                    "name": "Jordan White",
+                    "role": "editor"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/758",
+                    "name": "Leinil Francis Yu",
+                    "role": "penciller"
+                }
+            ],
+            "returned": 3
+        },
+        "characters": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55767\/characters",
+            "items": [],
+            "returned": 0
+        },
+        "stories": {
+            "available": 2,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55767\/stories",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122577",
+                    "name": "cover from Star Wars (2015) #18",
+                    "type": "cover"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122578",
+                    "name": "story from Star Wars (2015) #18",
+                    "type": "interiorStory"
+                }
+            ],
+            "returned": 2
+        },
+        "events": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55767\/events",
+            "items": [],
+            "returned": 0
+        }
+    },
+    {
+        "id": 52673,
+        "digitalId": 0,
+        "title": "Star Wars: Vader Down (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "Two of the biggest titles in comics collide in the first crossover of the new Marvel age of Star Wars! When Darth Vader accidentally finds himself facing off against the Rebel Fleet on his own, he is sent crashing onto a nearby planet. Will the Rebels seize this opportunity to put an end to one of their greatest enemies - or will they be made to feel the full power of the Dark Side? The Sith Lord may be down, he isn't out! All your favorites are here, old and new, good and evil: Luke! Vader! Leia! Aphra! Han! Threepio, Artoo, Triple-Zero and BT-1! And, in a hair-raising battle of the Wookiees, Chewbacca versus Black Krrsantan! Roooarrgh ur roo! COLLECTING: STAR WARS: VADER DOWN #1, STAR WARS (2015) #13-14, DARTH VADER (2015) #13-15.",
+        "modified": "2016-04-15T16:23:41-0400",
+        "isbn": "978-0-7851-9789-8",
+        "upc": "",
+        "diamondCode": "JAN160962",
+        "ean": "9780785 197898 51999",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 152,
+        "textObjects": [
+            {
+                "type": "issue_solicit_text",
+                "language": "en-us",
+                "text": "Two of the biggest titles in comics collide in the first crossover of the new Marvel age of Star Wars! When Darth Vader accidentally finds himself facing off against the Rebel Fleet on his own, he is sent crashing onto a nearby planet. Will the Rebels seize this opportunity to put an end to one of their greatest enemies - or will they be made to feel the full power of the Dark Side? The Sith Lord may be down, he isn't out! All your favorites are here, old and new, good and evil: Luke! Vader! Leia! Aphra! Han! Threepio, Artoo, Triple-Zero and BT-1! And, in a hair-raising battle of the Wookiees, Chewbacca versus Black Krrsantan! Roooarrgh ur roo! COLLECTING: STAR WARS: VADER DOWN #1, STAR WARS (2015) #13-14, DARTH VADER (2015) #13-15."
+            }
+        ],
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52673",
+        "urls": [
+            {
+                "type": "detail",
+                "url": "http:\/\/marvel.com\/comics\/collection\/52673\/star_wars_vader_down_trade_paperback?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            }
+        ],
+        "series": {
+            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19700",
+            "name": "Star Wars: Vader Down (2016)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+            {
+                "type": "onsaleDate",
+                "date": "2016-04-20T00:00:00-0400"
+            },
+            {
+                "type": "focDate",
+                "date": "2016-03-22T00:00:00-0400"
+            }
+        ],
+        "prices": [
+            {
+                "type": "printPrice",
+                "price": 19.99
+            }
+        ],
+        "thumbnail": {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/5\/70\/57114bac03f32",
+            "extension": "jpg"
+        },
+        "images": [
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/5\/70\/57114bac03f32",
+                "extension": "jpg"
+            }
+        ],
+        "creators": {
+            "available": 5,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52673\/creators",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11463",
+                    "name": "Jason Aaron",
+                    "role": "writer"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8901",
+                    "name": "Kieron Gillen",
+                    "role": "writer"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/312",
+                    "name": "Mike Deodato",
+                    "role": "artist"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11757",
+                    "name": "Salvador Larroca",
+                    "role": "artist"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/4430",
+                    "name": "Jeff Youngquist",
+                    "role": "editor"
+                }
+            ],
+            "returned": 5
+        },
+        "characters": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52673\/characters",
+            "items": [],
+            "returned": 0
+        },
+        "stories": {
+            "available": 2,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52673\/stories",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/116923",
+                    "name": "cover from Star Wars\/Darth Vader Crossover (2016)",
+                    "type": "cover"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/116924",
+                    "name": "story from Star Wars\/Darth Vader Crossover (2016)",
+                    "type": "interiorStory"
+                }
+            ],
+            "returned": 2
+        },
+        "events": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52673\/events",
+            "items": [],
+            "returned": 0
+        }
+    },
+    {
+        "id": 52988,
+        "digitalId": 0,
+        "title": "Star Wars Special: C-3PO (2016) #1",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": "Follow everyone\u2019s favorite protocol droid as he Journeys to Star Wars: The Force Awakens, in this special one-shot leading up to his appearance in the film! Just how did Threepio get a red arm, anyway? Find out here as the blockbuster creative team of James Robinson and Tony Harris of DC\u2019s Starman reunite for the first time in nearly two decades! You may be fluent in over six million forms of communication...but this book is a must have in any language!\n\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization.\nText and illustrations for Star Wars are \u00a9 2015 Lucasfilm Ltd.\n",
+        "modified": "2016-04-13T12:47:52-0400",
+        "isbn": "",
+        "upc": "75960608258200111",
+        "diamondCode": "OCT150933",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 40,
+        "textObjects": [
+            {
+                "type": "issue_solicit_text",
+                "language": "en-us",
+                "text": "Follow everyone\u2019s favorite protocol droid as he Journeys to Star Wars: The Force Awakens, in this special one-shot leading up to his appearance in the film! Just how did Threepio get a red arm, anyway? Find out here as the blockbuster creative team of James Robinson and Tony Harris of DC\u2019s Starman reunite for the first time in nearly two decades! You may be fluent in over six million forms of communication...but this book is a must have in any language!\n\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization.\nText and illustrations for Star Wars are \u00a9 2015 Lucasfilm Ltd.\n"
+            }
+        ],
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52988",
+        "urls": [
+            {
+                "type": "detail",
+                "url": "http:\/\/marvel.com\/comics\/issue\/52988\/star_wars_special_c-3po_2016_1?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            },
+            {
+                "type": "purchase",
+                "url": "http:\/\/comicstore.marvel.com\/Star-Wars-Special-C-3PO-1\/digital-comic\/40732?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            }
+        ],
+        "series": {
+            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19822",
+            "name": "Star Wars Special: C-3PO (2016)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+            {
+                "type": "onsaleDate",
+                "date": "2016-04-13T00:00:00-0400"
+            },
+            {
+                "type": "focDate",
+                "date": "2016-03-30T00:00:00-0400"
+            }
+        ],
+        "prices": [
+            {
+                "type": "printPrice",
+                "price": 4.99
+            }
+        ],
+        "thumbnail": {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/a\/10\/55ef46a56e6d6",
+            "extension": "jpg"
+        },
+        "images": [
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/a\/10\/55ef46a56e6d6",
+                "extension": "jpg"
+            }
+        ],
+        "creators": {
+            "available": 3,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52988\/creators",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/460",
+                    "name": "Tony Harris",
+                    "role": "penciller"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11930",
+                    "name": "Tradd Moore",
+                    "role": "penciller (cover)"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                    "name": "Jordan White",
+                    "role": "editor"
+                }
+            ],
+            "returned": 3
+        },
+        "characters": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52988\/characters",
+            "items": [],
+            "returned": 0
+        },
+        "stories": {
+            "available": 2,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52988\/stories",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/117554",
+                    "name": "cover from Star Wars Special (2015) #1",
+                    "type": "cover"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/117555",
+                    "name": "story from Star Wars Special (2015) #1",
+                    "type": "interiorStory"
+                }
+            ],
+            "returned": 2
+        },
+        "events": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52988\/events",
+            "items": [],
+            "returned": 0
+        }
+    },
+    {
+        "id": 57984,
+        "digitalId": 0,
+        "title": "Star Wars: Poe Dameron (2016) #1",
+        "issueNumber": 1,
+        "variantDescription": "",
+        "description": "AN ALL-NEW ONGOING SERIES SPINNING OUT OF STAR WARS: THE FORCE AWAKENS! Poe Dameron, former Republic flyer turned Resistance fighter, is the best pilot in the galaxy. Hand-picked for the resistance by General Leia Organa to lead a squadron on a top secret and vital mission...Poe sets off investigating sites of historical importance to the Force. Revealing backstory leading directly into the holidays\u2019 greatest adventure, follow Poe and his X-Wing squadron on covert missions against the First Order brought to you by writer Charles Soule (Star Wars: Lando, Daredevil) and artist Phil Noto (Star Wars: Chewbacca, Black Widow)!",
+        "modified": "2016-04-01T14:27:07-0400",
+        "isbn": "",
+        "upc": "75960608458600111",
+        "diamondCode": "FEB160747",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 40,
+        "textObjects": [
+            {
+                "type": "issue_solicit_text",
+                "language": "en-us",
+                "text": "AN ALL-NEW ONGOING SERIES SPINNING OUT OF STAR WARS: THE FORCE AWAKENS! Poe Dameron, former Republic flyer turned Resistance fighter, is the best pilot in the galaxy. Hand-picked for the resistance by General Leia Organa to lead a squadron on a top secret and vital mission...Poe sets off investigating sites of historical importance to the Force. Revealing backstory leading directly into the holidays\u2019 greatest adventure, follow Poe and his X-Wing squadron on covert missions against the First Order brought to you by writer Charles Soule (Star Wars: Lando, Daredevil) and artist Phil Noto (Star Wars: Chewbacca, Black Widow)!"
+            }
+        ],
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57984",
+        "urls": [
+            {
+                "type": "detail",
+                "url": "http:\/\/marvel.com\/comics\/issue\/57984\/star_wars_poe_dameron_2016_1?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            },
+            {
+                "type": "purchase",
+                "url": "http:\/\/comicstore.marvel.com\/Star-Wars-Poe-Dameron-1\/digital-comic\/41203?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            }
+        ],
+        "series": {
+            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/21131",
+            "name": "Star Wars: Poe Dameron (2016 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+            {
+                "type": "onsaleDate",
+                "date": "2016-04-06T00:00:00-0400"
+            },
+            {
+                "type": "focDate",
+                "date": "2016-03-23T00:00:00-0400"
+            }
+        ],
+        "prices": [
+            {
+                "type": "printPrice",
+                "price": 4.99
+            }
+        ],
+        "thumbnail": {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/40\/56fae363b70cd",
+            "extension": "jpg"
+        },
+        "images": [
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/40\/56fae363b70cd",
+                "extension": "jpg"
+            },
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/f\/a0\/56e1d2ff8c2cf",
+                "extension": "jpg"
+            },
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/a0\/56e1d2b6c9fd4",
+                "extension": "jpg"
+            },
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/8\/a0\/56e06d51a00ce",
+                "extension": "jpg"
+            },
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/9\/50\/56e06d243bae9",
+                "extension": "jpg"
+            },
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/8\/f0\/56e06ce60cc22",
+                "extension": "jpg"
+            },
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/00\/56e06cacab870",
+                "extension": "jpg"
+            },
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/3\/b0\/56e06c3774d71",
+                "extension": "jpg"
+            },
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/8\/b0\/56a136d28ab1b",
+                "extension": "jpg"
+            },
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/c\/d0\/5697da675aaec",
+                "extension": "jpg"
+            }
+        ],
+        "creators": {
+            "available": 3,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57984\/creators",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/5160",
+                    "name": "Phil Noto",
+                    "role": "penciller (cover)"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/12371",
+                    "name": "Charles Soule",
+                    "role": "writer"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                    "name": "Jordan White",
+                    "role": "editor"
+                }
+            ],
+            "returned": 3
+        },
+        "characters": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57984\/characters",
+            "items": [],
+            "returned": 0
+        },
+        "stories": {
+            "available": 2,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57984\/stories",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/126670",
+                    "name": "cover from Star Wars: The Force Awakens (2016) #1",
+                    "type": "cover"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/126671",
+                    "name": "story from Star Wars: The Force Awakens (2016) #1",
+                    "type": "interiorStory"
+                }
+            ],
+            "returned": 2
+        },
+        "events": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/57984\/events",
+            "items": [],
+            "returned": 0
+        }
+    },
+    {
+        "id": 58925,
+        "digitalId": 0,
+        "title": "Star Wars (2015) #17 (Francavilla Mile High Variant)",
+        "issueNumber": 17,
+        "variantDescription": "Francavilla Mile High Variant",
+        "description": null,
+        "modified": "2016-01-15T14:20:16-0500",
+        "isbn": "",
+        "upc": "75960608113401751",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58925",
+        "urls": [
+            {
+                "type": "detail",
+                "url": "http:\/\/marvel.com\/comics\/issue\/58925\/star_wars_2015_17_francavilla_mile_high_variant\/francavilla_mile_high_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            }
+        ],
+        "series": {
+            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+            "name": "Star Wars (2015 - Present)"
+        },
+        "variants": [
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58802",
+                "name": "Star Wars (2015) #17 (Christopher Action Figure Variant)"
+            },
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58803",
+                "name": "Star Wars (2015) #17 (Yu Variant)"
+            },
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55766",
+                "name": "Star Wars (2015) #17"
+            },
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58801",
+                "name": "Star Wars (2015) #17 (Dodson Sketch Variant)"
+            }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+            {
+                "type": "onsaleDate",
+                "date": "2016-03-23T00:00:00-0400"
+            },
+            {
+                "type": "focDate",
+                "date": "2016-03-09T00:00:00-0500"
+            }
+        ],
+        "prices": [
+            {
+                "type": "printPrice",
+                "price": 3.99
+            }
+        ],
+        "thumbnail": {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/b\/40\/image_not_available",
+            "extension": "jpg"
+        },
+        "images": [],
+        "creators": {
+            "available": 1,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58925\/creators",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                    "name": "Jordan White",
+                    "role": "editor"
+                }
+            ],
+            "returned": 1
+        },
+        "characters": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58925\/characters",
+            "items": [],
+            "returned": 0
+        },
+        "stories": {
+            "available": 2,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58925\/stories",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/128430",
+                    "name": "cover from Star Wars (2015) #17 (FRANCAVILLA MILE HIGH VARIANT)",
+                    "type": "cover"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/128431",
+                    "name": "story from Star Wars (2015) #17 (FRANCAVILLA MILE HIGH VARIANT)",
+                    "type": "interiorStory"
+                }
+            ],
+            "returned": 2
+        },
+        "events": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58925\/events",
+            "items": [],
+            "returned": 0
+        }
+    },
+    {
+        "id": 55766,
+        "digitalId": 0,
+        "title": "Star Wars (2015) #17",
+        "issueNumber": 17,
+        "variantDescription": "",
+        "description": "Han takes Luke out to fly the Falcon with him! Meanwhile...Leia and a few of her \u201cfriends\u201d have troubles of their own... The rebel prison base is under siege!\n\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization. Text and illustrations for Star Wars are \u00a9 2015 Lucasfilm Ltd.\n",
+        "modified": "2016-03-14T16:14:58-0400",
+        "isbn": "",
+        "upc": "75960608113401711",
+        "diamondCode": "JAN160915",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+            {
+                "type": "issue_solicit_text",
+                "language": "en-us",
+                "text": "Han takes Luke out to fly the Falcon with him! Meanwhile...Leia and a few of her \u201cfriends\u201d have troubles of their own... The rebel prison base is under siege!\n\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization. Text and illustrations for Star Wars are \u00a9 2015 Lucasfilm Ltd.\n"
+            }
+        ],
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55766",
+        "urls": [
+            {
+                "type": "detail",
+                "url": "http:\/\/marvel.com\/comics\/issue\/55766\/star_wars_2015_17?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            },
+            {
+                "type": "purchase",
+                "url": "http:\/\/comicstore.marvel.com\/Star-Wars-17\/digital-comic\/41460?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            }
+        ],
+        "series": {
+            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+            "name": "Star Wars (2015 - Present)"
+        },
+        "variants": [
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58803",
+                "name": "Star Wars (2015) #17 (Yu Variant)"
+            },
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58925",
+                "name": "Star Wars (2015) #17 (Francavilla Mile High Variant)"
+            },
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58801",
+                "name": "Star Wars (2015) #17 (Dodson Sketch Variant)"
+            },
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58802",
+                "name": "Star Wars (2015) #17 (Christopher Action Figure Variant)"
+            }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+            {
+                "type": "onsaleDate",
+                "date": "2016-03-23T00:00:00-0400"
+            },
+            {
+                "type": "focDate",
+                "date": "2016-03-09T00:00:00-0500"
+            }
+        ],
+        "prices": [
+            {
+                "type": "printPrice",
+                "price": 3.99
+            }
+        ],
+        "thumbnail": {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/9\/b0\/56e71aef71d19",
+            "extension": "jpg"
+        },
+        "images": [
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/9\/b0\/56e71aef71d19",
+                "extension": "jpg"
+            }
+        ],
+        "creators": {
+            "available": 2,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55766\/creators",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/277",
+                    "name": "Terry Dodson",
+                    "role": "penciller (cover)"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                    "name": "Jordan White",
+                    "role": "editor"
+                }
+            ],
+            "returned": 2
+        },
+        "characters": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55766\/characters",
+            "items": [],
+            "returned": 0
+        },
+        "stories": {
+            "available": 2,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55766\/stories",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122575",
+                    "name": "cover from Star Wars (2015) #17",
+                    "type": "cover"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122576",
+                    "name": "story from Star Wars (2015) #17",
+                    "type": "interiorStory"
+                }
+            ],
+            "returned": 2
+        },
+        "events": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55766\/events",
+            "items": [],
+            "returned": 0
+        }
+    },
+    {
+        "id": 58801,
+        "digitalId": 0,
+        "title": "Star Wars (2015) #17 (Dodson Sketch Variant)",
+        "issueNumber": 17,
+        "variantDescription": "Dodson Sketch Variant",
+        "description": null,
+        "modified": "2016-03-08T16:52:12-0500",
+        "isbn": "",
+        "upc": "75960608113401721",
+        "diamondCode": "JAN160916",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58801",
+        "urls": [
+            {
+                "type": "detail",
+                "url": "http:\/\/marvel.com\/comics\/issue\/58801\/star_wars_2015_17_dodson_sketch_variant\/dodson_sketch_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            }
+        ],
+        "series": {
+            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+            "name": "Star Wars (2015 - Present)"
+        },
+        "variants": [
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55766",
+                "name": "Star Wars (2015) #17"
+            },
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58802",
+                "name": "Star Wars (2015) #17 (Christopher Action Figure Variant)"
+            },
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58803",
+                "name": "Star Wars (2015) #17 (Yu Variant)"
+            },
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58925",
+                "name": "Star Wars (2015) #17 (Francavilla Mile High Variant)"
+            }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+            {
+                "type": "onsaleDate",
+                "date": "2016-03-23T00:00:00-0400"
+            },
+            {
+                "type": "focDate",
+                "date": "2016-03-09T00:00:00-0500"
+            }
+        ],
+        "prices": [
+            {
+                "type": "printPrice",
+                "price": 3.99
+            }
+        ],
+        "thumbnail": {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/b\/40\/image_not_available",
+            "extension": "jpg"
+        },
+        "images": [],
+        "creators": {
+            "available": 1,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58801\/creators",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                    "name": "Jordan White",
+                    "role": "editor"
+                }
+            ],
+            "returned": 1
+        },
+        "characters": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58801\/characters",
+            "items": [],
+            "returned": 0
+        },
+        "stories": {
+            "available": 2,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58801\/stories",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/128188",
+                    "name": "cover from Star Wars (2015) #17 (DODSON SKETCH VARIANT)",
+                    "type": "cover"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/128189",
+                    "name": "story from Star Wars (2015) #17 (DODSON SKETCH VARIANT)",
+                    "type": "interiorStory"
+                }
+            ],
+            "returned": 2
+        },
+        "events": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58801\/events",
+            "items": [],
+            "returned": 0
+        }
+    },
+    {
+        "id": 52671,
+        "digitalId": 0,
+        "title": "Star Wars Legends Epic Collection: The New Republic Vol. 2 (Trade Paperback)",
+        "issueNumber": 0,
+        "variantDescription": "",
+        "description": "Defenders of the New Republic! Wedge Antilles and his fellow starfighters are the heroes of the Battle of Endor. Now they protect the New Republic as the crack team of ace pilots known far and wide as the Rogue Squadron! And with remnants of the Empire seeking vengeance across the galaxy, the team is never short of high-flying X-wing action. Imperial terrorists target Wedge's home planet! The Cilpari are no friends to the Empire - but they don't like the Rebel Alliance either! Jabba the Hutt left a deadly legacy - a cache of stolen Imperial weapons hidden on Tatooine, which must be kept out of enemy hands! And one of Rogue Squadron is...a princess?! COLLECTING: STAR WARS: X-WING ROGUE LEADER #1-3; STAR WARS: X-WING ROGUE SQUADRON #1-16, SPECIAL;MATERIAL FROM STAR WARS TALES #12, #23.",
+        "modified": "2016-03-18T11:57:52-0400",
+        "isbn": "978-0-7851-9723-2",
+        "upc": "",
+        "diamondCode": "JAN160961",
+        "ean": "9780785 197232 53999",
+        "issn": "",
+        "format": "Trade Paperback",
+        "pageCount": 512,
+        "textObjects": [
+            {
+                "type": "issue_solicit_text",
+                "language": "en-us",
+                "text": "Defenders of the New Republic! Wedge Antilles and his fellow starfighters are the heroes of the Battle of Endor. Now they protect the New Republic as the crack team of ace pilots known far and wide as the Rogue Squadron! And with remnants of the Empire seeking vengeance across the galaxy, the team is never short of high-flying X-wing action. Imperial terrorists target Wedge's home planet! The Cilpari are no friends to the Empire - but they don't like the Rebel Alliance either! Jabba the Hutt left a deadly legacy - a cache of stolen Imperial weapons hidden on Tatooine, which must be kept out of enemy hands! And one of Rogue Squadron is...a princess?! COLLECTING: STAR WARS: X-WING ROGUE LEADER #1-3; STAR WARS: X-WING ROGUE SQUADRON #1-16, SPECIAL;MATERIAL FROM STAR WARS TALES #12, #23."
+            }
+        ],
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52671",
+        "urls": [
+            {
+                "type": "detail",
+                "url": "http:\/\/marvel.com\/comics\/collection\/52671\/star_wars_legends_epic_collection_the_new_republic_vol_2_trade_paperback?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            }
+        ],
+        "series": {
+            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19698",
+            "name": "Star Wars Legends Epic Collection: The New Republic Vol. 2 (2016)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+            {
+                "type": "onsaleDate",
+                "date": "2016-03-23T00:00:00-0400"
+            },
+            {
+                "type": "focDate",
+                "date": "2016-03-08T00:00:00-0500"
+            }
+        ],
+        "prices": [
+            {
+                "type": "printPrice",
+                "price": 39.99
+            }
+        ],
+        "thumbnail": {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/3\/a0\/56ec2467337b4",
+            "extension": "jpg"
+        },
+        "images": [
+            {
+                "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/3\/a0\/56ec2467337b4",
+                "extension": "jpg"
+            }
+        ],
+        "creators": {
+            "available": 9,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52671\/creators",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/5178",
+                    "name": "Mike Baron",
+                    "role": "writer"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/12397",
+                    "name": "Haden Blackman",
+                    "role": "writer"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/4013",
+                    "name": "Darko Macan",
+                    "role": "writer"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/12656",
+                    "name": "Michael A. Stackpole",
+                    "role": "writer"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/12535",
+                    "name": "Edvin Biukovic",
+                    "role": "artist"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/762",
+                    "name": "Gary Erskine",
+                    "role": "artist"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/9577",
+                    "name": "Tomas Giorello",
+                    "role": "artist"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/12505",
+                    "name": "Allen Nunis",
+                    "role": "artist"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/4430",
+                    "name": "Jeff Youngquist",
+                    "role": "editor"
+                }
+            ],
+            "returned": 9
+        },
+        "characters": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52671\/characters",
+            "items": [],
+            "returned": 0
+        },
+        "stories": {
+            "available": 2,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52671\/stories",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/116919",
+                    "name": "cover from Star Wars Legends Epic Collection: The New Republic (2015)",
+                    "type": "cover"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/116920",
+                    "name": "story from Star Wars Legends Epic Collection: The New Republic (2015)",
+                    "type": "interiorStory"
+                }
+            ],
+            "returned": 2
+        },
+        "events": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/52671\/events",
+            "items": [],
+            "returned": 0
+        }
+    },
+    {
+        "id": 58803,
+        "digitalId": 0,
+        "title": "Star Wars (2015) #17 (Yu Variant)",
+        "issueNumber": 17,
+        "variantDescription": "Yu Variant",
+        "description": null,
+        "modified": "2016-03-08T16:56:48-0500",
+        "isbn": "",
+        "upc": "75960608113401741",
+        "diamondCode": "JAN160917",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [],
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58803",
+        "urls": [
+            {
+                "type": "detail",
+                "url": "http:\/\/marvel.com\/comics\/issue\/58803\/star_wars_2015_17_yu_variant\/yu_variant?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+            }
+        ],
+        "series": {
+            "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+            "name": "Star Wars (2015 - Present)"
+        },
+        "variants": [
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55766",
+                "name": "Star Wars (2015) #17"
+            },
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58801",
+                "name": "Star Wars (2015) #17 (Dodson Sketch Variant)"
+            },
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58802",
+                "name": "Star Wars (2015) #17 (Christopher Action Figure Variant)"
+            },
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58925",
+                "name": "Star Wars (2015) #17 (Francavilla Mile High Variant)"
+            }
+        ],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+            {
+                "type": "onsaleDate",
+                "date": "2016-03-23T00:00:00-0400"
+            },
+            {
+                "type": "focDate",
+                "date": "2016-03-09T00:00:00-0500"
+            }
+        ],
+        "prices": [
+            {
+                "type": "printPrice",
+                "price": 3.99
+            }
+        ],
+        "thumbnail": {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/b\/40\/image_not_available",
+            "extension": "jpg"
+        },
+        "images": [],
+        "creators": {
+            "available": 1,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58803\/creators",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                    "name": "Jordan White",
+                    "role": "editor"
+                }
+            ],
+            "returned": 1
+        },
+        "characters": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58803\/characters",
+            "items": [],
+            "returned": 0
+        },
+        "stories": {
+            "available": 2,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58803\/stories",
+            "items": [
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/128192",
+                    "name": "cover from Star Wars (2015) #17 (YU VARIANT)",
+                    "type": "cover"
+                },
+                {
+                    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/128193",
+                    "name": "story from Star Wars (2015) #17 (YU VARIANT)",
+                    "type": "interiorStory"
+                }
+            ],
+            "returned": 2
+        },
+        "events": {
+            "available": 0,
+            "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/58803\/events",
+            "items": [],
+            "returned": 0
+        }
+    }
+]

@@ -1,0 +1,119 @@
+{
+    "id": 55771,
+    "digitalId": 0,
+    "title": "Star Wars (2015) #22",
+    "issueNumber": 22,
+    "variantDescription": "",
+    "description": "The Star Destroyer Harbinger, a massive weapon of Imperial war. Also the target of the rebels\u2019 new top-secret plan. Join Luke Skywalker, Han Solo and Leia Organa for \u201cThe Last Flight of the Harbinger\u201d!\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization. Text and illustrations for Star Wars are \u00a9 2016 Lucasfilm Ltd.",
+    "modified": "2016-05-18T12:02:24-0400",
+    "isbn": "",
+    "upc": "75960608113402211",
+    "diamondCode": "",
+    "ean": "",
+    "issn": "",
+    "format": "Comic",
+    "pageCount": 32,
+    "textObjects": [
+        {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "The Star Destroyer Harbinger, a massive weapon of Imperial war. Also the target of the rebels\u2019 new top-secret plan. Join Luke Skywalker, Han Solo and Leia Organa for \u201cThe Last Flight of the Harbinger\u201d!\nStar Wars \u00a9 Lucasfilm Ltd. & TM. All rights reserved. Used under authorization. Text and illustrations for Star Wars are \u00a9 2016 Lucasfilm Ltd."
+        }
+    ],
+    "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55771",
+    "urls": [
+        {
+            "type": "detail",
+            "url": "http:\/\/marvel.com\/comics\/issue\/55771\/star_wars_2015_22?utm_campaign=apiRef&utm_source=eeaef8ccb27b7aa1e20c80bd2f0d78a5"
+        }
+    ],
+    "series": {
+        "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/series\/19242",
+        "name": "Star Wars (2015 - Present)"
+    },
+    "variants": [],
+    "collections": [],
+    "collectedIssues": [],
+    "dates": [
+        {
+            "type": "onsaleDate",
+            "date": "2016-08-24T00:00:00-0400"
+        },
+        {
+            "type": "focDate",
+            "date": "2016-08-10T00:00:00-0400"
+        }
+    ],
+    "prices": [
+        {
+            "type": "printPrice",
+            "price": 3.99
+        }
+    ],
+    "thumbnail": {
+        "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/60\/5734bd1a4d936",
+        "extension": "jpg"
+    },
+    "images": [
+        {
+            "path": "http:\/\/i.annihil.us\/u\/prod\/marvel\/i\/mg\/6\/60\/5734bd1a4d936",
+            "extension": "jpg"
+        }
+    ],
+    "creators": {
+        "available": 4,
+        "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55771\/creators",
+        "items": [
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/11463",
+                "name": "Jason Aaron",
+                "role": "writer"
+            },
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/312",
+                "name": "Mike Deodato",
+                "role": "penciller"
+            },
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8825",
+                "name": "Jorge Molina",
+                "role": "penciller"
+            },
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/creators\/8822",
+                "name": "Jordan White",
+                "role": "editor"
+            }
+        ],
+        "returned": 4
+    },
+    "characters": {
+        "available": 0,
+        "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55771\/characters",
+        "items": [],
+        "returned": 0
+    },
+    "stories": {
+        "available": 2,
+        "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55771\/stories",
+        "items": [
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122585",
+                "name": "cover from Star Wars (2015) #22",
+                "type": "cover"
+            },
+            {
+                "resourceURI": "http:\/\/gateway.marvel.com\/v1\/public\/stories\/122586",
+                "name": "story from Star Wars (2015) #22",
+                "type": "interiorStory"
+            }
+        ],
+        "returned": 2
+    },
+    "events": {
+        "available": 0,
+        "collectionURI": "http:\/\/gateway.marvel.com\/v1\/public\/comics\/55771\/events",
+        "items": [],
+        "returned": 0
+    }
+}

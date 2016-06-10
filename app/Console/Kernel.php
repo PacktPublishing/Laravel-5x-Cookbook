@@ -14,6 +14,8 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         // Commands\Inspire::class,
+        Commands\GetFixtureForComic::class,
+        Commands\GetUsersLatestsFavoritesConsole::class,
     ];
 
     /**
@@ -24,7 +26,10 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->command('inspire')
-        //          ->hourly();
+        $schedule
+            ->command(\App\Console\Commands\GetUsersLatestsFavoritesConsole::class)
+            ->dailyAt('22:00')
+            ->sendOutputTo(storage_path('favorites_job.txt'))
+            ->emailOutputTo('me@alfrednutile.info');
     }
 }
