@@ -81,4 +81,12 @@ class HomePageUiContext extends MinkContext implements Context, SnippetAccepting
         sleep(4);
         $this->assertPageContainsText($arg1);
     }
+
+    /**
+     * @Given I go to the search page
+     */
+    public function iGoToTheSearchPage()
+    {
+        $this->iAmOnHomepage();
+    }
 }

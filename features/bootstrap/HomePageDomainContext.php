@@ -95,4 +95,36 @@ class HomePageDomainContext extends MinkContext implements Context, SnippetAccep
     {
         m::close();
     }
+
+    /**
+     * @Given I go to the search page
+     */
+    public function iGoToTheSearchPage()
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @Given I search for :arg1
+     */
+    public function iSearchFor($arg1)
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @Then I should see a ton of results about him
+     */
+    public function iShouldSeeATonOfResultsAboutHim()
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @Then if I click the Next in the Pagination I can see even more :arg1
+     */
+    public function ifIClickTheNextInThePaginationICanSeeEvenMore($arg1)
+    {
+        throw new PendingException();
+    }
 }

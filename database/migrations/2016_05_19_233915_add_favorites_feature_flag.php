@@ -5,11 +5,6 @@ use Illuminate\Database\Migrations\Migration;
 
 class AddFavoritesFeatureFlag extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
     public function up()
     {
 
@@ -19,13 +14,8 @@ class AddFavoritesFeatureFlag extends Migration
         $feature->save();
     }
 
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
     public function down()
     {
-        
+
     }
 }

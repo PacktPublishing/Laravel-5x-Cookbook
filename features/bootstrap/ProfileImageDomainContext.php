@@ -144,4 +144,28 @@ class ProfileImageDomainContext extends MinkContext implements Context, SnippetA
 
         PHPUnit::assertTrue($fails);
     }
+
+    /**
+     * @Then I will see a search bar
+     */
+    public function iWillSeeASearchBar()
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @Then I add the search term :arg1 and search
+     */
+    public function iAddTheSearchTermAndSearch($arg1)
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @Then I will see lots and lots of comics and images
+     */
+    public function iWillSeeLotsAndLotsOfComicsAndImages()
+    {
+        throw new PendingException();
+    }
 }

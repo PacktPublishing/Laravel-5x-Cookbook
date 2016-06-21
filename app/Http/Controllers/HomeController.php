@@ -39,7 +39,8 @@ class HomeController extends Controller
         
         \JavaScript::put([
             'api_results' => $results,
-            'user' => $this->getUserInfo()
+            'user' => $this->getUserInfo(),
+            'pusher_key' => env('PUSHER_KEY')
         ]);
         
         return Response::view('home.index', compact('results'));

@@ -7,7 +7,11 @@
                 About
             </a>
         </li>
-
+        <li class="dropdown ">
+            <a href="/blogs">
+                News
+            </a>
+        </li>
         @if(!Auth::guest())
             <li class="dropdown ">
                 <a href="/wish_lists">
@@ -15,7 +19,7 @@
                 </a>
             </li>
             <li class="dropdown ">
-                <a href="/profile">
+                <a href="/profile/{{ Auth::user()->url }}">
                     Profile
                 </a>
             </li>

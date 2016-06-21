@@ -78,4 +78,44 @@ class ProfileImageUIContext extends MinkContext implements Context, SnippetAccep
         $this->visit('profile');
         $this->assertElementOnPage('.img-thumbnail');
     }
+
+    /**
+     * @Then I will see a search bar
+     */
+    public function iWillSeeASearchBar()
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @Then I add the search term :arg1 and search
+     */
+    public function iAddTheSearchTermAndSearch($arg1)
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @Then I will see lots and lots of comics and images
+     */
+    public function iWillSeeLotsAndLotsOfComicsAndImages()
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @Given I upload a non jpg file I should get an error message
+     */
+    public function iUploadANonJpgFileIShouldGetAnErrorMessage()
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @Given I upload a file that is too large I should get an error message
+     */
+    public function iUploadAFileThatIsTooLargeIShouldGetAnErrorMessage()
+    {
+        throw new PendingException();
+    }
 }

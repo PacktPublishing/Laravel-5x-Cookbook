@@ -31,11 +31,13 @@ use Illuminate\Support\Facades\Response;
 
 
 
+
+
 Route::group(['middleware' => ['web']], function () {
 
     Route::auth();
 
-
+    Route::resource("blogs","BlogController");
 
     /**
      * Subscriptions area
@@ -102,7 +104,7 @@ Route::group(['middleware' => ['web']], function () {
 
     Route::put('profile/edit', 'ProfileEditController@updateAuthenticatedUsersProfile')->name('profile.update');
 
-    Route::get('profile', 'ProfileShowController@getAuthenticatedUsersProfile')->name('profile');
+    Route::get('profile/{slug}', 'ProfileShowController@getAuthenticatedUsersProfile')->name('profile');
 
     Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
 

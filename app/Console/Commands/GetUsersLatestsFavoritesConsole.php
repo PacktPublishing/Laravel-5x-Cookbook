@@ -2,6 +2,8 @@
 
 namespace App\Console\Commands;
 
+use App\Events\NewFavoriteSeriesEvent;
+use App\Events\NewSeriesFavorites;
 use App\Favorite;
 use App\Interfaces\ComicClientInterface;
 use App\Jobs\SendFavoritesEmail;
@@ -11,6 +13,7 @@ use Illuminate\Console\Command;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Queue\Queue;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Log;
 
 class GetUsersLatestsFavoritesConsole extends Command
@@ -66,14 +69,14 @@ class GetUsersLatestsFavoritesConsole extends Command
 
                         if(!$repeat)
                         {
-                            LatestFavorite::create([
-                                'comic' => $comic, 'user_id' => $favorite->user_id,
+                            $latest = LatestFavorite::create([
+                                'comic' => $comic, 
+                                'user_id' => $favorite->user_id,
                                 'favorite_id' => $favorite->id]);
 
                             $count++;
 
-                            $this->dispatch(new SendFavoritesEmail($favorite));
-
+                            Event::fire(new NewFavoriteSeriesEvent($latest));
                         }
 
                     }

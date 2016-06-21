@@ -13,7 +13,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        \App\User::saving(function ($user) {
+            if ( ! $user->name) {
+                $user->name = substr($user->email, 0, strrpos($user->email, '@'));
+            }
+        });
     }
 
     /**

@@ -12,6 +12,21 @@
 */
 
 
+use Illuminate\Support\Facades\File;
+
+
+
+$factory->define(App\Blog::class, function (Faker\Generator $faker) {
+    return [
+        'title' => "Blog Post " . rand(1, 1000),
+        'mark_down' => $faker->sentence,
+        'intro' => $faker->sentences($nb = 5, $asText = true),
+        'html' => $faker->sentence,
+        'active' => 1,
+        'url' => str_random(10)
+    ];
+});
+
 $factory->define(App\User::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->name,
@@ -22,6 +37,23 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
         'is_admin' => 0
     ];
 });
+
+
+$factory->define(App\LatestFavorite::class, function (Faker\Generator $faker) {
+    
+    $comic = json_decode(File::get(base_path('tests/fixtures/one_comic.json')), true);
+    
+    return [
+        'user_id' => function () {
+            return factory(App\User::class)->create()->id;
+        },
+        'favorite_id' => function() {
+            return factory(App\User::class)->create()->id;
+        },
+        'comic' => $comic
+    ];
+});
+
 
 $factory->define(App\Favorite::class, function (Faker\Generator $faker) {
     return [

@@ -6,6 +6,7 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class ExampleViewTest extends TestCase
 {
+    use DatabaseMigrations, DatabaseTransactions;
     /**
      * @test
      */
