@@ -12,7 +12,7 @@
     <div class="row">
         <div class="col-md-12">
 
-            <form action="{{ route('users.store') }}" method="POST">
+            <form action="{{ route('users.store') }}" method="POST" >
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
                 <div class="form-group @if($errors->has('name')) has-error @endif">

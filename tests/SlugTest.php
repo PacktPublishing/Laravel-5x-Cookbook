@@ -16,8 +16,6 @@ class SlugTest extends TestCase
         $user = factory(\App\User::class)->create();
 
         $this->assertNotNull($user->url);
-
-        var_dump($user->url);
     }
 
     /**

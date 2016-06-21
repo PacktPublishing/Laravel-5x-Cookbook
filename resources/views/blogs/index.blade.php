@@ -27,7 +27,7 @@
 
                                 <div class="col-lg-3">
                                     @if($blog->image)
-                                        <img src="/uploads/{{$blog->image}}" class="post-img img-responsive" alt="">
+                                        <img src="{{ asset('/blog') }}/{{$blog->image}}" class="post-img img-responsive" alt="">
                                     @else
                                         <img src="/place_holder.png" class="post-img img-responsive" alt="">
                                     @endif

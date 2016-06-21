@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\App;
 
 class SendFavoriteEmailTest extends TestCase
 {
-    use DatabaseTransactions;
+    use DatabaseTransactions, DatabaseMigrations;
     /**
      * @test
      */

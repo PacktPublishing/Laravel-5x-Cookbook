@@ -17,6 +17,8 @@ class ComicModelTest extends TestCase
 
         $comic = (new \App\ComicModel())->setComic($comic);
 
-        var_dump($comic->getDescriptionSafe());
+        $this->assertNotNull($comic->getDescriptionSafe());
+
+        $this->assertNotEquals($comic->description, $comic->getDescriptionSafe());
     }
 }

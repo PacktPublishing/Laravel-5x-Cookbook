@@ -43,7 +43,8 @@ class BlogController extends Controller {
 	 */
 	public function create()
 	{
-		return view('blogs.create');
+		$blog = new Blog();
+		return view('blogs.create', compact("blog"));
 	}
 
 	/**
@@ -56,21 +57,12 @@ class BlogController extends Controller {
 	{
 		$blog = new Blog();
 
-		if($request->file())
-		{
-			$image = $request->file('image');
-
-			$image->move(storage_path('app/uploads/'), $image->getClientOriginalName());
-
-			$image_name = $image->getClientOriginalName();
-		} else {
-			$image_name = false;
-		}
-
-		$blog->title    = $request->input("title");
-		$blog->body     = $request->input("body");
+		$blog->title    		= $request->input("title");
+		$blog->mark_down     	= $request->input("mark_down");
 		$blog->intro    = $request->input("intro");
-		$blog->image    = ($image_name) ?:'';
+		$blog->html     		= $this->getMarkdownTool()->defaultTransform($request->input("mark_down"));
+		$blog->intro    		= $request->input("intro");
+		$blog->image    = ($image_name = $this->setFileFromRequest($request)) ? $image_name : '';
 		$blog->active   = ($request->input("active") && $request->input("active") == 'on') ? 1 : 0;
 
 		$blog->save();
@@ -119,22 +111,13 @@ class BlogController extends Controller {
 	{
 		$blog = Blog::findOrFail($id);
 
-		if($request->file())
-		{
-			$image = $request->file('image');
-
-			$image->move(storage_path('public/images'), $image->getClientOriginalName());
-
-			$image_name = $image->getClientOriginalName();
-		} else {
-			$image_name = $blog->image;
-		}
+		$image_name = $this->setFileFromRequest($request);
 
 		$blog->title    		= $request->input("title");
 		$blog->mark_down     	= $request->input("mark_down");
 		$blog->html     		= $this->getMarkdownTool()->defaultTransform($request->input("mark_down"));
 		$blog->intro    		= $request->input("intro");
-		$blog->image    		= $image_name;
+		$blog->image    		= (!$image_name) ? $blog->image : "";
 		$blog->active   		= ($request->input("active") && $request->input("active") == 'on') ? 1 : 0;
 
 		//Set URL
@@ -156,6 +139,22 @@ class BlogController extends Controller {
 		$blog->delete();
 
 		return redirect()->route('blogs.index')->with('message', 'Item deleted successfully.');
+	}
+
+	private function setFileFromRequest($request)
+	{
+		$image_name = false;
+
+		if($request->file())
+		{
+			$image = $request->file('image');
+
+			$image->move(storage_path('public/images'), $image->getClientOriginalName());
+
+			$image_name = $image->getClientOriginalName();
+		}
+
+		return $image_name;
 	}
 
 }
