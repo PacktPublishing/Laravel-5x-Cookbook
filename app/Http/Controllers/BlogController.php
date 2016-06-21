@@ -57,13 +57,15 @@ class BlogController extends Controller {
 	{
 		$blog = new Blog();
 
+		$image_name = $this->setFileFromRequest($request);
+
 		$blog->title    		= $request->input("title");
 		$blog->mark_down     	= $request->input("mark_down");
-		$blog->intro    = $request->input("intro");
+		$blog->intro    		= $request->input("intro");
 		$blog->html     		= $this->getMarkdownTool()->defaultTransform($request->input("mark_down"));
 		$blog->intro    		= $request->input("intro");
-		$blog->image    = ($image_name = $this->setFileFromRequest($request)) ? $image_name : '';
-		$blog->active   = ($request->input("active") && $request->input("active") == 'on') ? 1 : 0;
+		$blog->image   			= ($image_name) ? $image_name : null;
+		$blog->active   		= ($request->input("active") && $request->input("active") == 'on') ? 1 : 0;
 
 		$blog->save();
 
@@ -78,7 +80,11 @@ class BlogController extends Controller {
 	 */
 	public function show($id)
 	{
-		$blog = Blog::findOrFail($id);
+		if(is_numeric($id)) {
+			$blog = Blog::findOrFail($id);
+		} else {
+			$blog = Blog::where('url', $id)->firstOrFail();
+		}
 
 		$blogs = Blog::where('active', 1)->orderBy('created_at', 'desc')->paginate(5);
 
@@ -117,7 +123,7 @@ class BlogController extends Controller {
 		$blog->mark_down     	= $request->input("mark_down");
 		$blog->html     		= $this->getMarkdownTool()->defaultTransform($request->input("mark_down"));
 		$blog->intro    		= $request->input("intro");
-		$blog->image    		= (!$image_name) ? $blog->image : "";
+		$blog->image    		= (!$image_name) ? $blog->image : $image_name;
 		$blog->active   		= ($request->input("active") && $request->input("active") == 'on') ? 1 : 0;
 
 		//Set URL
@@ -151,7 +157,8 @@ class BlogController extends Controller {
 
 			$image->move(storage_path('public/images'), $image->getClientOriginalName());
 
-			$image_name = $image->getClientOriginalName();
+			return $image->getClientOriginalName();
+
 		}
 
 		return $image_name;

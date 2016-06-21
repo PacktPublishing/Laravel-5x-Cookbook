@@ -22,8 +22,7 @@ $factory->define(App\Blog::class, function (Faker\Generator $faker) {
         'mark_down' => $faker->sentence,
         'intro' => $faker->sentences($nb = 5, $asText = true),
         'html' => $faker->sentence,
-        'active' => 1,
-        'url' => str_random(10)
+        'active' => 1
     ];
 });
 

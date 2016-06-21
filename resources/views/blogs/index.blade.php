@@ -42,7 +42,7 @@
                                 @if(!Auth::guest() && Auth::user()->id == 1)
                                     <br>
                                     <div class="form-group">
-                                        <a class="btn btn-primary" href="{{ route('blogs.show', $blog->id) }}">View</a>
+                                        <a class="btn btn-primary" href="{{ route('blogs.show', $blog->url) }}">View</a>
                                         <a class="btn btn-warning " href="{{ route('blogs.edit', $blog->id) }}">Edit</a>
                                         <form action="{{ route('blogs.destroy', $blog->id) }}" method="POST" style="display: inline;" onsubmit="if(confirm('Delete? Are you sure?')) { return true } else {return false };"><input type="hidden" name="_method" value="DELETE"><input type="hidden" name="_token" value="{{ csrf_token() }}"> <button class="btn btn-danger" type="submit">Delete</button></form>
                                     </div>
