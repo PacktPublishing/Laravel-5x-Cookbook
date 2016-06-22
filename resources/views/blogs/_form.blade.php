@@ -1,23 +1,23 @@
-<div class="form-group @if($errors->has('title')) has-error @endif">
+<div class="form-group @if(isset($errors) && $errors->has('title')) has-error @endif">
     <label for="title">Title</label>
     <input type="text" id="title" name="title" class="form-control" value="{{ $blog->title }}"/>
-    @if($errors->has("title"))
+    @if(isset($errors) && $errors->has("title"))
         <span class="help-block">{{ $errors->first("title") }}</span>
     @endif
 </div>
 
-<div class="form-group @if($errors->has('intro')) has-error @endif">
+<div class="form-group @if(isset($errors) && $errors->has('intro')) has-error @endif">
     <label for="intro">Intro Plain Text</label>
     <textarea class="form-control" id="intro" rows="3" name="intro">{{ $blog->intro }}</textarea>
-    @if($errors->has("intro"))
+    @if(isset($errors) && $errors->has("intro"))
         <span class="help-block">{{ $errors->first("intro") }}</span>
     @endif
 </div>
 
-<div class="form-group @if($errors->has('mark_down')) has-error @endif">
+<div class="form-group @if(isset($errors) && $errors->has('mark_down')) has-error @endif">
     <label for="mark_down">Markdown Body</label>
     <textarea class="form-control" id="mark_down" rows="20" name="mark_down">{{ $blog->mark_down }}</textarea>
-    @if($errors->has("mark_down"))
+    @if(isset($errors) && $errors->has("mark_down"))
         <span class="help-block">{{ $errors->first("mark_down") }}</span>
     @endif
 </div>

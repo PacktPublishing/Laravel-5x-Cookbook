@@ -99,7 +99,7 @@ class BlogTest extends TestCase
             ->type("foo", "title")
             ->type("intro here", "intro")
             ->type("#bar", "mark_down")
-            ->attach(base_path('tests/fixtures/file_upload_blog.jpg'), "image")
+            ->attach(base_path('/tests/fixtures/file_upload_blog.jpg'), "image")
             ->check("active")->press("submit");
 
         $blog = \App\Blog::find($blog->id);
@@ -113,7 +113,6 @@ class BlogTest extends TestCase
 
     public function tearDown()
     {
-
         if(File::exists(base_path('tests/fixtures/file_upload_blog.jpg')))
             File::delete(base_path('tests/fixtures/file_upload_blog.jpg'));
 

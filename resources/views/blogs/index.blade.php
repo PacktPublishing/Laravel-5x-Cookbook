@@ -13,7 +13,6 @@
                 <div class="posts">
                     @foreach($blogs as $blog)
                         <div class="post">
-
                             <div class="post-aside">
                                 <div class="post-date">
                                     <span class="post-date-day">{{ $blog->created_at->day }}</span>
@@ -21,7 +20,6 @@
                                     <span class="post-date-year">{{ $blog->created_at->year }}</span>
                                 </div>
                             </div> <!-- /.post-aside -->
-
                             <div class="post-main">
                                 <h3 class="post-title"><a href="/blogs/{{ $blog->url }}">{{ $blog->title }}</a></h3>
 
@@ -32,7 +30,6 @@
                                         <img src="/place_holder.png" class="post-img img-responsive" alt="">
                                     @endif
                                 </div>
-
                                 <div class="post-content">
                                     <p>{{ $blog->intro }}</p>
                                     <a href="/blogs/{{ $blog->url }}" class="btn btn-default">Read More...</a>
@@ -48,24 +45,17 @@
                                     </div>
                                 @endif
                             </div> <!-- /.post-main -->
-
-
-
                         </div> <!-- /.post -->
                     @endforeach
 
                     {!! $blogs->render() !!}
 
-
                     <hr>
-
                     @if(!Auth::guest() && Auth::user()->id == 1)
                         <a class="btn btn-success" href="{{ route('blogs.create') }}">Create</a>
                     @endif
 
                 </div>
-
-
             </div>
         </div>
     </div>

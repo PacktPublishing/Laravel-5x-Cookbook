@@ -1,12 +1,4 @@
 @extends('layout')
-@section('header')
-<div class="page-header">
-        <h1>{{ $blog->title }}</h1>
-    </div>
-@endsection
-
-@section('content')
-    @extends('layout')
 
 @section('header')
     <div class="page-header clearfix">
@@ -20,7 +12,6 @@
             <div class="col-lg-12">
                 <div class="posts">
                         <div class="post">
-
                             <div class="post-aside">
                                 <div class="post-date">
                                     <span class="post-date-day">{{ $blog->created_at->day }}</span>
@@ -49,24 +40,15 @@
                                     <div class="form-group">
                                         <a class="btn btn-primary" href="{{ route('blogs.show', $blog->url) }}">View</a>
                                         <a class="btn btn-warning " href="{{ route('blogs.edit', $blog->id) }}">Edit</a>
-                                        <form action="{{ route('blogs.destroy', $blog->id) }}" method="POST" style="display: inline;" onsubmit="if(confirm('Delete? Are you sure?')) { return true } else {return false };"><input type="hidden" name="_method" value="DELETE"><input type="hidden" name="_token" value="{{ csrf_token() }}"> <button class="btn btn-danger" type="submit">Delete</button></form>
+                                        <form action="{{ route('blogs.destroy', $blog->id) }}" method="POST" style="display: inline;"
+                                              onsubmit="if(confirm('Delete? Are you sure?')) { return true } else {return false };"><input type="hidden" name="_method" value="DELETE"><input type="hidden" name="_token" value="{{ csrf_token() }}"> <button class="btn btn-danger" type="submit">Delete</button></form>
                                     </div>
                                 @endif
                             </div> <!-- /.post-main -->
-
-
-
                         </div> <!-- /.post -->
-
                     <hr>
-
                 </div>
-
-
             </div>
         </div>
     </div>
-
-@endsection
-
 @endsection

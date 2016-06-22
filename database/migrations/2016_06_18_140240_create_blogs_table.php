@@ -16,7 +16,7 @@ class CreateBlogsTable extends Migration {
             $table->increments('id');
             $table->string('title');
             $table->text('mark_down');
-            $table->text('html');
+            $table->text('html');	
             $table->boolean('active')->default(0);
             $table->string('url');
 			$table->text('intro')->nullable();
