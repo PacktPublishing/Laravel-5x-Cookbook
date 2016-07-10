@@ -154,15 +154,19 @@ return [
         App\Providers\RouteServiceProvider::class,
         App\Providers\GuzzleClientProvider::class,
 
-        App\Providers\MarvelApiClient::class,
+        Alnutile\UniversalComicClient\UniversalComicClientServiceProvider::class,
+
+        Pingpong\Workbench\WorkbenchServiceProvider::class,
 
         Laracasts\Utilities\JavaScript\JavaScriptServiceProvider::class,
+
         AlfredNutileInc\LaravelFeatureFlags\FeatureFlagsProvider::class,
 
         Laravel\Socialite\SocialiteServiceProvider::class,
 
         Laravel\Cashier\CashierServiceProvider::class,
 
+        AlfredNutileInc\EnvDeployer\EnvDeployerServiceProvider::class
     ],
 
     /*

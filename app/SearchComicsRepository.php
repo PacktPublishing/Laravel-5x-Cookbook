@@ -8,7 +8,7 @@
 
 namespace App;
 
-use App\Interfaces\ComicClientInterface;
+use Alnutile\UniversalComicClient\ComicClientInterface;
 
 class SearchComicsRepository
 {

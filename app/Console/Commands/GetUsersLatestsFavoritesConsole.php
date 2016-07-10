@@ -5,7 +5,7 @@ namespace App\Console\Commands;
 use App\Events\NewFavoriteSeriesEvent;
 use App\Events\NewSeriesFavorites;
 use App\Favorite;
-use App\Interfaces\ComicClientInterface;
+use Alnutile\UniversalComicClient\ComicClientInterface;
 use App\Jobs\SendFavoritesEmail;
 use App\LatestFavorite;
 use App\MarvelApi;

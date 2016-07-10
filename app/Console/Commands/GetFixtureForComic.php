@@ -2,8 +2,8 @@
 
 namespace App\Console\Commands;
 
-use App\Interfaces\ComicClientInterface;
-use App\MarvelApi;
+use Alnutile\UniversalComicClient\ComicClientInterface;
+use Alnutile\UniversalComicClient\MarvelApi;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 

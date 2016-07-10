@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Interfaces;
+namespace Alnutile\UniversalComicClient;
 
 interface ComicClientInterface
 {

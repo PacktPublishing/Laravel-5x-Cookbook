@@ -138,7 +138,7 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Core JS -->
-<script src="{{ asset('js/all.js', true) }}"></script>
+<script src="{{ asset('js/all.js') }}"></script>
 
 </body>
 </html>

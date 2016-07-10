@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Interfaces\ComicClientInterface;
+use Alnutile\UniversalComicClient\ComicClientInterface;
 use App\MarvelApi;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;

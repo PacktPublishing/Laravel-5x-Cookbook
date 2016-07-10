@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests;
-use App\Interfaces\ComicClientInterface;
+use Alnutile\UniversalComicClient\ComicClientInterface;
 use App\MarvelApi;
 use App\SearchComicsRepository;
 use Illuminate\Http\Request;

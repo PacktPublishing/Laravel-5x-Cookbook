@@ -1,24 +1,38 @@
 language: php
-
 dist: trusty
 group: edge
-
 php:
-  - '7.0'
-
+- '7.0'
 services:
-  - mysql
-
+- mysql
 before_script:
-  - cp .env.travis .env
-  - mysql -e 'create database recipes_test;'
-  - travis_retry composer self-update
-  - travis_retry composer install --prefer-source --no-interaction --dev
-  - php artisan migrate:refresh --seed
-  - php -S localhost:8000 public/index.php &
-  - sleep 3
-
+- cp .env.travis .env
+- mysql -e 'create database recipes_test;'
+- travis_retry composer self-update
+- travis_retry composer install --prefer-source --no-interaction --dev
+- php artisan migrate:refresh --seed
+- sleep 3
 script:
-  - phpunit
-#  - vendor/bin/behat -ptravis -shome_ui
-#  - vendor/bin/behat -ptravis -shome_domain
+- phpunit
+deploy:
+- provider: s3
+  access_key_id: AKIAIINMCESDJHHC65BA
+  secret_access_key: &1
+    secure: vvJ/Bstn/QCIWfNqFA54DT4td+fcFQaX8inK3DHn8/wGLeJluQiv045nfx0mLtGMtN9/lzBP8CYPPznbnJPkR/2zkYxsoisZNFYt0tbvn7j+k1ORuPxczgeb7uU0qTO1xB9pd2rHC4ughTrKDzi9D0HgQEg3yXNwG+PIAbwkpVzzrqiEY1FA8Qc85stqVle8KCUNcbujfGq8MEQ25VPIVSePsO4KOOaaCwkVrpijw0jitwNi6JGU8TG9DLWrDQ6kEk50jS+T5PTWL2PozlHVevxqvFbyTjs4ZZRo3bC5JKtyEjBjWJuxi3LPxu3J+7f7rSb1qayzbEoS8TeV/ujsnU4UkI4gXnKZIWqj10G1+uBnZ7wJBEiRsxvrNHqQABNQVCKZh+Qzw90QEaaxzd03Aak1KihWG/jvkfIH5KdW/75lDIUad+cZoKDav1RtEyf+l6XiwNVsX6m9xcVjZgHqfSf9crBnsaSR0lp4nO3sYRjVaoybCiGuySeoRMac+oqIJPkeOMTVbpoFNWdWN8OhcnvKYPukki8QhFRbAZeDaJgq1HSnTXINyRtiR5Q2vuYpGK1yPi28Ovs1IcEBBuaspCjhTNXRjdkoR8xAVieHLYF6UDWLBP2+9tpbEl6JKYVXKN/nt2pSGcNO26qVGokNi4mhauvNigXKQ5mOG/uAXKQ=
+  local_dir: dpl_cd_upload
+  skip_cleanup: true
+  on: &2
+    repo: alnutile/recipes
+  bucket: recipe-artifacts
+- provider: codedeploy
+  access_key_id: AKIAIINMCESDJHHC65BA
+  secret_access_key: *1
+  bucket: recipe-artifacts
+  key: latest.zip
+  bundle_type: zip
+  application: recipes
+  deployment_group: recipes-production
+  on: *2
+before_deploy:
+- mkdir -p dpl_cd_upload
+- mv latest.zip dpl_cd_upload/latest.zip

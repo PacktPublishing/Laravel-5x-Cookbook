@@ -1,8 +1,7 @@
 <?php
 
-namespace App;
+namespace Alnutile\UniversalComicClient;
 
-use App\Interfaces\ComicClientInterface;
 use Carbon\Carbon;
 use GuzzleHttp\Client;
 

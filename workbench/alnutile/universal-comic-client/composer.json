@@ -1,0 +1,36 @@
+{
+    "name": "alnutile/universal-comic-client",
+    "description": "Universal Comic API Client Marvel, DC and More",
+    "authors": [
+        {
+            "name": "Alfred Nutile",
+            "email": "me@alfrednutile.info"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.2.*",
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~4.0",
+        "symfony/css-selector": "2.8.*|3.0.*",
+        "symfony/dom-crawler": "2.8.*|3.0.*",
+        "php-vcr/phpunit-testlistener-vcr": "*",
+        "laravel/laravel": "dev-master"
+    },
+    "autoload": {
+        "files": [
+            "tests/TestCase.php"
+        ],
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-4": {
+            "Alnutile\\UniversalComicClient\\": "src/Alnutile/UniversalComicClient"
+        }
+    },
+    "minimum-stability": "stable"
+}
