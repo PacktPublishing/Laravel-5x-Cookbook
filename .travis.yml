@@ -34,4 +34,6 @@ deploy:
   deployment_group: recipes-production
   on: *2
 before_deploy:
-- aws deploy push --application-name recipes --description "TravisCI" --ignore-hidden-files --s3-location s3://recipe-artifacts/latest.zip --source .
+- zip -r --exclude=*.env* --exclude="storage/logs/laravel.log" latest.zip *
+- mkdir -p dpl_cd_upload
+- mv latest.zip dpl_cd_upload/latest.zip
