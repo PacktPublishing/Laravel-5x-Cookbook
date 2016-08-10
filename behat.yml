@@ -50,6 +50,12 @@ default:
             selenium2:
               wd_host: "http://selenium.dev:4444/wd/hub"
             browser_name: chrome
+
+production:
+  extensions:
+    Behat\MinkExtension:
+      base_url: http://universalcomicshub.io
+
 us:
   extensions:
     Behat\MinkExtension:

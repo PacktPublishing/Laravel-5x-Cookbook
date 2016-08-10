@@ -38,6 +38,10 @@ Route::group(['middleware' => ['web']], function () {
     Route::auth();
 
     Route::resource("blogs","BlogController");
+    
+    Route::get("/setup/profile", "SetupBehatController@setupProfile");
+    Route::get("/cleanup/profile", "CleanupBehatController@cleanupProfile");
+
 
     /**
      * Subscriptions area
@@ -104,7 +108,7 @@ Route::group(['middleware' => ['web']], function () {
 
     Route::put('profile/edit', 'ProfileEditController@updateAuthenticatedUsersProfile')->name('profile.update');
 
-    Route::get('profile/{slug}', 'ProfileShowController@getAuthenticatedUsersProfile')->name('profile');
+    Route::get('profile/{slug}', 'ProfileShowController@getProfileForUserUsingSlug')->name('profile');
 
     Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
 

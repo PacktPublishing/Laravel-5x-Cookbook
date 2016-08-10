@@ -3,7 +3,7 @@ Feature: Search using Angular from the Home page
   As a user on the sight
   So the results are fast
 
-  @javascript
+  @javascript @smoke
   Scenario: Search for Wolverine
     Given I go to the search page
     And I search for "Wolverine"

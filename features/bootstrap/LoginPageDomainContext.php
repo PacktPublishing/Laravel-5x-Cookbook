@@ -14,7 +14,7 @@ use PHPUnit_Framework_Assert as PHPUnit;
 class LoginPageDomainContext extends MinkContext implements Context, SnippetAcceptingContext
 {
 
-    use \Illuminate\Foundation\Testing\DatabaseTransactions;
+    use \Laracasts\Behat\Context\DatabaseTransactions, \Laracasts\Behat\Context\Migrator;
 
     private $baseUrl;
 
@@ -73,9 +73,6 @@ class LoginPageDomainContext extends MinkContext implements Context, SnippetAcce
 
         $this->profile = $profilePage->showMyProfilePage();
 
-        var_dump($this->profile->user_id);
-        var_dump($this->user->id);
-
         PHPUnit::assertTrue(Gate::allows('see-profile', $this->profile));
 
         PHPUnit::assertContains('foo', json_encode($this->profile, JSON_PRETTY_PRINT));
@@ -119,7 +116,16 @@ class LoginPageDomainContext extends MinkContext implements Context, SnippetAcce
      */
     public function iGoToTheProfilePage()
     {
-        $this->visit(route('profile'));
+        $user = factory(\App\User::class)->create();
+        factory(\App\Profile::class)->create(['user_id' => $user->id]);
+
+        /** @var \App\Http\Requests\ProfileShowRequest $auth */
+        $auth = Mockery::mock(\App\Http\Requests\ProfileShowRequest::class)->makePartial();
+        $auth->shouldReceive('route')->andReturn($user->url);
+        $results = $auth->authorize();
+
+        PHPUnit::assertTrue($results);
+
     }
 
     /**
@@ -127,6 +133,31 @@ class LoginPageDomainContext extends MinkContext implements Context, SnippetAcce
      */
     public function iShouldGetRedirectedWithAnErrorMessageToLetMeKnowTheProblem()
     {
-        $this->assertPageContainsText('You need to login first');
+        //@NOTE @iGoToTheProfilePage
+    }
+
+    /**
+     * @Then if I try to see another persons page I should get rejected
+     */
+    public function ifITryToSeeAnotherPersonsPageIShouldGetRejected()
+    {
+        $user = factory(\App\User::class)->create();
+
+        factory(\App\Profile::class)->create(
+            ['favorite_comic_character' => "foo", 'user_id' => $user->id]
+        );
+        /** @var \App\Http\Requests\ProfileShowRequest $auth */
+        $auth = Mockery::mock(\App\Http\Requests\ProfileShowRequest::class)->makePartial();
+        $auth->shouldReceive('route')->andReturn($user->url);
+        $results = $auth->authorize();
+
+        PHPUnit::assertFalse($results);
+    }
+
+    /**
+     * @afterScenario
+     */
+    public function cleanUp() {
+        Mockery::close();
     }
 }

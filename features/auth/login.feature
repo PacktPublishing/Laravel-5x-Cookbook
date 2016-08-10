@@ -3,14 +3,14 @@ Feature: Login Page
   As an anonymous user
   So we can protect some personal and administrative parts of the site
 
-  @happy_path @smoke
+  @happy_path @smoke @javascript @profile
   Scenario: A user can login and see their profile
     Given I am on the login page
     And I fill in the login form with my proper username and password
     Then I should be able to see my profile page
-    Then when I logout and revisit that profile page I will be redirected to the login page
+    Then if I try to see another persons page I should get rejected
 
-  @smoke
+  @smoke @profile @javascript
   Scenario: A non logged in user can not get a profile
     Given I am an anonymous user
     And I go to the profile page

@@ -31,7 +31,7 @@ class LoginPageUIContext extends MinkContext implements Context, SnippetAcceptin
 
     public function __construct()
     {
-        $this->baseUrl = env('APP_URL');
+        //$this->baseUrl = env('APP_URL');
     }
 
     
@@ -71,27 +71,36 @@ class LoginPageUIContext extends MinkContext implements Context, SnippetAcceptin
      */
     public function iShouldBeAbleToSeeMyProfilePage()
     {
-        //Make a profile to see
-        factory(\App\Profile::class)->create([
-            'favorite_comic_character' => 'Spider-Man', 'user_id' => $this->user->id]);
-        //Now visit profile
-        $this->visit(route('profile'));
-        //see my profile
-        $this->assertPageContainsText('Favorite Comic Character: Spider-Man');
+        $this->visit('/setup/profile');
+        $this->visit($this->baseUrl . '/profile/' . $this->user->url);
+        $this->assertPageContainsText('Who are you?:');
+        $this->assertPageContainsText('Favorite Comic Character:');
         $this->assertPageNotContainsText('Error getting profile :(');
     }
 
     /**
-     * @Then when I logout and revisit that profile page I will be redirected to the login page
+     * @Then if I try to see another persons page I should get rejected
      */
-    public function whenILogoutAndRevisitThatProfilePageIWillBeRedirectedToTheLoginPage()
+    public function ifITryToSeeAnotherPersonsPageIShouldGetRejected()
     {
-        $this->visit('logout');
-        
-        $this->visit('profile');
+        $user = factory(\App\User::class)->create();
 
-        $this->assertPageContainsText('You need to login first');
+        factory(\App\Profile::class)->create(
+            ['favorite_comic_character' => "foo", 'user_id' => $user->id]
+        );
+
+        $this->visit($this->baseUrl . '/profile/' . $user->url);
+        $this->assertPageNotContainsText('Who are you?:');
+        $this->assertPageNotContainsText('Favorite Comic Character:');
     }
+
+    /**
+     * @AfterScenario @profile
+     */
+    public function cleanupProfile() {
+        $this->visit('/cleanup/profile');
+    }
+    
 
     /**
      * @Given I am an anonymous user
@@ -106,7 +115,8 @@ class LoginPageUIContext extends MinkContext implements Context, SnippetAcceptin
      */
     public function iGoToTheProfilePage()
     {
-        $this->visit('profile');
+        $slug = \App\User::first()->url;
+        $this->visit('/profile/' . $slug);
     }
 
     /**

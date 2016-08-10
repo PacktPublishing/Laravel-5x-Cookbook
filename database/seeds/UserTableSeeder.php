@@ -25,6 +25,12 @@ class UserTableSeeder extends Seeder
             ]
         );
 
+        factory(\App\User::class)->create(
+            [
+                'email' => 'me+behat@alfrednutile.info+',
+                'password' => bcrypt(env('BEHAT_PASSWORD'))
+            ]
+        );
 
         factory(\App\User::class, 10)->create()->each(function($u) {
             factory(\Laravel\Cashier\Subscription::class)->create(

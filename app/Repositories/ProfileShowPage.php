@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: alfre
- * Date: 4/27/2016
- * Time: 7:37 AM
- */
-
 namespace App\Repositories;
 
 use App\Profile;
@@ -27,6 +20,21 @@ class ProfileShowPage extends ProfileRepository
             $profile->user_id = Auth::user()->id;
             $profile->save();
             
+            return $profile;
+        }
+    }
+
+    public function showProfileForUserFromSlug($slug)
+    {
+        try {
+
+            return \App\User::fromSlug($slug);
+
+        } catch (ModelNotFoundException $e) {
+            $profile = new Profile();
+            $profile->user_id = Auth::user()->id;
+            $profile->save();
+
             return $profile;
         }
     }

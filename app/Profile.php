@@ -17,6 +17,10 @@ class Profile extends Model
 
     protected $appends = ['profile_image'];
 
+    public function user() {
+        return $this->belongsTo(\App\User::class);
+    }
+
     public function getProfileImageAttribute()
     {
         $path   = (!Auth::guest()) ? Auth::user()->id . '/example_profile.jpg' : false;
@@ -31,7 +35,7 @@ class Profile extends Model
 
         return $this->attributes['profile_image'] = $image;
     }
-
+    
     public function scopeMyProfile($query)
     {
         return $query->where('user_id', Auth::user()->id)->firstOrFail();

@@ -48,4 +48,9 @@ class User extends Authenticatable
     {
         return $this->is_admin == 1;    
     }
+
+    public function scopeFromSlug($query, $slug)
+    {
+        return $query->with('profile')->where('url', $slug)->firstOrFail();
+    }
 }

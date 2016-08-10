@@ -38,7 +38,6 @@ class SearchComics extends Controller
 
     protected function makeFixture($results, $name = 'no_name')
     {
-        //File::put(base_path('tests/fixtures/search_no_name.json'),
-        //  json_encode($results, JSON_PRETTY_PRINT));
+        File::put(base_path('tests/fixtures/search_no_name.json'), json_encode($results, JSON_PRETTY_PRINT));
     }
 }

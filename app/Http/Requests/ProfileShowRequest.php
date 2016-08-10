@@ -3,7 +3,6 @@
 namespace App\Http\Requests;
 
 use App\Http\Requests\Request;
-use App\Repositories\ProfileRepository;
 use App\Repositories\ProfileShowPage;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\App;
@@ -24,18 +23,15 @@ class ProfileShowRequest extends Request
      */
     public function authorize()
     {
-        /**
-         * @var ProfileShowPage $repository
-         */
         if (Auth::guest()) {
             return false;
         }
+        /** @var \App\Repositories\ProfileShowPage $profilePage */
+        $profilePage = App::make(\App\Repositories\ProfileShowPage::class);
 
-        $repository = App::make(\App\Repositories\ProfileShowPage::class);
+        $user = $profilePage->showProfileForUserFromSlug($this->route('slug'));
 
-        $profile = $repository->showMyProfilePage();
-
-        return Gate::allows('see-profile', $profile);
+        return Auth::user()->id == $user->profile->user_id;
     }
 
     public function forbiddenResponse()
